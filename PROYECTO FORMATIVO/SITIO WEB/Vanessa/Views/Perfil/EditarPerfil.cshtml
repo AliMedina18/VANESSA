@@ -1,0 +1,33 @@
+﻿@model Vanessa.Models.Usuario
+
+@{
+    ViewData["Title"] = "Editar Perfil";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="EditarPerfil" method="post">
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" class="form-control" value="@Model.Nombre" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Correo">Correo</label>
+        <input type="email" id="Correo" name="Correo" class="form-control" value="@Model.Correo" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" id="Contraseña" name="Contraseña" class="form-control" />
+        <small>Deja vacío si no deseas cambiar tu contraseña.</small>
+    </div>
+
+    <div class="form-group">
+        <label for="ConfirmarContraseña">Confirmar Contraseña</label>
+        <input type="password" id="ConfirmarContraseña" name="ConfirmarContraseña" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar Cambios</button>
+    <a href="@Url.Action("VerPerfil")" class="btn btn-secondary">Cancelar</a>
+</form>

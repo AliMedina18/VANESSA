@@ -1,0 +1,34 @@
+﻿@model Vanessa.Models.Publicacion
+
+@{
+    ViewData["Title"] = "Detalles de la Publicación";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <strong>Nombre:</strong> @Model.NombrePublicacion
+</div>
+<div>
+    <strong>Contenido:</strong> @Model.ContenidoPublicacion
+</div>
+<div>
+    <strong>Tipo:</strong> @Model.TipoPublicacion
+</div>
+<div>
+    <strong>Lugar:</strong> @Model.LugarPublicacion
+</div>
+<div>
+    <strong>Fecha:</strong> @Model.FechaPublicacion.ToString("dd/MM/yyyy")
+</div>
+<div>
+    <strong>Hora:</strong> @Model.HoraPublicacion.ToString(@"hh\:mm")
+</div>
+<div>
+    <strong>Imagen:</strong> <img src="~/images/@Model.ImagenPublicacion" alt="Imagen de la publicación" width="200" />
+</div>
+<div>
+    <strong>Actividades:</strong> @Model.ActividadesPublicacion
+</div>
+
+<a href="@Url.Action("Index")" class="btn btn-secondary mt-3">Volver a la lista de publicaciones</a>

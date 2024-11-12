@@ -1,0 +1,21 @@
+﻿@model Vanessa.Models.Semillero
+
+<h1>Confirmar Eliminación</h1>
+
+<p>¿Estás seguro de que deseas eliminar el semillero "<strong>@Model.Nombre</strong>"?</p>
+
+<p><strong>Área:</strong> @Model.Area</p>
+<p><strong>Descripción:</strong> @Model.Descripcion</p>
+
+@if (!string.IsNullOrEmpty(Model.Imagen))
+{
+    <p><strong>Imagen:</strong></p>
+    <img src="~/images/@Model.Imagen" alt="@Model.Nombre" width="200" />
+}
+
+<!-- Formulario para confirmar la eliminación -->
+<form method="post" action="@Url.Action("DeleteConfirmed", "Semillero", new { id = Model.Id })">
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a href="@Url.Action("Index", "Semillero")" class="btn btn-secondary">Cancelar</a>
+</form>

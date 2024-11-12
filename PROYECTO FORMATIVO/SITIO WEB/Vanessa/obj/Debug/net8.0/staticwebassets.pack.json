@@ -1,0 +1,1673 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Vanessa.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vanessa.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Audio\\Madera Rompiendose\\WoodImpactShrtBig PE1057005.mp3",
+      "PackagePath": "staticwebassets\\Audio\\Madera Rompiendose\\WoodImpactShrtBig PE1057005.mp3"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\44BBEEEA-3376-425E-A750-38941AF910FA.png",
+      "PackagePath": "staticwebassets\\Tipografia\\44BBEEEA-3376-425E-A750-38941AF910FA.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\Betterflies20-Regular.ttf",
+      "PackagePath": "staticwebassets\\Tipografia\\Betterflies20-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\Font_Preview_ 2.png",
+      "PackagePath": "staticwebassets\\Tipografia\\Font_Preview_ 2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\Font_Preview_.png",
+      "PackagePath": "staticwebassets\\Tipografia\\Font_Preview_.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\Priesta-Regular.ttf",
+      "PackagePath": "staticwebassets\\Tipografia\\Priesta-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\Readme.txt",
+      "PackagePath": "staticwebassets\\Tipografia\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\Tipografias.jfif",
+      "PackagePath": "staticwebassets\\Tipografia\\Tipografias.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\Tropical Taste Demo.otf",
+      "PackagePath": "staticwebassets\\Tipografia\\Tropical Taste Demo.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\__MACOSX\\._fontinfo.txt",
+      "PackagePath": "staticwebassets\\Tipografia\\__MACOSX\\._fontinfo.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\__MACOSX\\._nikotinusDEMO.otf",
+      "PackagePath": "staticwebassets\\Tipografia\\__MACOSX\\._nikotinusDEMO.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\betterflies.zip",
+      "PackagePath": "staticwebassets\\Tipografia\\betterflies.zip"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\fontinfo.txt",
+      "PackagePath": "staticwebassets\\Tipografia\\fontinfo.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\index.html",
+      "PackagePath": "staticwebassets\\Tipografia\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\nikotinus-demo.zip",
+      "PackagePath": "staticwebassets\\Tipografia\\nikotinus-demo.zip"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\nikotinusDEMO.otf",
+      "PackagePath": "staticwebassets\\Tipografia\\nikotinusDEMO.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\nikotinusDEMO2.otf",
+      "PackagePath": "staticwebassets\\Tipografia\\nikotinusDEMO2.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\prev1.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\prev2.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\prev3.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\prev4.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\prev5.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\prev6.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\prev7.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\prev8.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\thumbnail.png",
+      "PackagePath": "staticwebassets\\Tipografia\\thumbnail.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\tropical-taste-demo.zip",
+      "PackagePath": "staticwebassets\\Tipografia\\tropical-taste-demo.zip"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\css\\Principal.css",
+      "PackagePath": "staticwebassets\\css\\Principal.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\css\\animacion.css",
+      "PackagePath": "staticwebassets\\css\\animacion.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\css\\biblioteca.css",
+      "PackagePath": "staticwebassets\\css\\biblioteca.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\css\\styleInterfaz2.css",
+      "PackagePath": "staticwebassets\\css\\styleInterfaz2.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\css\\stylePrincipal4.css",
+      "PackagePath": "staticwebassets\\css\\stylePrincipal4.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\css\\tipografias.css",
+      "PackagePath": "staticwebassets\\css\\tipografias.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\Vanessa.png",
+      "PackagePath": "staticwebassets\\images\\Vanessa.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\arbol.png",
+      "PackagePath": "staticwebassets\\images\\arbol.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\arbolRemake2.png",
+      "PackagePath": "staticwebassets\\images\\arbolRemake2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\arbolRemake4.png",
+      "PackagePath": "staticwebassets\\images\\arbolRemake4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\comparativo.png",
+      "PackagePath": "staticwebassets\\images\\comparativo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\engranaje.png",
+      "PackagePath": "staticwebassets\\images\\engranaje.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\fondo.jfif",
+      "PackagePath": "staticwebassets\\images\\fondo.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\fondo4.png",
+      "PackagePath": "staticwebassets\\images\\fondo4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\fondo5.png",
+      "PackagePath": "staticwebassets\\images\\fondo5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\Luzesina.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\Luzesina.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\VANESSA-R.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\VANESSA-R.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\abejitaMichael.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\abejitaMichael.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\abejitaMichaelAlaDerecha.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\abejitaMichaelAlaDerecha.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\abejitaMichaelAlaIzquierda.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\abejitaMichaelAlaIzquierda.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\btn-miniMadera.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\btn-miniMadera.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\enredaderas-acceso.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\enredaderas-acceso.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\enredaderas-form-registro-G.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\enredaderas-form-registro-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\enredaderas-form-registro.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\enredaderas-form-registro.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\enredaderas-prin.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\enredaderas-prin.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\escarabajito-verde.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\escarabajito-verde.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\escarabjito.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\escarabjito.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\flechaVerdeAtras.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\flechaVerdeAtras.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\flor-1.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\flor-1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\flor2.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\flor2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\flor3.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\flor3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\flores.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\flores.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondo.jfif",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondo.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondo.jpeg",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondo2.jpg",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondo4.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondo4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondo8.jpg",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondo8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondoBosque.jpg",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondoBosque.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondoBosque3.jpg",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondoBosque3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondoBosqueA.jfif",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondoBosqueA.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\fondoBosqueM.jpg",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\fondoBosqueM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\hiedrita-btn-tabla-atras.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\hiedrita-btn-tabla-atras.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\hormiga.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\hormiga.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\lengua.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\lengua.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\lenguitaMarcela.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\lenguitaMarcela.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\libelula.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\libelula.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\libelula3.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\libelula3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\libelulaIz.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\libelulaIz.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\luzezina.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\luzezina.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcela-cabeza-inclinada.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcela-cabeza-inclinada.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcela-cabezita-inclinada.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcela-cabezita-inclinada.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcela-cabezita.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcela-cabezita.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcela-colita.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcela-colita.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcela-cuerpo-1.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcela-cuerpo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcela-cuerpo-2.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcela-cuerpo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcela-cuerpo2.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcela-cuerpo2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcela.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcela.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcelacabezita.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcelacabezita.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marco.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marco.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcoG.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcoG.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\marcoasd.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\marcoasd.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\mariquiiiiiiiita.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\mariquiiiiiiiita.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\photoshop\\marcela-cabeza-inclinada.psd",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\photoshop\\marcela-cabeza-inclinada.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\photoshop\\marcela-cuerpo1.psd",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\photoshop\\marcela-cuerpo1.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\photoshop\\marcela-cuerpo2.psd",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\photoshop\\marcela-cuerpo2.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\photoshop\\marcoG.psd",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\photoshop\\marcoG.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\photoshop\\tablas-acceso.psd",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\photoshop\\tablas-acceso.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\photoshop\\tablas-form-acceso.psd",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\photoshop\\tablas-form-acceso.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\photoshop\\tablas-form-registro.psd",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\photoshop\\tablas-form-registro.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\photoshop\\tablasRegInv.psd",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\photoshop\\tablasRegInv.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\planesEmpresa.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\planesEmpresa.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\punta-de-flecha.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\punta-de-flecha.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tabla-boton.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tabla-boton.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tabla-inf-der-rota.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tabla-inf-der-rota.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tabla-inf-izq-G.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tabla-inf-izq-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tabla-inf-izq-rota.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tabla-inf-izq-rota.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tabla-infe-izq-G.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tabla-infe-izq-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tabla-inferior-der-G.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tabla-inferior-der-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tablas-reg3.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tablas-reg3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tablas-reg32.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tablas-reg32.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tablas-regF.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tablas-regF.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tablasRegCom.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tablasRegCom.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tablasRegCom2.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tablasRegCom2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tablasRegInv.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tablasRegInv.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Interfaz\\tablasRegInvv.png",
+      "PackagePath": "staticwebassets\\img\\Interfaz\\tablasRegInvv.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Luzesina.png",
+      "PackagePath": "staticwebassets\\img\\Luzesina.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\SVG\\arbol_menu.png.svg",
+      "PackagePath": "staticwebassets\\img\\Principal\\SVG\\arbol_menu.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\arbol.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\arbol.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\arbolRemake.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\arbolRemake.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\arbolRemake.psd",
+      "PackagePath": "staticwebassets\\img\\Principal\\arbolRemake.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\arbolRemake2.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\arbolRemake2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\arbolRemake3.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\arbolRemake3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\arbolRemake4.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\arbolRemake4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\conf-ico.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\conf-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\conf-ico2.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\conf-ico2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\fondo2.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\fondo2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\fondo3.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\fondo3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\fondo4.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\fondo4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\fondo5.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\fondo5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\fondoWS.jpg",
+      "PackagePath": "staticwebassets\\img\\Principal\\fondoWS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\foro-ico.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\foro-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\gal-ico.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\gal-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\gest-ico.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\gest-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\icono2.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\icono2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\icono3.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\icono3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\icono4.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\icono4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\icono5.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\icono5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\iconoEngranaje.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\iconoEngranaje.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\iconos.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\iconos.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\iconosArbol.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\iconosArbol.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\inv-ico.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\inv-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\sinTrans\\arbol.jfif",
+      "PackagePath": "staticwebassets\\img\\Principal\\sinTrans\\arbol.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\sinTrans\\fondo.jpg",
+      "PackagePath": "staticwebassets\\img\\Principal\\sinTrans\\fondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\sinTrans\\iconos.jfif",
+      "PackagePath": "staticwebassets\\img\\Principal\\sinTrans\\iconos.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Principal\\taxo-ico.png",
+      "PackagePath": "staticwebassets\\img\\Principal\\taxo-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\enredaderas-prin.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\enredaderas-prin.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\enredaderas-prinG.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\enredaderas-prinG.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\fondoBosque.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\fondoBosque.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\marco-G.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\marco-G.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\marco.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\marco.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\marcoG.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\marcoG.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\marcoGg.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\marcoGg.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\marcoasd.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\marcoasd.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tabla-inf-der-G.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tabla-inf-der-G.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tabla-inf-der-rota.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tabla-inf-der-rota.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tabla-inf-izq-G.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tabla-inf-izq-G.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tabla-inf-izq-rota.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tabla-inf-izq-rota.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tabla-infe-izq-G.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tabla-infe-izq-G.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tabla-inferior-der-G.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tabla-inferior-der-G.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tabla-rota-der.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tabla-rota-der.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tabla-rota-izq.PNG.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tabla-rota-izq.PNG.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tablas-acceso.png",
+      "PackagePath": "staticwebassets\\img\\SVG\\tablas-acceso.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tablas-acceso.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tablas-acceso.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tablas-reg.png",
+      "PackagePath": "staticwebassets\\img\\SVG\\tablas-reg.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tablas-reg.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tablas-reg.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tablas-reg3.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tablas-reg3.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\SVG\\tablas-reg32.png.svg",
+      "PackagePath": "staticwebassets\\img\\SVG\\tablas-reg32.png.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\Sin título-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Somos\\Sin título-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\Sin título-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Somos\\Sin título-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\flecha.png",
+      "PackagePath": "staticwebassets\\img\\Somos\\flecha.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\flecha3.png",
+      "PackagePath": "staticwebassets\\img\\Somos\\flecha3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\fondo.png",
+      "PackagePath": "staticwebassets\\img\\Somos\\fondo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\fondobody2.jpg",
+      "PackagePath": "staticwebassets\\img\\Somos\\fondobody2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\footer.png",
+      "PackagePath": "staticwebassets\\img\\Somos\\footer.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\footer3.png",
+      "PackagePath": "staticwebassets\\img\\Somos\\footer3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\header.png",
+      "PackagePath": "staticwebassets\\img\\Somos\\header.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\hidro.jpg",
+      "PackagePath": "staticwebassets\\img\\Somos\\hidro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\mariposa.jpg",
+      "PackagePath": "staticwebassets\\img\\Somos\\mariposa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\panal.png",
+      "PackagePath": "staticwebassets\\img\\Somos\\panal.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\ramas2.png",
+      "PackagePath": "staticwebassets\\img\\Somos\\ramas2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\somo2.jpg",
+      "PackagePath": "staticwebassets\\img\\Somos\\somo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Somos\\somosss.jpg",
+      "PackagePath": "staticwebassets\\img\\Somos\\somosss.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\VANESSA-R.png",
+      "PackagePath": "staticwebassets\\img\\VANESSA-R.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\Vanessa.png",
+      "PackagePath": "staticwebassets\\img\\Vanessa.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\abejitaMichael.png",
+      "PackagePath": "staticwebassets\\img\\abejitaMichael.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\abejitaMichaelAlaDerecha.png",
+      "PackagePath": "staticwebassets\\img\\abejitaMichaelAlaDerecha.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\abejitaMichaelAlaIzquierda.png",
+      "PackagePath": "staticwebassets\\img\\abejitaMichaelAlaIzquierda.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\abejitaMichaelAlas.png",
+      "PackagePath": "staticwebassets\\img\\abejitaMichaelAlas.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\btn-miniMadera.png",
+      "PackagePath": "staticwebassets\\img\\btn-miniMadera.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\conf-ico.png",
+      "PackagePath": "staticwebassets\\img\\conf-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\enredaderas-acceso.png",
+      "PackagePath": "staticwebassets\\img\\enredaderas-acceso.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\enredaderas-form-registro-G.png",
+      "PackagePath": "staticwebassets\\img\\enredaderas-form-registro-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\enredaderas-form-registro.png",
+      "PackagePath": "staticwebassets\\img\\enredaderas-form-registro.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\enredaderas-prin.png",
+      "PackagePath": "staticwebassets\\img\\enredaderas-prin.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\escarabajito-verde.png",
+      "PackagePath": "staticwebassets\\img\\escarabajito-verde.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\escarabjito.png",
+      "PackagePath": "staticwebassets\\img\\escarabjito.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\flor-1.png",
+      "PackagePath": "staticwebassets\\img\\flor-1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\flor2.png",
+      "PackagePath": "staticwebassets\\img\\flor2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\flor3.png",
+      "PackagePath": "staticwebassets\\img\\flor3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\flores.png",
+      "PackagePath": "staticwebassets\\img\\flores.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\fondo.jfif",
+      "PackagePath": "staticwebassets\\img\\fondo.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\fondo.jpeg",
+      "PackagePath": "staticwebassets\\img\\fondo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\fondoBosque.jfif",
+      "PackagePath": "staticwebassets\\img\\fondoBosque.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\fondoGestion.jpg",
+      "PackagePath": "staticwebassets\\img\\fondoGestion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\formAcc.png",
+      "PackagePath": "staticwebassets\\img\\formAcc.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\formAcce.png",
+      "PackagePath": "staticwebassets\\img\\formAcce.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\formRegistro.png",
+      "PackagePath": "staticwebassets\\img\\formRegistro.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\foro-ico.png",
+      "PackagePath": "staticwebassets\\img\\foro-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\galeria-ico.png",
+      "PackagePath": "staticwebassets\\img\\galeria-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\gest-ico.png",
+      "PackagePath": "staticwebassets\\img\\gest-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\gest-ico2.PNG",
+      "PackagePath": "staticwebassets\\img\\gest-ico2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra-btn-tabla-atras.png",
+      "PackagePath": "staticwebassets\\img\\hiedra-btn-tabla-atras.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra-der.png",
+      "PackagePath": "staticwebassets\\img\\hiedra-der.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra-izq.png",
+      "PackagePath": "staticwebassets\\img\\hiedra-izq.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra-sup-der.png",
+      "PackagePath": "staticwebassets\\img\\hiedra-sup-der.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra-sup-izq.png",
+      "PackagePath": "staticwebassets\\img\\hiedra-sup-izq.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra.png",
+      "PackagePath": "staticwebassets\\img\\hiedra.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra1.png",
+      "PackagePath": "staticwebassets\\img\\hiedra1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra10.png",
+      "PackagePath": "staticwebassets\\img\\hiedra10.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra11.png",
+      "PackagePath": "staticwebassets\\img\\hiedra11.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra12.png",
+      "PackagePath": "staticwebassets\\img\\hiedra12.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra13.png",
+      "PackagePath": "staticwebassets\\img\\hiedra13.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra14.png",
+      "PackagePath": "staticwebassets\\img\\hiedra14.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra15.png",
+      "PackagePath": "staticwebassets\\img\\hiedra15.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra16.png",
+      "PackagePath": "staticwebassets\\img\\hiedra16.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra17.png",
+      "PackagePath": "staticwebassets\\img\\hiedra17.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra18.png",
+      "PackagePath": "staticwebassets\\img\\hiedra18.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra19.png",
+      "PackagePath": "staticwebassets\\img\\hiedra19.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra2..png",
+      "PackagePath": "staticwebassets\\img\\hiedra2..png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra2.png",
+      "PackagePath": "staticwebassets\\img\\hiedra2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra20.png",
+      "PackagePath": "staticwebassets\\img\\hiedra20.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra21.png",
+      "PackagePath": "staticwebassets\\img\\hiedra21.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra22.png",
+      "PackagePath": "staticwebassets\\img\\hiedra22.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra23.png",
+      "PackagePath": "staticwebassets\\img\\hiedra23.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra24.png",
+      "PackagePath": "staticwebassets\\img\\hiedra24.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra25.png",
+      "PackagePath": "staticwebassets\\img\\hiedra25.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra26.png",
+      "PackagePath": "staticwebassets\\img\\hiedra26.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra27.png",
+      "PackagePath": "staticwebassets\\img\\hiedra27.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra3.png",
+      "PackagePath": "staticwebassets\\img\\hiedra3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra4.png",
+      "PackagePath": "staticwebassets\\img\\hiedra4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra5.png",
+      "PackagePath": "staticwebassets\\img\\hiedra5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra6.png",
+      "PackagePath": "staticwebassets\\img\\hiedra6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra7.png",
+      "PackagePath": "staticwebassets\\img\\hiedra7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra8.png",
+      "PackagePath": "staticwebassets\\img\\hiedra8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra81.png",
+      "PackagePath": "staticwebassets\\img\\hiedra81.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedra9.png",
+      "PackagePath": "staticwebassets\\img\\hiedra9.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedras-form-acceso.png",
+      "PackagePath": "staticwebassets\\img\\hiedras-form-acceso.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hiedrita-btn-tabla-atras.png",
+      "PackagePath": "staticwebassets\\img\\hiedrita-btn-tabla-atras.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\hormiga.png",
+      "PackagePath": "staticwebassets\\img\\hormiga.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\inv-ico.png",
+      "PackagePath": "staticwebassets\\img\\inv-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\lengua.png",
+      "PackagePath": "staticwebassets\\img\\lengua.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\lenguitaMarcela.png",
+      "PackagePath": "staticwebassets\\img\\lenguitaMarcela.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\libelula.png",
+      "PackagePath": "staticwebassets\\img\\libelula.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\libelula3.png",
+      "PackagePath": "staticwebassets\\img\\libelula3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\libelulaIz.png",
+      "PackagePath": "staticwebassets\\img\\libelulaIz.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\luzezina.png",
+      "PackagePath": "staticwebassets\\img\\luzezina.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cabeza-inclinada.png",
+      "PackagePath": "staticwebassets\\img\\marcela-cabeza-inclinada.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cabeza-inclinada.psd",
+      "PackagePath": "staticwebassets\\img\\marcela-cabeza-inclinada.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cabezita-inclinada.png",
+      "PackagePath": "staticwebassets\\img\\marcela-cabezita-inclinada.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cabezita.png",
+      "PackagePath": "staticwebassets\\img\\marcela-cabezita.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-colita.png",
+      "PackagePath": "staticwebassets\\img\\marcela-colita.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cuerpo-1.png",
+      "PackagePath": "staticwebassets\\img\\marcela-cuerpo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cuerpo-2.png",
+      "PackagePath": "staticwebassets\\img\\marcela-cuerpo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cuerpo1.psd",
+      "PackagePath": "staticwebassets\\img\\marcela-cuerpo1.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cuerpo2.png",
+      "PackagePath": "staticwebassets\\img\\marcela-cuerpo2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela-cuerpo2.psd",
+      "PackagePath": "staticwebassets\\img\\marcela-cuerpo2.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela.png",
+      "PackagePath": "staticwebassets\\img\\marcela.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela1.png",
+      "PackagePath": "staticwebassets\\img\\marcela1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela10.png",
+      "PackagePath": "staticwebassets\\img\\marcela10.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela12.png",
+      "PackagePath": "staticwebassets\\img\\marcela12.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela2.png",
+      "PackagePath": "staticwebassets\\img\\marcela2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela21.png",
+      "PackagePath": "staticwebassets\\img\\marcela21.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela22.png",
+      "PackagePath": "staticwebassets\\img\\marcela22.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela23.png",
+      "PackagePath": "staticwebassets\\img\\marcela23.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela24.png",
+      "PackagePath": "staticwebassets\\img\\marcela24.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela25.png",
+      "PackagePath": "staticwebassets\\img\\marcela25.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela26.png",
+      "PackagePath": "staticwebassets\\img\\marcela26.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela27.png",
+      "PackagePath": "staticwebassets\\img\\marcela27.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela28.png",
+      "PackagePath": "staticwebassets\\img\\marcela28.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela3.2.png",
+      "PackagePath": "staticwebassets\\img\\marcela3.2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela3.png",
+      "PackagePath": "staticwebassets\\img\\marcela3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela4.2.png",
+      "PackagePath": "staticwebassets\\img\\marcela4.2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela4.png",
+      "PackagePath": "staticwebassets\\img\\marcela4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela5.png",
+      "PackagePath": "staticwebassets\\img\\marcela5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela50.png",
+      "PackagePath": "staticwebassets\\img\\marcela50.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela51.png",
+      "PackagePath": "staticwebassets\\img\\marcela51.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela53.png",
+      "PackagePath": "staticwebassets\\img\\marcela53.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcela6.png",
+      "PackagePath": "staticwebassets\\img\\marcela6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcelacabezita.png",
+      "PackagePath": "staticwebassets\\img\\marcelacabezita.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marco.png",
+      "PackagePath": "staticwebassets\\img\\marco.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcoG.png",
+      "PackagePath": "staticwebassets\\img\\marcoG.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcoG.psd",
+      "PackagePath": "staticwebassets\\img\\marcoG.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\marcoasd.png",
+      "PackagePath": "staticwebassets\\img\\marcoasd.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\mariquiiiiiiiita.png",
+      "PackagePath": "staticwebassets\\img\\mariquiiiiiiiita.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\menu-ico.png",
+      "PackagePath": "staticwebassets\\img\\menu-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\pasto.png",
+      "PackagePath": "staticwebassets\\img\\pasto.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\punta-de-flecha.png",
+      "PackagePath": "staticwebassets\\img\\punta-de-flecha.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-boton.png",
+      "PackagePath": "staticwebassets\\img\\tabla-boton.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-centro-in.png",
+      "PackagePath": "staticwebassets\\img\\tabla-centro-in.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-centro-sup.png",
+      "PackagePath": "staticwebassets\\img\\tabla-centro-sup.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-der.png",
+      "PackagePath": "staticwebassets\\img\\tabla-der.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-form.png",
+      "PackagePath": "staticwebassets\\img\\tabla-form.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-in-derecha.png",
+      "PackagePath": "staticwebassets\\img\\tabla-in-derecha.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-in-izquierda.png",
+      "PackagePath": "staticwebassets\\img\\tabla-in-izquierda.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-inf-der-G.png",
+      "PackagePath": "staticwebassets\\img\\tabla-inf-der-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-inf-der-rota.png",
+      "PackagePath": "staticwebassets\\img\\tabla-inf-der-rota.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-inf-izq-G.png",
+      "PackagePath": "staticwebassets\\img\\tabla-inf-izq-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-inf-izq-rota.png",
+      "PackagePath": "staticwebassets\\img\\tabla-inf-izq-rota.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-infe-izq-G.png",
+      "PackagePath": "staticwebassets\\img\\tabla-infe-izq-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-inferior-der-G.png",
+      "PackagePath": "staticwebassets\\img\\tabla-inferior-der-G.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-izq.png",
+      "PackagePath": "staticwebassets\\img\\tabla-izq.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-rota-der.png",
+      "PackagePath": "staticwebassets\\img\\tabla-rota-der.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-rota-derecha.png",
+      "PackagePath": "staticwebassets\\img\\tabla-rota-derecha.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-rota-izq.PNG",
+      "PackagePath": "staticwebassets\\img\\tabla-rota-izq.PNG"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-rota-izquierda.png",
+      "PackagePath": "staticwebassets\\img\\tabla-rota-izquierda.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-sup-izqq.png",
+      "PackagePath": "staticwebassets\\img\\tabla-sup-izqq.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-sup-izquierda.png",
+      "PackagePath": "staticwebassets\\img\\tabla-sup-izquierda.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla-superior-der.png",
+      "PackagePath": "staticwebassets\\img\\tabla-superior-der.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla1-1.png",
+      "PackagePath": "staticwebassets\\img\\tabla1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla1-11.png",
+      "PackagePath": "staticwebassets\\img\\tabla1-11.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla1.png",
+      "PackagePath": "staticwebassets\\img\\tabla1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla10.png",
+      "PackagePath": "staticwebassets\\img\\tabla10.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla1a.png",
+      "PackagePath": "staticwebassets\\img\\tabla1a.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla2.png",
+      "PackagePath": "staticwebassets\\img\\tabla2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla3.png",
+      "PackagePath": "staticwebassets\\img\\tabla3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla4.png",
+      "PackagePath": "staticwebassets\\img\\tabla4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla5.png",
+      "PackagePath": "staticwebassets\\img\\tabla5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla6.png",
+      "PackagePath": "staticwebassets\\img\\tabla6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla7.png",
+      "PackagePath": "staticwebassets\\img\\tabla7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla8.png",
+      "PackagePath": "staticwebassets\\img\\tabla8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tabla9.png",
+      "PackagePath": "staticwebassets\\img\\tabla9.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablaForm.png",
+      "PackagePath": "staticwebassets\\img\\tablaForm.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablaFormulario.png",
+      "PackagePath": "staticwebassets\\img\\tablaFormulario.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablaRota.png",
+      "PackagePath": "staticwebassets\\img\\tablaRota.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablaRota2.png",
+      "PackagePath": "staticwebassets\\img\\tablaRota2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablaRota3.png",
+      "PackagePath": "staticwebassets\\img\\tablaRota3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablans.png",
+      "PackagePath": "staticwebassets\\img\\tablans.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-acceso.png",
+      "PackagePath": "staticwebassets\\img\\tablas-acceso.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-acceso.psd",
+      "PackagePath": "staticwebassets\\img\\tablas-acceso.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-form-acceso.png",
+      "PackagePath": "staticwebassets\\img\\tablas-form-acceso.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-form-acceso.psd",
+      "PackagePath": "staticwebassets\\img\\tablas-form-acceso.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-form-registro.png",
+      "PackagePath": "staticwebassets\\img\\tablas-form-registro.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-form-registro.psd",
+      "PackagePath": "staticwebassets\\img\\tablas-form-registro.psd"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-inf-rotas.png",
+      "PackagePath": "staticwebassets\\img\\tablas-inf-rotas.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-reg.png",
+      "PackagePath": "staticwebassets\\img\\tablas-reg.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-reg3.png",
+      "PackagePath": "staticwebassets\\img\\tablas-reg3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-reg32.png",
+      "PackagePath": "staticwebassets\\img\\tablas-reg32.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\tablas-rotas.png",
+      "PackagePath": "staticwebassets\\img\\tablas-rotas.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\img\\taxo-ico.png",
+      "PackagePath": "staticwebassets\\img\\taxo-ico.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\js\\Home.js",
+      "PackagePath": "staticwebassets\\js\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\js\\Js.js",
+      "PackagePath": "staticwebassets\\js\\Js.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\js\\Principal.js",
+      "PackagePath": "staticwebassets\\js\\Principal.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\js\\abeja.js",
+      "PackagePath": "staticwebassets\\js\\abeja.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\js\\confForm.js",
+      "PackagePath": "staticwebassets\\js\\confForm.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Vanessa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Vanessa.props",
+      "PackagePath": "build\\Vanessa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Vanessa.props",
+      "PackagePath": "buildMultiTargeting\\Vanessa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Vanessa.props",
+      "PackagePath": "buildTransitive\\Vanessa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

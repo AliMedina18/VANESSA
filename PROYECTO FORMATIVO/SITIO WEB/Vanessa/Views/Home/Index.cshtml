@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Home";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Css/stylePrincipal4.css"> <!-- Enlace a la hoja de estilos -->
+    <script>
+        alert("¡Bienvenido a la página!"); // Alerta de bienvenida
+    </script>
+    <title>@ViewData["Title"]</title> <!-- Título de la página -->
+</head>
+<body>
+    <div class="arbol">
+        <div class="iconos">
+            @* Solo muestra la opción de Gestión de Usuarios si el usuario es Coordinador *@
+            @if (User.IsInRole("Coordinador"))
+            {
+                <div id="somb1">
+                    <a href="@Url.Action("Index", "Usuarios")" title="Gestión de Usuarios"></a>
+                </div>
+            }
+            else
+            {
+                @* Si no es coordinador, lo redirigimos a su perfil *@
+                <div id="somb1">
+                    <a href="@Url.Action("VerPerfil", "Perfil")" title="Ver mi Perfil"></a>
+                </div>
+            }
+
+            <div id="somb2">
+                <a href="" title="Proyectos"></a>
+            </div>
+            <div id="somb3">
+                <a href="@Url.Action("Index", "Semillero")" title="Semilleros"></a>
+            </div>
+            <div id="somb4">
+                <a href=""></a>
+            </div>
+            <div id="somb5">
+                <a href="@Url.Action("Index", "Publicacion")" title="Muro de publicaciones"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cerrarSesion">
+        <a href="@Url.Action("Logout", "Auth")">Cerrar Sesión</a>
+    </div>
+
+    <script src="Js/principal.js"></script> <!-- Enlace al script JS -->
+</body>
+</html>

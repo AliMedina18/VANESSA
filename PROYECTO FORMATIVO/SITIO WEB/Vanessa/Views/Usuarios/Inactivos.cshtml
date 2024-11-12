@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Vanessa.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Usuarios Inactivos";
+}
+
+<h2>Usuarios Inactivos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Documento</th>
+            <th>Correo</th>
+            <th>Rol</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.Nombre</td>
+                <td>@usuario.Documento</td>
+                <td>@usuario.Correo</td>
+                <td>@usuario.Rol?.Nombre</td>
+                <td>
+                    <a href="@Url.Action("Reactivar", new { id = usuario.Id })" class="btn btn-success">Reactivar</a>
+                    <a href="@Url.Action("EliminarDefinitivamente", new { id = usuario.Id })"
+                       class="btn btn-danger"
+                       onclick="return confirm('¿Está seguro de que desea eliminar este usuario permanentemente?')">
+                        Eliminar Definitivamente
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Index")" class="btn btn-secondary">Ver Usuarios Activos</a>

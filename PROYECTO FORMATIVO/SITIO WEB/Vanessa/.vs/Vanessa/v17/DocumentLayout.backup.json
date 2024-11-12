@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\Vanessa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E487BD48-E130-4E6F-938F-F2CB853C9983}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\views\\publicacion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E487BD48-E130-4E6F-938F-F2CB853C9983}|Vanessa.csproj|solutionrelative:views\\publicacion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E487BD48-E130-4E6F-938F-F2CB853C9983}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E487BD48-E130-4E6F-938F-F2CB853C9983}|Vanessa.csproj|solutionrelative:controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Publicacion\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Publicacion\\Create.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Publicacion\\Create.cshtml",
+              "RelativeToolTip": "Views\\Publicacion\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T00:20:45.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PublicacionController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Controllers\\PublicacionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PublicacionController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Controllers\\PublicacionController.cs",
+              "RelativeToolTip": "Controllers\\PublicacionController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAFEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:04:20.959Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

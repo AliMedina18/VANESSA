@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Vanessa.Models.Semillero>
+
+<h1>Semilleros</h1>
+
+<a href="@Url.Action("Create", "Semillero")" class="btn btn-primary mb-3">Crear Semillero</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Imagen</th>
+            <th>Área</th>
+            <th>Descripción</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var semillero in Model)
+        {
+            <tr>
+                <td>@semillero.Nombre</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(semillero.Imagen))
+                    {
+                        <img src="~/images/@semillero.Imagen" alt="@semillero.Nombre" width="100" />
+                    }
+                </td>
+                <td>@semillero.Area</td>
+                <td>@semillero.Descripcion</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Semillero", new { id = semillero.Id })">Editar</a> |
+                    <!-- Enlace de eliminación directo -->
+                    <form method="post" action="@Url.Action("Delete", "Semillero", new { id = semillero.Id })" style="display:inline;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

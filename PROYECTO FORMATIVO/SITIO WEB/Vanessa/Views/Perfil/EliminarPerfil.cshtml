@@ -1,0 +1,21 @@
+﻿@model Vanessa.Models.Usuario
+
+@{
+    ViewData["Title"] = "Eliminar Perfil";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<p>¿Estás seguro de que deseas eliminar tu perfil? Esta acción no se puede deshacer.</p>
+
+<form asp-action="EliminarPerfilConfirmed" method="post">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a href="@Url.Action("VerPerfil")" class="btn btn-secondary">Cancelar</a>
+</form>
