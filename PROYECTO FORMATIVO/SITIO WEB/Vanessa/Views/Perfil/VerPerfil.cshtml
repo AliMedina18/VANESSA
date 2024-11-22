@@ -1,0 +1,32 @@
+﻿@model Vanessa.Models.Usuario
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VerPerfil</title>
+</head>
+<body>
+    <div>
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Correo:</strong> @Model.Correo</p>
+        <p><strong>Rol:</strong> @Model.Rol?.Nombre</p>
+
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["Error"]
+            </div>
+        }
+
+        <div>
+            <a href="@Url.Action("EditarPerfil")" class="btn btn-primary">Editar Perfil</a>
+            <a href="@Url.Action("EliminarPerfil")" class="btn btn-danger">Eliminar Perfil</a>
+        </div>
+    </div>
+</body>
+</html>

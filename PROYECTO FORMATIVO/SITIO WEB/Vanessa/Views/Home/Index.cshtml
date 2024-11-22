@@ -1,0 +1,98 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Css/stylePrincipal4.css">
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Vanessa</title>
+</head>
+<body>
+    <div class="rain">
+        <!-- Gotas de lluvia generadas dinámicamente con CSS -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Ventana emergente de bienvenidad-->
+    <div class="popup-overlay" id="popup">
+        <div class="popup-content">
+            <h2>¡Bienvenido!</h2>
+            <p>Nos alegra tenerte aquí. ¡Esperamos que disfrutes tu visita!</p>
+            <button onclick="closePopup()">Cerrar</button>
+        </div>
+    </div>
+
+    <img src="~/Img/Principal/Enredadera.png" alt="Imagen1" class="imagen-derecha">
+
+    <img src="~/Img/Principal/Enredadera2.png" alt="Imagen2" class="imagen-abajo">
+
+    <img src="~/Img/Principal/Enredadera5.png" alt="Imagen5" class="imagen-abajo2">
+
+    <img src="~/Img/Principal/Enredadera6.png" alt="Imagen6" class="imagen-abajo3">
+
+    <img src="~/Img/Principal/Enredadera3.png" alt="Imagen3" class="imagen-arriba">
+
+    <img src="~/Img/Principal/Enredadera4.png" alt="Imagen4" class="imagen-arriba2">
+
+    <img src="~/Img/Principal/Enredadera7.png" alt="Imagen7" class="imagen-arriba3">
+
+
+    <div class="notification-icon">
+        <i class="fas fa-bell"></i>
+        <span class="notification-count">3</span>
+    </div>
+
+    <img src="~/Img/Principal/Hongo.png" alt="Hongo" class="Hongo">
+
+    <img src="~/Img/Principal/Tabla.png" alt="Cerrar" class="Cerrar">
+
+
+    <!-- Navegador con botones -->
+    <h1>VANESSA</h1>
+    <div class="Navegador" id="barraNavegador">
+        @* Solo muestra la opción de Gestión de Usuarios si el usuario es Coordinador *@
+        @if (User.IsInRole("Coordinador"))
+        {
+
+            <a href="@Url.Action("Index", "Usuarios")" class="boton">Gestion de Usuarios</a>
+
+        }
+        else
+        {
+            @* Si no es coordinador, lo redirigimos a su perfil *@
+
+            <a href="@Url.Action("VerPerfil", "Perfil")" class="boton">Ver mi Perfil</a>
+
+        }
+        <a href="#" class="boton">Gestion de Semilleros</a>
+        <a href="#" class="boton">Gestin de Proyectos</a>
+        <a href="#" class="boton">Gestion de Publicaciones</a>
+    </div>
+
+    <div class="vertical-buttons-container">
+        <button class="boton" id="toggleBtn">VER</button>
+    </div>
+
+    <div class="cerrarSesion"><a href="@Url.Action("Logout", "Auth")">Cerrar Sesion</a></div>
+
+    <script src="~/Js/Emergente.js"></script>
+
+    <script src="~/Js/Navegador.js"></script>
+</body>
+</html>

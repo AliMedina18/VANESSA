@@ -1,0 +1,29 @@
+﻿@model RestablecerContraseñaViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Restablecer</title>
+</head>
+<body>
+    <form asp-action="Restablecer" method="post">
+        <input type="hidden" asp-for="Token" />
+
+        <div>
+            <label for="NuevaContraseña">Nueva contraseña</label>
+            <input type="password" asp-for="NuevaContraseña" required />
+        </div>
+        <div>
+            <label for="ConfirmarContraseña">Confirmar contraseña</label>
+            <input type="password" asp-for="ConfirmarContraseña" required />
+        </div>
+
+        <button type="submit">Restablecer contraseña</button>
+    </form>
+</body>
+</html>

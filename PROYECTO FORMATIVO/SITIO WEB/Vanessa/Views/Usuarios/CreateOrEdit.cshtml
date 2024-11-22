@@ -1,0 +1,173 @@
+﻿@model Vanessa.Models.Usuario
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreateOrEdit</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f7fa; /* Fondo azul aguamarina */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h2 {
+            color: #00796b; /* Color verde oscuro */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #00796b;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #00796b;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #333;
+        }
+
+            .form-control:focus {
+                outline: none;
+                border-color: #00acc1; /* Color azul aguamarina al hacer focus */
+            }
+
+            .form-control::placeholder {
+                color: #00796b; /* Color verde en el placeholder */
+            }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary {
+            background-color: #00acc1; /* Azul aguamarina */
+            color: white;
+        }
+
+            .btn-primary:hover {
+                background-color: #00796b; /* Verde oscuro en hover */
+            }
+
+        .btn-secondary {
+            background-color: #00796b; /* Verde oscuro */
+            color: white;
+        }
+
+            .btn-secondary:hover {
+                background-color: #004d40; /* Verde más oscuro en hover */
+            }
+
+        .text-danger {
+            color: #e53935; /* Rojo para los mensajes de error */
+        }
+
+        .validation-summary {
+            margin-top: 20px;
+            background-color: #fce4ec; /* Fondo rosa suave para el resumen de errores */
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #f06292;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Crear o Editar Usuario</h2>
+
+        @using (Html.BeginForm("CreateOrEdit", "Usuarios", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                <label for="Nombre">Nombre</label>
+                @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", placeholder = "Ingrese el nombre del usuario" })
+                @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="Documento">Documento</label>
+                @Html.TextBoxFor(m => m.Documento, new { @class = "form-control", placeholder = "Ingrese el número de documento" })
+                @Html.ValidationMessageFor(m => m.Documento, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="Correo">Correo Electrónico</label>
+                @Html.TextBoxFor(m => m.Correo, new { @class = "form-control", placeholder = "Ingrese el correo electrónico" })
+                @Html.ValidationMessageFor(m => m.Correo, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="Contraseña">Contraseña</label>
+                @if (Model.Id == 0)  // Solo asignamos una contraseña predeterminada si es un nuevo usuario
+                {
+                    @Html.PasswordFor(m => m.Contraseña, new { @class = "form-control", value = "Contraseña123!", placeholder = "Ingrese la contraseña" })
+                }
+                else
+                {
+                    @Html.PasswordFor(m => m.Contraseña, new { @class = "form-control", placeholder = "Ingrese la contraseña" })
+                }
+                @Html.ValidationMessageFor(m => m.Contraseña, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="ConfirmarContraseña">Confirmar Contraseña</label>
+                @if (Model.Id == 0)  // Si es un nuevo usuario, pre-llenamos el campo con la misma contraseña predeterminada
+                {
+                    @Html.PasswordFor(m => m.ConfirmarContraseña, new { @class = "form-control", value = "Contraseña123!", placeholder = "Confirme la contraseña" })
+                }
+                else
+                {
+                    @Html.PasswordFor(m => m.ConfirmarContraseña, new { @class = "form-control", placeholder = "Confirme la contraseña" })
+                }
+                @Html.ValidationMessageFor(m => m.ConfirmarContraseña, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="RolId">Rol</label>
+                @Html.DropDownListFor(m => m.RolId, (SelectList)ViewData["Roles"], "Seleccione un rol", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.RolId, "", new { @class = "text-danger" })
+            </div>
+
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a href="@Url.Action("Index", "Usuarios")" class="btn btn-secondary">Cancelar</a>
+        }
+
+        @Html.ValidationSummary(true, "", new { @class = "validation-summary" })
+    </div>
+</body>
+</html>
