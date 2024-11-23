@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/proyectos.css">
+    <link rel="stylesheet" href="Css/tipografias.css">
+    <title>Proyectos</title>
+</head>
+<body>
+    <section class="secProyectos" id="proyectos">
+        <section class="proyectos">
+            <!-- Proyecto de ejemplo -->
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Vanessa</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Nombre</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Nombre</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Nombre</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Nombre</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Nombre</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Nombre</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Nombre</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+
+            <div class="proyecto">
+                <div class="texto">
+                    <p>Nombre</p>
+                    <p>2023-01-01</p>
+                </div>
+                <a href="#601" onclick="abrirDocumento()"></a>
+            </div>
+
+        
+        </section>
+        
+        <div class="btnGestion" onclick="mostrarGestion()"></div>
+        <div class="tituloProyectos"><p>PROYECTOS</p></div>
+        <div class="btnRetroceder"><a href="Index.html">← VOLVER</a></div>
+    </section>
+    
+    <section class="proyectoDocumento hide" id="documentos">
+        <div class="marco"></div>
+        <section class="document hide" id="601">
+            <a href="proyectos.html" class="volver">VOLVER</a>
+            <embed src="ruta_del_documento.pdf" type="application/pdf">
+        </section>
+    </section>
+    
+    <section class="gestionProyectos hide" id="gestionProyectos">
+        <div class="retroceder" onclick="ocultarGestion()"></div>
+        <div class="titulo"><p>GESTION</p></div>
+        <div class="proyectoCrear" onclick="FormCrear()"><p>CREAR</p></div>
+        <div class="proyectoActualizar" onclick="FormEditar()"><p>EDITAR</p></div>
+        <div class="proyectoEliminar" onclick="FormMostrar()"><p>ELIMINAR</p></div>
+
+        <div class="propiedadesProyecto">
+            <div><p>IDENTIFICADOR</p></div>
+            <div><p>NOMBRE</p></div>
+            <div><p>EQUIPO</p></div>
+            <div><p>FECHA DE INICIO</p></div>
+            <div><p>DOCUMENTO</p></div>
+        </div>
+
+        <!-- Formulario para crear proyectos -->
+        <form class="formCrear hide" id="formCrear" method="POST" action="" enctype="multipart/form-data">
+            <input type="number" placeholder="ID (opcional)">
+            <input type="text" name="NombreProyecto" required placeholder="Nombre del Proyecto">
+            <input type="text" name="EquiposInvestigacion" placeholder="Equipos de Investigación">
+            <input type="date" name="FechaInicio" required>
+            <div class="docCrear">
+                <p>CLICK PARA CARGAR DOCUMENTO</p>
+                <input type="file" name="DocumentoProyecto" required>
+            </div>
+            <p class="Identificador">AUTOMÁTICO</p>
+            <button type="submit" name="crearProyectoBTN">CREAR</button>
+        </form>
+
+        <!-- Mostrar proyectos (ejemplo estático) -->
+        <section class="mostrarProyectos" id="mostrarPro">
+            <form class="formEliminar" action="" method="POST" enctype="multipart/form-data">
+                <div class="proyectoMostrar">
+                    <p class="ident">1</p>
+                    <p class="nombrePro"></p>
+                    <p class="equiposI"></p>
+                    <p class="fechaI"></p>
+                    <a href="#601" class="abrirDocumento">ABRIR</a>
+                    <input type="checkbox" name="seleccion[]" value="1">
+                </div>
+                <div class="proyectoMostrar">
+                    <p class="ident">2</p>
+                    <p class="nombrePro"></p>
+                    <p class="equiposI"></p>
+                    <p class="fechaI"></p>
+                    <a href="#601" class="abrirDocumento">ABRIR</a>
+                    <input type="checkbox" name="seleccion[]" value="1">
+                </div>
+                <button type="submit" name="btnEliminar">ELIMINAR</button>
+            </form>
+        </section>
+
+        <!-- Actualizar proyectos (ejemplo estático) -->
+        <section class="proyectoActualizarE hide" id="formEditar">
+            <form class="formEditar" action="" method="POST" enctype="multipart/form-data">
+                <div class="proyectoEditar">
+                    <p class="ident">1</p>
+                    <input class="hide" type="number" name="identE[1]" value="1">
+                    <input class="nombrePro" type="text" name="nombreE[1]" value="Proyecto Ejemplo">
+                    <input class="equiposI" type="text" name="equiposE[1]" value="Equipo de Investigación 1">
+                    <input class="fechaI" type="date" name="fechaE[1]" value="2023-01-01">
+                    <div class="docCrear">
+                        <p>CLICK PARA CARGAR DOCUMENTO</p>
+                        <input type="file" name="documentoE[1]">
+                    </div>
+                </div>
+                <button type="submit" name="editarProyectoBTN">EDITAR</button>
+            </form>
+        </section>
+    </section>
+
+    <script src="Js/proyectos3.js"></script>
+</body>
+</html>

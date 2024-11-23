@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styleMuroP14.css">
+    <link rel="stylesheet" href="Css/gestionPublicacion.css">
+    <link rel="stylesheet" href="Css/tipografias.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div></div>
+    <div onmouseover="casitas()" onmouseout="casitas2()" id="casita1" class="casita1">
+        <a href="Index.html" id="link1" class="hidden"></a><p>VOLVER</p>
+    </div>
+    <div></div>
+    <div id="abrA" onclick="abrirGestion()"> <a href="muroPublicaciones.html"><p>VOLVER</p></a></div>
+    <div class="titulo1">MURO</div>
+    <div class="titulo2">DE</div>
+    <div class="titulo3">PUBLICACIONES</div>
+    <div id="volver" class="hide" onclick="cerrarGestion()"></div>
+</header>
+
+<section class="gestionP" id="gestionP">
+    <p id="tituloC" class="tituloPC">PUBLICACIONES CREADAS</p>
+    <p id="tituloE" class="tituloPC hide">ELIMINAR PUBLICACIONES</p>
+    <section class="asfd">
+        <section class="publicacionCreadas grid" id="pubCP">
+            <!-- Aquí puedes agregar ejemplos de publicaciones de forma estática -->
+            <div>
+                <img src="ruta_a_imagen1.jpg" onerror="this.style.display='none'">
+                <div id="inf">
+                    <p class="nombreP">Nombre de Publicación</p>
+                    <p class="autor">Fecha Publicación</p>
+                    <p class="horaP">Hora Publicación</p> 
+                </div>
+                <div class="imgf"></div>
+                <a class="btnEditar" href="#600" onclick="mostrarFormEditar()"></a>
+            </div>
+        </section>
+
+        <form class="actualizarcreadas hide" id="pubCP2" method="POST" action="#">
+            <!-- Ejemplo de publicaciones estáticas para eliminar -->
+            <div>
+                <img src="ruta_a_imagen2.jpg" onerror="this.style.display='none'">
+                <div id="inf">
+                    <p class="nombreP">Nombre de Publicación</p>
+                    <p class="autor">Fecha Publicación</p>
+                    <p class="horaP">Hora Publicación</p>
+                </div>
+                <div class="imgf"></div>
+                <button type="submit" class="btnEliminar" name="seleccion[]" value="1"></button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Botones de navegación entre publicaciones -->
+    <div class="btnTransl" onclick="translateCPp()" id="trans1"></div>
+    <div class="btnTrans2" onclick="translateCPP()" id="trans2"></div>
+    <div class="btnTransl hide" onclick="translateCPp2()" id="trans3"></div>
+    <div class="btnTrans2 hide" onclick="translateCPP2()" id="trans4"></div>
+
+    <aside class="asd1"></aside>
+    <aside class="asd2"></aside>
+    <div class="nube">
+        <div class="actualizar" onclick="esconderActualizar()">
+            <p>ACTUALIZAR</p>
+        </div>
+        <div class="crear">
+            <p>CREAR</p>
+            <a href="gestionPublicaciones.html"></a>
+        </div>
+        <div class="eliminar" onclick="mostrarActualizar()">
+            <p>ELIMINAR</p>
+        </div>
+    </div>
+
+    <section class="gestion" id="gest">
+        <section class="crearPublicacion" id="crearPu">
+            <form class="formCP" action="#" method="post" enctype="multipart/form-data">
+                <input type="text" name="namePublicacion" placeholder="NOMBRE" required>
+                <div class="imagen">
+                    <p>IMAGEN:</p>
+                    <input type="file" name="imagenPublicacion">
+                </div>
+                <div class="fecha">
+                    <p>FECHA:</p>
+                    <input type="date" name="fechaPublicacion" required>
+                </div>
+                <div class="hora">
+                    <p>HORA:</p>
+                    <input type="time" name="horaPublicacion" required> 
+                </div>
+                <div class="lugar">
+                    <p>LUGAR:</p>
+                    <input type="text" name="lugarPublicacion">
+                </div>
+                <div class="tipo">
+                    <p>TIPO:</p>
+                    <input type="text" name="tipoPublicacion" required>
+                </div>
+                <div class="contenido">
+                    <p>CONTENIDO:</p>
+                    <textarea name="contenidoPublicacion" cols="30" rows="10" required></textarea>
+                </div>
+                <div class="actividades">
+                    <p>ACTIVIDADES:</p>
+                    <input type="file" name="actividadesPublicacion">
+                </div>
+                <div class="crearbtn">
+                    <button type="submit" name="crearPublicacion">CREAR</button>
+                </div>
+            </form>
+        </section>
+    </section>
+
+    <div class="nube2"></div>
+</section>
+
+<script src="Js/muroPublicacion7.js"></script>
+</body>
+</html>

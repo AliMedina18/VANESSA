@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/tipografias.css">
+    <link rel="stylesheet" href="Css/semilleros7.css">
+    <title>Documento</title>
+</head>
+<body>
+    <section class="muro">
+        <div class="ventanas vent1">
+        </div>
+        <div class="grid">
+            <div class="semillero">
+                <a href="#">
+                    <p>1</p>
+                    <div class="img">
+                        <img src="Img/semilleros/Pr/gato.png" alt="">
+                        <div class="pied"></div>
+                    </div>
+                    <h3>GATITOS</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <aside>
+        <div class="casita" id="casaVolver"><a href="index.php"></a></div>
+        <div class="gestion" id="conf"><a href="#" onclick="abrirGestion()"></a></div>
+        <div class="papel" id="papel"><a href="#"></a></div>
+    </aside>
+
+    <section class="gestionSemillero translate" id="gestionS">
+        <p>GESTION</p>
+        <div class="cerrarGestion" onclick="cerrarGestion()"></div>
+        <section class="corDoc">
+            <div class="crudSemillero">
+                <div class="crear" onclick="abrirCrear()">
+                    <p class="crudN">CREAR</p>
+                </div>
+                <div class="actualizar" onclick="moverCrudEd()">
+                    <p class="crudN">EDITAR</p>
+                </div>
+                <div class="eliminar" onclick="moverCrud()">
+                    <p class="crudN" >ELIMINAR</p>
+                </div>
+            </div>
+            <div class="cartel">
+                <p class="pcorDoc">SEMILLEROS CREADOS</p>
+            </div>
+            <div class="semilleroscreados" id="semillerosCreados">
+                <div>
+                    <a href="#">
+                        <img src="Img/semilleros/Pr/gato.png" alt="">
+                        <div class="nombreS">
+                            <p>GATITOS</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="inf">
+            <p>SOLO EL COORDINADOR Y DOCENTE PUEDEN CREAR, ACTUALIZAR Y ELIMINAR SEMILLEROS</p>
+        </div>
+    </section>
+
+    <section class="modalSemillero hide" id="modalS">
+        <div class="modalCerrar" onclick="cerrarModal()" id="cerrar">
+            <p>VOLVER</p>
+        </div>
+        <div class="nombreSemillero">
+            <p>NOMBRE SEMILLERO</p>
+        </div>
+        <div class="img"></div>
+        <div class="descripcion">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam itaque voluptates beatae enim officia.</p>
+        </div>
+        <div class="nombreProyectos">
+            <p>PROYECTOS RELACIONADOS</p>
+        </div>
+        <div class="proyectos"></div>
+    </section>
+
+    <section class="modalSemillero hide" id="modalC">
+        <div class="modalCerrar" id="cerrarC" onclick="cerrarCrear()">
+            <p>VOLVER</p>
+        </div>
+        <form action="Back-end/Semillero/crearSemillero.php" method="post" enctype="multipart/form-data">
+            <div class="nombreSemillero">
+                <input type="text" class="nombreSemilleroC" name="nombreSemillero" placeholder="NOMBRE DEL SEMILLERO (MAYUSCULAS)" required>
+            </div>
+            <div class="areaS">
+                <input type="text" name="areaS" required placeholder="AREA">
+            </div>
+            <div class="img2">
+                <p>IMAGEN</p>
+                
+            </div>
+            <div class="descripcionCv">
+                <textarea name="descripcionC" id="descC" cols="30" class="descripcionC" rows="10" placeholder="DESCRIPCION" required></textarea>
+            </div>
+            <div class="nombreProyectos">
+                <p>PROYECTOS RELACIONADOS</p>
+            </div>
+            <div class="proyectos">
+                <div class="proy">
+                    <p>VER PROYECTOS</p>
+                </div>
+            </div>
+            <button class="crearSemilleroBTN" type="submit" name="crearSemilleroBTN">CREAR SEMILLERO</button>
+        </form>
+    </section>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <section class="editarSemillero hide" id="600">
+            <div class="modalCerrar" id="cerrar">
+                <p>VOLVER</p>
+            </div>
+
+            <input class="hide" name="idSemillero" value="1">
+            <div class="nombreSemillero">
+                <input type="text" name="nombreS" value="Semillero Ejemplo">
+            </div>
+            <div class="areaS">
+                <input type="text" name="areaS" value="Area Ejemplo">
+            </div>
+            <div class="img2">
+                <p>IMAGEN</p>
+                <img src="Img/semilleros/Pr/gato.png" alt="">
+                <input type="file" name="fileS">
+            </div>
+
+            <div class="descripcionCv">
+                <textarea class="descripcionCc" cols="30" rows="10" type="text" name="descripcionS">Descripción Ejemplo</textarea>
+            </div>
+
+            <div class="nombreProyectos">
+                <p>PROYECTOS RELACIONADOS</p>
+            </div>
+
+            <div class="proyectos"></div>
+
+            <button class="crearSemilleroBTN" type="submit" name="editarSemilleroBTN">EDITAR SEMILLERO</button>
+        </section>
+    </form>
+
+    <script src="Js/semilleros1.js"></script>
+
+</body>
+</html>
