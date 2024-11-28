@@ -54,26 +54,18 @@ namespace Vanessa.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("DocumentoProyecto")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("EquiposInvestigacion")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaInicio")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Nombre")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SemilleroId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("SemilleroId");
 
                     b.ToTable("Proyectos");
                 });
@@ -87,11 +79,9 @@ namespace Vanessa.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Publicacion"));
 
                     b.Property<string>("ActividadesPublicacion")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContenidoPublicacion")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaPublicacion")
@@ -101,25 +91,18 @@ namespace Vanessa.Migrations
                         .HasColumnType("time");
 
                     b.Property<string>("ImagenPublicacion")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LugarPublicacion")
-                        .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NombrePublicacion")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TipoPublicacion")
-                        .IsRequired()
-                        .HasMaxLength(35)
-                        .HasColumnType("nvarchar(35)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UsuarioId")
+                    b.Property<int?>("UsuarioId")
                         .HasColumnType("int");
 
                     b.HasKey("Id_Publicacion");
@@ -239,36 +222,20 @@ namespace Vanessa.Migrations
                     b.ToTable("UsuarioPermisos");
                 });
 
-            modelBuilder.Entity("Vanessa.Models.Proyecto", b =>
-                {
-                    b.HasOne("Vanessa.Models.Semillero", "Semillero")
-                        .WithMany("Proyectos")
-                        .HasForeignKey("SemilleroId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Semillero");
-                });
-
             modelBuilder.Entity("Vanessa.Models.Publicacion", b =>
                 {
                     b.HasOne("Vanessa.Models.Usuario", "Usuario")
                         .WithMany("Publicaciones")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UsuarioId");
 
                     b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Semillero", b =>
                 {
-                    b.HasOne("Vanessa.Models.Usuario", "Usuario")
+                    b.HasOne("Vanessa.Models.Usuario", null)
                         .WithMany("Semilleros")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
-                    b.Navigation("Usuario");
+                        .HasForeignKey("UsuarioId");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Usuario", b =>
@@ -309,11 +276,6 @@ namespace Vanessa.Migrations
             modelBuilder.Entity("Vanessa.Models.Rol", b =>
                 {
                     b.Navigation("Usuarios");
-                });
-
-            modelBuilder.Entity("Vanessa.Models.Semillero", b =>
-                {
-                    b.Navigation("Proyectos");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Usuario", b =>

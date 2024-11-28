@@ -18,11 +18,6 @@ namespace Vanessa.Models
         // Llave foránea hacia Usuario
         public int? UsuarioId { get; set; }
 
-        // Relación con Usuario (Muchos Semilleros pueden tener un Usuario)
-        public Usuario? Usuario { get; set; }
-
-        // Relación uno a muchos con Proyecto (Un Semillero tiene varios Proyectos)
-        public ICollection<Proyecto>? Proyectos { get; set; } = new List<Proyecto>();
     }
 
 }

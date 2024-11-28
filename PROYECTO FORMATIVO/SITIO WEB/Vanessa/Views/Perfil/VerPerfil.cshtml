@@ -4,18 +4,26 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>VerPerfil</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/Css/CorreoEnvio.css">
+    <link rel="stylesheet" href="~/Css/Usuario5.css">
+    <title>Ver Perfil</title>
 </head>
 <body>
-    <div>
-        <p><strong>Nombre:</strong> @Model.Nombre</p>
-        <p><strong>Correo:</strong> @Model.Correo</p>
-        <p><strong>Rol:</strong> @Model.Rol?.Nombre</p>
+    <a href="@Url.Action("Index", "Home")" class="btn-secondary">Volver</a>
+    <div class="Ramas"></div>
+    <div class="Hojas"></div>
+    <div class="container leaf-container">
+        <h1>Detalles del Perfil</h1>
 
+        <div class="profile-info">
+            <p><strong>Nombre:</strong> @Model.Nombre</p>
+            <p><strong>Correo:</strong>@Model.Correo</p>
+            <p><strong>Rol:</strong>@Model.Rol?.Nombre</p>
+        </div>
         @if (TempData["Error"] != null)
         {
             <div class="alert alert-danger">
@@ -23,10 +31,11 @@
             </div>
         }
 
-        <div>
+        <div class="buttons">
             <a href="@Url.Action("EditarPerfil")" class="btn btn-primary">Editar Perfil</a>
             <a href="@Url.Action("EliminarPerfil")" class="btn btn-danger">Eliminar Perfil</a>
         </div>
     </div>
+    <script src="~/Js/OndaAgua.js"></script>
 </body>
 </html>

@@ -10,7 +10,7 @@ body {
 
     position: relative;
     background-color: #24dbcc;
-    background-image: url(../Img/Interfaz/Fondo3.png);
+    background-image: url(../Img/Interfaz/Fondo.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -136,11 +136,6 @@ body {
 }
 
 .tablaR1 {
-    /* animation: tablaRompiendose1 ease; */
-    /* transform-origin: top right; */
-    /* animation-duration: .7s; */
-    /* animation-iteration-count: infinite; */
-    /* animation-fill-mode: forwards; */
     transition: .3s ease;
     /* animation-iteration-count: infinite; */
     /* animation-direction: alternate; */
@@ -239,16 +234,6 @@ body {
 }
 
 #btnR2 {
-    width: 100%;
-    height: 100%;
-    margin-top: 4.5%;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    letter-spacing: .15vw;
-}
-
-#btnRInv {
     width: 100%;
     height: 100%;
     margin-top: 4.5%;
@@ -703,7 +688,7 @@ body {
     font-family: "Nikotinus";
     height: 130%;
     width: 100%;
-    color: black;
+    color: rgb(0, 0, 0);
     background: var(--colorFomularios);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -770,34 +755,7 @@ body {
     top: .5vh;
 }
 
-#formulario>#formInv>input:nth-child(1) {
-    position: absolute;
-    top: 37.3%;
-    width: 85%;
-    left: 9.5%;
-    height: 14.2%;
-    text-align: none;
-    justify-content: none;
-    overflow-y: scroll;
-    overflow-x: scroll;
-}
 
-#formulario>#formInv>textarea:nth-child(1) {
-    position: absolute;
-    top: 37.3%;
-    max-width: 85%;
-    max-height: 14.2%;
-    width: 85%;
-    left: 9.5%;
-    height: 14.2%;
-    text-align: none;
-    justify-content: none;
-    background: transparent;
-    font-weight: 100;
-    font-size: calc(1.3vw + 1.3vh);
-    font-family: "Betterflies";
-    overflow-y: scroll;
-}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -985,18 +943,6 @@ body {
     }
 }
 
-.pasto {
-    height: 17%;
-    width: 100%;
-    position: absolute;
-    bottom: -.1%;
-    /* background-image: url(../Img/pasto.png); */
-    background-repeat: no-repeat;
-    background-size: 100% 90%;
-    background-position: bottom;
-    /* background-color: blue; */
-}
-
 
 
 .marco>div:nth-child(8)>.hidden {
@@ -1054,6 +1000,7 @@ body {
     -webkit-text-fill-color: transparent; /* Asegura que el texto sea transparente */
     color: transparent; /* Asegura que el texto sea transparente */
     font-weight: 100;
+    top: 1px;
     font-size: calc(2.1vw + 2.1vh);
     position: absolute;
     /* top: -1vh; */
@@ -1189,3 +1136,30 @@ option {
     font-size: calc(1.2vw + 1.2vh);
     font-weight: 600;
 }
+
+.Recuperar {
+    position: fixed; 
+    width: 16%;
+    height: 8%;
+    top: 15px;
+    right: 50px;
+    background-color: transparent;
+    display: flex;
+}
+
+.Recuperar > a {
+    font-size: 1.5rem;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    font-family: "Nikotinus";
+    text-decoration: none;
+    z-index: 20;
+    transition: color 0.3s, background-color 0.3s; /* Transición suave */
+}
+
+.Recuperar > a:active {
+    color: rgb(42, 215, 83); /* Cambia el color del texto */
+}
+

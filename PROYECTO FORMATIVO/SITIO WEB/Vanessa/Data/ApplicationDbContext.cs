@@ -25,10 +25,7 @@ namespace Vanessa.Data
             // Configuración de la tabla intermedia UsuarioPermiso
             ConfigureUsuarioPermiso(modelBuilder);
 
-            // Configuración de las relaciones entre Usuario, Semillero, Proyecto y Publicación
-            ConfigureSemilleroRelations(modelBuilder);
-            ConfigureProyectoRelations(modelBuilder);
-            ConfigurePublicacionRelations(modelBuilder);
+         
         }
 
         // Método para configurar la relación UsuarioPermiso
@@ -50,34 +47,6 @@ namespace Vanessa.Data
                 .OnDelete(DeleteBehavior.Cascade);  // Definir comportamiento al eliminar
         }
 
-        // Configurar las relaciones entre Semillero y Usuario
-        private void ConfigureSemilleroRelations(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Semillero>()
-                .HasOne(s => s.Usuario)  // Un Semillero tiene un Usuario
-                .WithMany(u => u.Semilleros)  // Un Usuario puede tener muchos Semilleros
-                .HasForeignKey(s => s.UsuarioId)
-                .OnDelete(DeleteBehavior.SetNull);  // Al eliminar Usuario, no eliminar Semillero, pero establecer UsuarioId a null
-        }
-
-        // Configurar la relación entre Semillero y Proyecto
-        private void ConfigureProyectoRelations(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Proyecto>()
-                .HasOne(p => p.Semillero)  // Un Proyecto tiene un Semillero
-                .WithMany(s => s.Proyectos)  // Un Semillero puede tener muchos Proyectos
-                .HasForeignKey(p => p.SemilleroId)
-                .OnDelete(DeleteBehavior.Restrict);  // Evitar la eliminación en cascada
-        }
-
-        // Configurar la relación entre Publicación y Usuario
-        private void ConfigurePublicacionRelations(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Publicacion>()
-                .HasOne(pub => pub.Usuario)  // Una Publicación tiene un Usuario
-                .WithMany(u => u.Publicaciones)  // Un Usuario puede tener muchas Publicaciones
-                .HasForeignKey(pub => pub.UsuarioId)
-                .OnDelete(DeleteBehavior.Cascade);  // Al eliminar Usuario, eliminar también las Publicaciones asociadas
-        }
+        
     }
 }

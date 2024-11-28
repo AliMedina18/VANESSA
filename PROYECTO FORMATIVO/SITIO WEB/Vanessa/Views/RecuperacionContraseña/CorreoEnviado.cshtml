@@ -4,13 +4,22 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>CorreoEnviado</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Css/Solicitud.css">
+    <link rel="stylesheet" href="~/Css/Restablecer.css">
+    <title>Correo Enviado</title>
 </head>
 <body>
-    <p>Hemos enviado un correo con un enlace para restablecer tu contraseña.</p>
+    <button type="button" class="btn btn-back" onclick="window.history.back()">Regresar</button>
+    <div class="Hojas"></div>
+    <div class="Ramas"></div>
+    <div class="leaf-container">
+        <h1>Correo Enviado</h1>
+        <p>Hemos enviado un correo con un enlace para restablecer tu contraseña. Por favor, revisa tu bandeja de entrada o carpeta de spam.</p>
+    </div>
+    <script src="~/Js/OndaAgua.js"></script>
 </body>
 </html>

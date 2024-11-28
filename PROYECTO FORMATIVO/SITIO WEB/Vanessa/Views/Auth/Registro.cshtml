@@ -18,11 +18,10 @@
 </head>
 @if (TempData["Success"] != null)
 {
-    <div class="alert alert-success">
-        @TempData["Success"]
-    </div>
+    @TempData["Success"]
 }
 <body id="body">
+    <div class="Recuperar"><a href="@Url.Action("Solicitar", "RecuperacionContraseña")">Recupera contraseña</a></div>
 
     <div class="rain">
         <!-- Gotas de lluvia generadas dinámicamente con CSS -->
@@ -147,9 +146,6 @@
 
     <div id="libelula"></div>
     <div id="libelulaa"></div>
-
-
-    <p><a href="@Url.Action("Solicitar", "RecuperacionContraseña")">Recupera tu contraseña aquí</a></p>
 
     <audio src="~/Audio/Madera Rompiendose/WoodImpactShrtBig PE1057005.mp3" type="audio/mpeg" id="table-broke-sound"></audio>
     <script src="~/Js/Js.js"></script>

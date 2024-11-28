@@ -1,119 +1,142 @@
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\marcoGg.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tablas-reg.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\JsN.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\Navegador.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\marco.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\favicon.ico
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\confForm.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tablas-reg3.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Tipografia\fontinfo.txt
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\semilleros2.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\muroPublicacion5.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Tipografia\__MACOSX\._fontinfo.txt
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tabla-inf-der-G.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\confAc1.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\expresionesregulares1.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\muroPublicacion2.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Css\semilleros7.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tabla-inf-izq-rota.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tablas-acceso.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery-validation\LICENSE.md
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tabla-inf-izq-G.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\Js.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tabla-inf-der-rota.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery\dist\jquery.slim.min.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery\dist\jquery.min.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\marco-G.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\proyectos3.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\muroPublicacion1.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\semilleros1.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tabla-inferior-der-G.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\muroPublicacion7.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tabla-rota-der.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Css\tipografias.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tabla-rota-izq.PNG.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\marcoG.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Tipografia\nikotinusDEMO2.otf
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tablas-reg32.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\enredaderas-prin.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Css\styleInterfaz2.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Tipografia\__MACOSX\._nikotinusDEMO.otf
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Tipografia\Readme.txt
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\Emergente.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Css\animacion.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Tipografia\index.html
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery\dist\jquery.slim.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\enredaderas-prinG.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Tipografia\nikotinusDEMO.otf
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery\dist\jquery.min.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\tabla-infe-izq-G.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Css\stylePrincipal4.css
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery\dist\jquery.slim.min.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\abeja.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Tipografia\Tropical Taste Demo.otf
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\fondoBosque.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\expresionesregulares.js
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Img\SVG\marcoasd.png.svg
-C:\Users\pc\Documents\PROYECTO FORMATIVO\Vanessa\wwwroot\Js\quienes.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\marcoGg.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tablas-reg.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\JsN.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\Navegador.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\marco.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\Ojito.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\favicon.ico
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\confForm.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tablas-reg3.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\fontinfo.txt
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Solicitud.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\semilleros2.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\muroPublicacion5.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Usuario4.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\__MACOSX\._fontinfo.txt
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-inf-der-G.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\confAc1.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\expresionesregulares1.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\muroPublicacion2.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\semilleros7.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-inf-izq-rota.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tablas-acceso.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Restablecer.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-inf-izq-G.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\Js.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\validarCorreo.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\styleMuroP14.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-inf-der-rota.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Principal.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\marco-G.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\proyectos.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\proyectos3.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\muroPublicacion1.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\semilleros1.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-inferior-der-G.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\CorreoEnvio.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\muroPublicacion7.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-rota-der.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\tipografias.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Usuario3.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-rota-izq.PNG.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\marcoG.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\nikotinusDEMO2.otf
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tablas-reg32.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\enredaderas-prin.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\styleInterfaz2.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\__MACOSX\._nikotinusDEMO.otf
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Usuario5.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\Readme.txt
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Usuario2.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\animacion.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\index.html
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\verificarFortaleza.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\enredaderas-prinG.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\nikotinusDEMO.otf
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Usuario.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-infe-izq-G.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\OndaAgua.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\abeja.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\Tropical Taste Demo.otf
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\fondoBosque.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\expresionesregulares.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\marcoasd.png.svg
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\quienes.js
 wwwroot\Audio\Madera Rompiendose\WoodImpactShrtBig PE1057005.mp3
 wwwroot\Css\animacion.css
+wwwroot\Css\CorreoEnvio.css
+wwwroot\Css\Principal.css
+wwwroot\Css\proyectos.css
+wwwroot\Css\Restablecer.css
 wwwroot\Css\semilleros7.css
+wwwroot\Css\Solicitud.css
 wwwroot\Css\styleInterfaz2.css
-wwwroot\Css\stylePrincipal4.css
+wwwroot\Css\styleMuroP14.css
 wwwroot\Css\tipografias.css
+wwwroot\Css\Usuario.css
+wwwroot\Css\Usuario2.css
+wwwroot\Css\Usuario3.css
+wwwroot\Css\Usuario4.css
+wwwroot\Css\Usuario5.css
 wwwroot\favicon.ico
 wwwroot\Img\abejitaMichael.png
 wwwroot\Img\abejitaMichaelAlaDerecha.png
@@ -163,6 +186,7 @@ wwwroot\Img\Interfaz\flor2.png
 wwwroot\Img\Interfaz\flor3.png
 wwwroot\Img\Interfaz\flores.png
 wwwroot\Img\Interfaz\Fondo.jpg
+wwwroot\Img\Interfaz\Fondo.png
 wwwroot\Img\Interfaz\Fondo2.jpg
 wwwroot\Img\Interfaz\Fondo3.png
 wwwroot\Img\Interfaz\fondo4.png
@@ -294,6 +318,7 @@ wwwroot\Img\Principal\Enredadera5.png
 wwwroot\Img\Principal\Enredadera6.png
 wwwroot\Img\Principal\Enredadera7.png
 wwwroot\Img\Principal\Fondo.png
+wwwroot\Img\Principal\Fondo2.png
 wwwroot\Img\Principal\foro-ico.png
 wwwroot\Img\Principal\gal-ico.png
 wwwroot\Img\Principal\gest-ico.png
@@ -302,6 +327,7 @@ wwwroot\Img\Principal\Navegador.png
 wwwroot\Img\Principal\Navegador1.png
 wwwroot\Img\Principal\Tabla.png
 wwwroot\Img\Proyectos\botonVolver.png
+wwwroot\Img\Proyectos\DocumentoFondo.png
 wwwroot\Img\Proyectos\Documentos\Citación.pdf
 wwwroot\Img\Proyectos\Documentos\MYDAILYROUTINE-Sara.pdf
 wwwroot\Img\Proyectos\fila1.png
@@ -310,6 +336,7 @@ wwwroot\Img\Proyectos\fila3.png
 wwwroot\Img\Proyectos\fondo.png
 wwwroot\Img\Proyectos\fondo3.png
 wwwroot\Img\Proyectos\fondoA.png
+wwwroot\Img\Proyectos\FondoB.png
 wwwroot\Img\Proyectos\fondoDocumento.png
 wwwroot\Img\Proyectos\fondoF.png
 wwwroot\Img\Proyectos\fondoF2.png
@@ -318,12 +345,14 @@ wwwroot\Img\Proyectos\fondoF5.png
 wwwroot\Img\Proyectos\fondoF6.png
 wwwroot\Img\Proyectos\fondoF7.png
 wwwroot\Img\Proyectos\gestion.jpg
+wwwroot\Img\Proyectos\Gestion.png
 wwwroot\Img\Proyectos\gestion2.jpg
 wwwroot\Img\Proyectos\gestion2.png
 wwwroot\Img\Proyectos\gestionPag.jpg
 wwwroot\Img\Proyectos\marcoMariposas.png
 wwwroot\Img\Proyectos\marcoVerde.png
 wwwroot\Img\Proyectos\proyectosPag.jpg
+wwwroot\Img\Proyectos\Tablas.png
 wwwroot\Img\Publicacion\Actividades\1698375560_MY DAILY ROUTINE - Sara.pdf
 wwwroot\Img\Publicacion\Actividades\1698375563_MY DAILY ROUTINE - Sara.pdf
 wwwroot\Img\Publicacion\Actividades\1698376810_Citación.pdf
@@ -692,12 +721,14 @@ wwwroot\Img\tabla-superior-der.png
 wwwroot\Img\tabla-sup-izqq.png
 wwwroot\Img\tabla-sup-izquierda.png
 wwwroot\Img\taxo-ico.png
+wwwroot\Img\Usuario\Enredadera.png
+wwwroot\Img\Usuario\Hojas.png
+wwwroot\Img\Usuario\Ramas.png
 wwwroot\Img\Vanessa.png
 wwwroot\Img\VANESSA-R.png
 wwwroot\Js\abeja.js
 wwwroot\Js\confAc1.js
 wwwroot\Js\confForm.js
-wwwroot\Js\Emergente.js
 wwwroot\Js\expresionesregulares.js
 wwwroot\Js\expresionesregulares1.js
 wwwroot\Js\Js.js
@@ -707,10 +738,14 @@ wwwroot\Js\muroPublicacion2.js
 wwwroot\Js\muroPublicacion5.js
 wwwroot\Js\muroPublicacion7.js
 wwwroot\Js\Navegador.js
+wwwroot\Js\Ojito.js
+wwwroot\Js\OndaAgua.js
 wwwroot\Js\proyectos3.js
 wwwroot\Js\quienes.js
 wwwroot\Js\semilleros1.js
 wwwroot\Js\semilleros2.js
+wwwroot\Js\validarCorreo.js
+wwwroot\Js\verificarFortaleza.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

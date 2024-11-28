@@ -78,6 +78,7 @@ namespace Vanessa.Controllers
             var fontContent = new XFont("Verdana", 10);
             var fontPageNumber = new XFont("Verdana Bold", 8);
             var fontFooter = new XFont("Verdana Italic", 8);
+            var fontHeader = new XFont("Verdana", 10);
 
             int pageNumber = 1;
             PdfPage page = pdfDocument.AddPage();
@@ -85,8 +86,8 @@ namespace Vanessa.Controllers
 
             // Colores
             XColor lightBlue = XColor.FromArgb(220, 240, 255);  // Azul claro para el borde
-            XColor darkBlue = XColor.FromArgb(60, 90, 150);      // Azul oscuro para los textos
-            XColor gray = XColor.FromArgb(200, 200, 200);        // Gris para otras líneas
+            XColor darkBlue = XColor.FromArgb(60, 90, 150);     // Azul oscuro para los textos
+            XColor gray = XColor.FromArgb(200, 200, 200);       // Gris para otras líneas
 
             // Títulos
             DrawTitle(graphics, page, fontTitle, fontSubTitle, darkBlue);
@@ -99,6 +100,8 @@ namespace Vanessa.Controllers
             graphics.DrawLine(new XPen(darkBlue, 1), leftMargin, yPosition - 10, rightMargin, yPosition - 10);
             yPosition += 20;
 
+            graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 100, 20, 80, 20), XStringFormats.TopRight);
+
             foreach (var usuario in usuarios)
             {
                 if (yPosition > page.Height - 100) // Crear nueva página si se llena
@@ -108,6 +111,10 @@ namespace Vanessa.Controllers
                     graphics = XGraphics.FromPdfPage(page);
                     // Volver a dibujar encabezado en la nueva página
                     DrawTitle(graphics, page, fontTitle, fontSubTitle, darkBlue);
+
+                    // Nombre de la empresa en la esquina superior derecha
+                    graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 100, 20, 80, 20), XStringFormats.TopRight);
+
                     yPosition = 100; // Restablecer la posición vertical
                 }
 
@@ -430,12 +437,31 @@ namespace Vanessa.Controllers
             }
         }
 
-        // GET: Usuarios Activos
-        public async Task<IActionResult> Index()
+        // GET: Usuarios Activos con o sin paginación
+        public async Task<IActionResult> Index(int page = 1)
         {
+            int pageSize = 5; // Definir cuántos usuarios se muestran por página
             var usuarios = await GetUsuariosActivos();
-            return View(usuarios);
+
+            // Calcular el total de páginas
+            int totalUsuarios = usuarios.Count;
+            int totalPages = (int)Math.Ceiling(totalUsuarios / (double)pageSize);
+
+            // Obtener los usuarios para la página actual
+            var usuariosPagina = usuarios.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+            var model = new UsuariosIndexViewModel
+            {
+                Usuarios = usuariosPagina,
+                PageNumber = page,
+                TotalPages = totalPages,
+                PageSize = pageSize
+            };
+
+            return View(model);
         }
+
+
 
         // GET: Usuarios Inactivos
         public async Task<IActionResult> Inactivos()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Documents\\PROYECTO FORMATIVO\\Vanessa\\Vanessa.csproj": {}
+    "C:\\Users\\pc\\Desktop\\Vanessa\\Vanessa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Documents\\PROYECTO FORMATIVO\\Vanessa\\Vanessa.csproj": {
+    "C:\\Users\\pc\\Desktop\\Vanessa\\Vanessa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Documents\\PROYECTO FORMATIVO\\Vanessa\\Vanessa.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Vanessa\\Vanessa.csproj",
         "projectName": "Vanessa",
-        "projectPath": "C:\\Users\\pc\\Documents\\PROYECTO FORMATIVO\\Vanessa\\Vanessa.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\Vanessa\\Vanessa.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Documents\\PROYECTO FORMATIVO\\Vanessa\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
