@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\Css\\CorreoEnvio.css"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion.css",
+      "PackagePath": "staticwebassets\\Css\\Gestion.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion2.css",
+      "PackagePath": "staticwebassets\\Css\\Gestion2.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion3.css",
+      "PackagePath": "staticwebassets\\Css\\Gestion3.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion4.css",
+      "PackagePath": "staticwebassets\\Css\\Gestion4.css"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Principal.css",
       "PackagePath": "staticwebassets\\Css\\Principal.css"
     },
@@ -533,8 +549,20 @@
       "PackagePath": "staticwebassets\\Img\\Proyectos\\Documentos\\MYDAILYROUTINE-Sara.pdf"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\Fondo8.png",
+      "PackagePath": "staticwebassets\\Img\\Proyectos\\Fondo8.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoB.png",
       "PackagePath": "staticwebassets\\Img\\Proyectos\\FondoB.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoGestion2.png",
+      "PackagePath": "staticwebassets\\Img\\Proyectos\\FondoGestion2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoGestion3.png",
+      "PackagePath": "staticwebassets\\Img\\Proyectos\\FondoGestion3.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\Gestion.png",
@@ -2441,6 +2469,10 @@
       "PackagePath": "staticwebassets\\Js\\OndaAgua.js"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\Seleccionar.js",
+      "PackagePath": "staticwebassets\\Js\\Seleccionar.js"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\abeja.js",
       "PackagePath": "staticwebassets\\Js\\abeja.js"
     },
@@ -2605,8 +2637,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\flutter.png",
-      "PackagePath": "staticwebassets\\images\\flutter.png"
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\codigo.png",
+      "PackagePath": "staticwebassets\\images\\codigo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\comparativo.png",
+      "PackagePath": "staticwebassets\\images\\comparativo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\nieve.png",
+      "PackagePath": "staticwebassets\\images\\nieve.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -2851,6 +2895,22 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Reporte_Usuarios (12).pdf",
       "PackagePath": "staticwebassets\\uploads\\Reporte_Usuarios (12).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (2).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (3).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros (3).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (4).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros (4).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (5).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros (5).pdf"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Vanessa.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

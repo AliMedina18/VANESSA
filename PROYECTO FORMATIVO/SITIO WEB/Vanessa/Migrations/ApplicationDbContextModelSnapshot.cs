@@ -226,7 +226,8 @@ namespace Vanessa.Migrations
                 {
                     b.HasOne("Vanessa.Models.Usuario", "Usuario")
                         .WithMany("Publicaciones")
-                        .HasForeignKey("UsuarioId");
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("Usuario");
                 });

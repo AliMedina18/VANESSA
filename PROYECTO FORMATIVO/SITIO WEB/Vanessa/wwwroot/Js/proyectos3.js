@@ -17,7 +17,7 @@ function ocultarGestion(){
 
 function FormCrear(){
     formCrear.classList.remove("hide");
-    mosPro.classList.add("hide");
+
     formEditar.classList.add("hide");
 }
 

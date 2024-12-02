@@ -10,6 +10,8 @@ using Vanessa.Data;
 using System.Security.Claims;
 using System;
 using Microsoft.EntityFrameworkCore;
+using PdfSharp.Drawing;
+using PdfSharp.Pdf;
 
 namespace Vanessa.Controllers
 {
@@ -32,6 +34,94 @@ namespace Vanessa.Controllers
             var semilleros = _context.Semilleros.ToList(); // Usamos EF para obtener todos los semilleros
             return View(semilleros);
         }
+
+        // Generar PDF con el listado de semilleros
+        [Obsolete]
+        public IActionResult GenerarPdf()
+        {
+            var semilleros = _context.Semilleros.ToList(); // Obtener los semilleros de la base de datos
+
+            var pdfDocument = new PdfDocument();
+            var fontTitle = new XFont("Verdana Bold", 16);
+            var fontSubTitle = new XFont("Verdana", 12);
+            var fontContent = new XFont("Verdana", 10);
+            var fontPageNumber = new XFont("Verdana Bold", 8);
+            var fontFooter = new XFont("Verdana Italic", 8);
+            var fontHeader = new XFont("Verdana", 10);
+
+            int pageNumber = 1;
+            PdfPage page = pdfDocument.AddPage();
+            XGraphics graphics = XGraphics.FromPdfPage(page);
+
+            // Colores
+            XColor lightBlue = XColor.FromArgb(220, 240, 255);  // Azul claro para el borde
+            XColor darkBlue = XColor.FromArgb(60, 90, 150);     // Azul oscuro para los textos
+            XColor gray = XColor.FromArgb(200, 200, 200);       // Gris para otras líneas
+
+            // Títulos
+            DrawTitle(graphics, page, fontTitle, fontSubTitle, darkBlue);
+
+            double yPosition = 100; // Inicio del contenido
+            double leftMargin = 50;
+            double rightMargin = page.Width - 50;
+
+            // Línea divisoria en azul oscuro
+            graphics.DrawLine(new XPen(darkBlue, 1), leftMargin, yPosition - 10, rightMargin, yPosition - 10);
+            yPosition += 20;
+
+            graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 190, 20, 150, 20), XStringFormats.TopRight);
+
+            foreach (var semillero in semilleros)
+            {
+                if (yPosition > page.Height - 100) // Crear nueva página si se llena
+                {
+                    // Crear nueva página
+                    page = pdfDocument.AddPage();
+                    graphics = XGraphics.FromPdfPage(page);
+                    // Volver a dibujar encabezado en la nueva página
+                    DrawTitle(graphics, page, fontTitle, fontSubTitle, darkBlue);
+
+                    // Nombre de la empresa en la esquina superior derecha
+                    graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 150, 20, 150, 20), XStringFormats.TopRight);
+
+                    yPosition = 100; // Restablecer la posición vertical
+                }
+
+                // Dibujar cuadro estilizado para cada semillero con solo línea azul claro alrededor
+                graphics.DrawRoundedRectangle(new XPen(lightBlue, 2), leftMargin - 10, yPosition - 15, page.Width - 2 * leftMargin + 10, 85, 10, 10);
+
+                // Dibujar contenido con texto en color azul oscuro
+                graphics.DrawString($"Nombre: {semillero.Nombre ?? "N/A"}", fontContent, new XSolidBrush(darkBlue), leftMargin, yPosition);
+                graphics.DrawString($"Descripción: {semillero.Descripcion ?? "N/A"}", fontContent, new XSolidBrush(darkBlue), leftMargin, yPosition + 20);
+
+                yPosition += 100; // Incrementar para el siguiente semillero
+            }
+
+            // Número de página en la parte superior derecha (Estilo APA)
+            graphics.DrawString($"{pageNumber}", fontPageNumber, new XSolidBrush(darkBlue), new XRect(page.Width - 40, 20, 30, 20), XStringFormats.TopRight);
+
+            // Pie de página con la fecha de creación del PDF
+            graphics.DrawString($"Generado el {DateTime.Now:dd/MM/yyyy HH:mm}", fontFooter, new XSolidBrush(XColor.FromArgb(169, 169, 169)), new XRect(0, page.Height - 30, page.Width, 20), XStringFormats.BottomCenter);
+
+            // Incrementar el contador de páginas
+            pageNumber++;
+
+            // Guardar el PDF en un MemoryStream
+            var stream = new MemoryStream();
+            pdfDocument.Save(stream, false);
+            stream.Position = 0;
+
+            // Retornar el archivo PDF como una respuesta para descarga
+            return File(stream, "application/pdf", "Semilleros.pdf");
+        }
+
+        // Método para dibujar el título y subtítulo
+        private void DrawTitle(XGraphics graphics, PdfPage page, XFont fontTitle, XFont fontSubTitle, XColor darkBlue)
+        {
+            graphics.DrawString("Listado de Semilleros", fontTitle, new XSolidBrush(darkBlue), new XRect(0, 30, page.Width, 40), XStringFormats.TopCenter);
+            graphics.DrawString("Sistema de divulgación, gestión de semilleros y proyectos digitales de investigación", fontSubTitle, new XSolidBrush(XColor.FromArgb(169, 169, 169)), new XRect(0, 60, page.Width, 20), XStringFormats.TopCenter);
+        }
+
 
         // Crear semillero
         public IActionResult Create()

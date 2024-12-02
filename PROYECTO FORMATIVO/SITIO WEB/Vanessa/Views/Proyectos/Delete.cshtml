@@ -8,35 +8,46 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="~/Css/Gestion3.css">
     <title>Delete</title>
 </head>
 <body>
 
-    <h1>Eliminar Proyecto</h1>
+    <div class="titulo"><p>ELIMINAR</p></div>
 
-    <p>¿Estás seguro de que deseas eliminar el siguiente proyecto?</p>
+    <a class="retroceder" href="@Url.Action("Create", "Proyectos")"></a>
+
 
     <div>
-        <p><strong>Nombre:</strong> @Model.Nombre</p>
-        <p><strong>Equipos de Investigación:</strong> @Model.EquiposInvestigacion</p>
-        <p><strong>Fecha de Inicio:</strong> @Model.FechaInicio.ToShortDateString()</p>
+        <strong class="label1">NOMBRE</strong>
+        <p class="input1"> @Model.Nombre</p>
+
+        <strong class="label2">EQUIPO</strong>
+        <p class="input2"> @Model.EquiposInvestigacion</p>
+
+        <strong class="label3">FECHA DE INICIO</strong>
+        <p class="input3"> @Model.FechaInicio.ToShortDateString()</p>
+
         <p>
-            <strong>Documento:</strong>
-            @if (!string.IsNullOrEmpty(Model.DocumentoProyecto))
-            {
-                <a asp-action="Download" asp-route-id="@Model.Id">Descargar PDF</a>
-            }
-            else
-            {
-                <span>No disponible</span>
-            }
+        <strong class="label4">ARCHIVO PDF</strong>
+        @if (!string.IsNullOrEmpty(Model.DocumentoProyecto))
+        {
+                <a class="input4" asp-action="Download" asp-route-id="@Model.Id">Descargar PDF</a>
+        }
+        else
+        {
+            <span>No disponible</span>
+        }
+        
+            
         </p>
     </div>
 
     <form asp-action="Delete" method="post">
         <input type="hidden" asp-for="Id" />
-        <button type="submit" class="btn btn-danger">Eliminar</button>
-        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+        <button type="submit" class="guardar">ELIMINAR</button>
+    
     </form>
 </body>
 </html>

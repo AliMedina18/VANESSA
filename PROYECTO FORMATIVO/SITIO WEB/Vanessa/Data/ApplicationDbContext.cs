@@ -25,7 +25,9 @@ namespace Vanessa.Data
             // Configuración de la tabla intermedia UsuarioPermiso
             ConfigureUsuarioPermiso(modelBuilder);
 
-         
+            // Configuración de las relaciones entre Usuario, Semillero, Proyecto y Publicación
+            
+            ConfigurePublicacionRelations(modelBuilder);
         }
 
         // Método para configurar la relación UsuarioPermiso
@@ -47,6 +49,15 @@ namespace Vanessa.Data
                 .OnDelete(DeleteBehavior.Cascade);  // Definir comportamiento al eliminar
         }
 
-        
+        // Configurar la relación entre Publicación y Usuario
+        private void ConfigurePublicacionRelations(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Publicacion>()
+                .HasOne(pub => pub.Usuario)  // Una Publicación tiene un Usuario
+                .WithMany(u => u.Publicaciones)  // Un Usuario puede tener muchas Publicaciones
+                .HasForeignKey(pub => pub.UsuarioId)
+                .OnDelete(DeleteBehavior.Cascade);  // Al eliminar Usuario, eliminar también las Publicaciones asociadas
+        }
     }
 }
+

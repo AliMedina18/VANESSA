@@ -4,53 +4,107 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="~/Css/semilleros7.css">
+    <title>Semilleros</title>
 </head>
 <body>
-    <h1>Semilleros</h1>
-
-    <a href="@Url.Action("Create", "Semillero")" class="btn btn-primary mb-3">Crear Semillero</a>
-
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Imagen</th>
-                <th>Área</th>
-                <th>Descripción</th>
-                <th>Acciones</th>
-            </tr>
-        </thead>
-        <tbody>
+    <section class="muro">
+        <div class="ventanas vent1"></div>
+        <div class="grid">
             @foreach (var semillero in Model)
             {
-                <tr>
-                    <td>@semillero.Nombre</td>
-                    <td>
-                        @if (!string.IsNullOrEmpty(semillero.Imagen))
-                        {
-                            <img src="~/images/@semillero.Imagen" alt="@semillero.Nombre" width="100" />
-                        }
-                    </td>
-                    <td>@semillero.Area</td>
-                    <td>@semillero.Descripcion</td>
-                    <td>
-                        <a href="@Url.Action("Edit", "Semillero", new { id = semillero.Id })">Editar</a> |
-                        <!-- Enlace de eliminación directo -->
-                        <form method="post" action="@Url.Action("Delete", "Semillero", new { id = semillero.Id })" style="display:inline;">
-                            @Html.AntiForgeryToken()
-                            <button type="submit" class="btn btn-danger">Eliminar</button>
-                        </form>
-                    </td>
-                </tr>
+                <div class="semillero" onclick="selectSemillero(@semillero.Id, this)">
+                    <a href="#">
+                        <p>@semillero.Id</p>
+                        <div class="img">
+                            @if (!string.IsNullOrEmpty(semillero.Imagen))
+                            {
+                                <img src="~/images/@semillero.Imagen" alt="@semillero.Nombre">
+                            }
+                            else
+                            {
+                                <img src="Img/default-placeholder.png" alt="Imagen no disponible">
+                            }
+                        </div>
+                        <h3>@semillero.Nombre</h3>
+                    </a>
+                </div>
             }
-        </tbody>
-    </table>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </div>
+    </section>
+
+    <aside>
+        <div class="casita" id="casaVolver"><a href="@Url.Action("Index", "Home")" title="Volver al inicio"></a></div>
+        <div class="gestion" id="conf"><a href="#" onclick="abrirGestion()" title="Abrir configuración"></a></div>
+        <div class="papel" id="papel"><a href="@Url.Action("GenerarPdf", "Semillero")" title="Generar PDF"></a></div>
+    </aside>
+
+    <section class="gestionSemillero translate" id="gestionS">
+        <p>GESTION</p>
+        <div class="cerrarGestion" onclick="cerrarGestion()"></div>
+        <section class="corDoc">
+            <div class="crudSemillero">
+                <div class="crear">
+                    <a href="@Url.Action("Create", "Semillero")">
+                        <p class="crudN">CREAR</p>
+                    </a>
+                </div>
+                <div class="actualizar">
+                    <a id="editLink" href="#">
+                        <p class="crudN disabled">EDITAR</p>
+                    </a>
+                </div>
+                <div class="eliminar">
+                    <a id="deleteLink" href="#">
+                        <p class="crudN disabled">ELIMINAR</p>
+                    </a>
+                </div>
+            </div>
+            <div class="cartel">
+                <p class="pcorDoc">SEMILLEROS CREADOS</p>
+            </div>
+            <div class="semilleroscreados" id="semillerosCreados">
+                @foreach (var semillero in Model)
+                {
+                    <div>
+                        <a href="#">
+                            <img src="~/images/@semillero.Imagen" alt="@semillero.Nombre">
+                            <div class="nombreS">
+                                <p>@semillero.Nombre</p>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </section>
+        <div class="inf">
+            <p>SOLO EL COORDINADOR Y DOCENTE PUEDEN CREAR, ACTUALIZAR Y ELIMINAR SEMILLEROS</p>
+        </div>
+    </section>
+
+    <section class="modalSemillero hide" id="modalS">
+        <div class="modalCerrar" onclick="cerrarModal()" id="cerrar">
+            <p>VOLVER</p>
+        </div>
+        <div class="nombreSemillero">
+            <p>NOMBRE SEMILLERO</p>
+        </div>
+        <div class="img"></div>
+        <div class="descripcion">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam itaque voluptates beatae enim officia.</p>
+        </div>
+        <div class="nombreProyectos">
+            <p>PROYECTOS RELACIONADOS</p>
+        </div>
+        <div class="proyectos"></div>
+    </section>
+
+    <script src="~/Js/semilleros1.js"></script>
+    <script src="~/Js/Seleccionar.js"></script>
 </body>
 </html>

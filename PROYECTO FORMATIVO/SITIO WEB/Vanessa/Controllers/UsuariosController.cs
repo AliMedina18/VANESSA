@@ -100,7 +100,7 @@ namespace Vanessa.Controllers
             graphics.DrawLine(new XPen(darkBlue, 1), leftMargin, yPosition - 10, rightMargin, yPosition - 10);
             yPosition += 20;
 
-            graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 100, 20, 80, 20), XStringFormats.TopRight);
+            graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 130, 20, 80, 20), XStringFormats.TopRight);
 
             foreach (var usuario in usuarios)
             {
@@ -113,7 +113,7 @@ namespace Vanessa.Controllers
                     DrawTitle(graphics, page, fontTitle, fontSubTitle, darkBlue);
 
                     // Nombre de la empresa en la esquina superior derecha
-                    graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 100, 20, 80, 20), XStringFormats.TopRight);
+                    graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 130, 20, 80, 20), XStringFormats.TopRight);
 
                     yPosition = 100; // Restablecer la posición vertical
                 }

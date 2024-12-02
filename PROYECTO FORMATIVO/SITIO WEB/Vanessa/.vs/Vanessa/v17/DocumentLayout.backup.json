@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\Vanessa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\views\\publicacion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:views\\publicacion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\views\\proyectos\\configuracion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:views\\proyectos\\configuracion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:models\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\views\\proyectos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:views\\proyectos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\wwwroot\\css\\gestion2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:wwwroot\\css\\gestion2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\wwwroot\\css\\gestion.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:wwwroot\\css\\gestion.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\views\\proyectos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:views\\proyectos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|c:\\users\\pc\\desktop\\vanessa\\views\\proyectos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC227F21-B870-44DB-87DE-EC22A41E2CF5}|Vanessa.csproj|solutionrelative:views\\proyectos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,80 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Publicacion\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Publicacion\\Create.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Publicacion\\Create.cshtml",
-              "RelativeToolTip": "Views\\Publicacion\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAACAAAAAAAAAA==",
+              "Title": "Configuracion.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Proyectos\\Configuracion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proyectos\\Configuracion.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Proyectos\\Configuracion.cshtml",
+              "RelativeToolTip": "Views\\Proyectos\\Configuracion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:09:06.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Publicacion.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Models\\Publicacion.cs",
-              "RelativeDocumentMoniker": "Models\\Publicacion.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Models\\Publicacion.cs",
-              "RelativeToolTip": "Models\\Publicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:07:59.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:07:14.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T03:50:31.571Z",
+              "WhenOpened": "2024-12-02T00:03:14.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PublicacionController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Controllers\\PublicacionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PublicacionController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Controllers\\PublicacionController.cs",
-              "RelativeToolTip": "Controllers\\PublicacionController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAmwHIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:42:10.393Z",
+              "Title": "Gestion2.css",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion2.css",
+              "RelativeDocumentMoniker": "wwwroot\\Css\\Gestion2.css",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion2.css",
+              "RelativeToolTip": "wwwroot\\Css\\Gestion2.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-01T22:52:37.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gestion.css",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion.css",
+              "RelativeDocumentMoniker": "wwwroot\\Css\\Gestion.css",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion.css",
+              "RelativeToolTip": "wwwroot\\Css\\Gestion.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-01T22:01:57.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Proyectos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proyectos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Proyectos\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Proyectos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T20:57:06.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBQAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:41:44.044Z",
-              "EditorCaption": ""
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Proyectos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proyectos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Proyectos\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Proyectos\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T20:06:32.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Proyectos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proyectos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Vanessa\\Views\\Proyectos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Proyectos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T20:54:55.274Z"
             }
           ]
         }

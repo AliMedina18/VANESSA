@@ -4,39 +4,46 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Create</title>
+    <title>Crear Proyecto</title>
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="~/Css/Gestion.css">
 </head>
 <body>
+
+
+    
+    <a class="retroceder" href="@Url.Action("Index", "Proyectos")"></a>
    
+    <div class="titulo"><p>GESTION</p></div>
 
-    <h1>Crear Proyecto</h1>
+    <!-- Botón para mostrar proyectos -->
+    <a class="toggle-btn" href="@Url.Action("Configuracion", "Proyectos")">PROYECTOS</a>
 
-    <form asp-action="Create" method="post" enctype="multipart/form-data">
-        <div class="form-group">
-            <label for="Nombre">Nombre</label>
-            <input type="text" class="form-control" id="Nombre" name="Nombre" required />
-        </div>
+    <div class="formulario" id="formContainer">
 
-        <div class="form-group">
-            <label for="EquiposInvestigacion">Equipos de Investigación</label>
-            <input type="text" class="form-control" id="EquiposInvestigacion" name="EquiposInvestigacion" required />
-        </div>
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
 
-        <div class="form-group">
-            <label for="FechaInicio">Fecha de Inicio</label>
-            <input type="date" class="form-control" id="FechaInicio" name="FechaInicio" required />
-        </div>
+            <label for="Nombre" class="label1">NOMBRE</label>
+            <input type="text" class="input1" id="Nombre" name="Nombre" required />
 
-        <div class="form-group">
-            <label for="pdfFile">Archivo PDF</label>
-            <input type="file" class="form-control" id="pdfFile" name="pdfFile" accept="application/pdf" />
-        </div>
 
-        <button type="submit" class="btn btn-primary">Guardar</button>
-    </form>
+            <label for="EquiposInvestigacion" class="label2">EQUIPO</label>
+            <input type="text" class="input2" id="EquiposInvestigacion" name="EquiposInvestigacion" required />
+
+            <label for="FechaInicio" class="label3">FECHA DE INICIO</label>
+            <input type="date" class="input3" id="FechaInicio" name="FechaInicio" required />
+
+            <label for="pdfFile" class="label4">ARCHIVO PDF</label>
+            <input type="file" class="input4" id="pdfFile" name="pdfFile" accept="application/pdf" />
+
+            <button type="submit" class="guardar">GUARDAR</button>
+
+        </form>
+
+    </div>
+
 </body>
 </html>

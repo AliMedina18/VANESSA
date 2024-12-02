@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 185vh;
+    letter-spacing: calc(.1vw + .3vh);
+    background-image: url(../Img/Proyectos/Fondo8.png);
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: flex-start; /* Mantiene la alineación en la parte superior */
+    padding-top: 40px; /* Da espacio para que la tabla no quede pegada al borde superior */
+    overflow: hidden; 
+}
+
+.projects-container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 8px;
+    padding: 220px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+        table {
+            margin: 0 auto;
+            border-collapse: separate; /* Activa separación entre filas y celdas */
+            border-spacing: 15px 15px; /* Espaciado horizontal y vertical */
+            width: 100%;
+            justify-content: center;
+        }
+
+        table th, table td {
+            border: 2px solid #481f0c; /* Borde general de celdas */
+            padding: 15px; /* Espaciado interno en las celdas */
+            text-align: center;
+            vertical-align: middle;
+            font-family: "Nikotinus", sans-serif;
+            letter-spacing: calc(.1vw + .3vh);
+            background-color: #fff; /* Fondo blanco para las celdas */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        th{
+            font-size: 20px;
+            letter-spacing: calc(.1.5vw + .3vh);
+        }
+
+
+        td{
+            font-size: 20px;
+            color: white;
+        }
+        /* Estilo del encabezado con fondo de madera y corte triangular */
+        table th {
+            position: relative;
+            background-image: url(../Img/Proyectos/Tabla1.png); /* Fondo de imagen de madera */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-weight: bold;
+            padding: 40px 15px;
+            clip-path: polygon(
+                50% 0%, 80% 5%, 90% 10%, 75% 25%, /* Corte triangular más grande */
+                95% 15%, 100% 50%, 95% 85%, 75% 95%, 50% 100%, 
+                25% 95%, 5% 85%, 0% 50%, 5% 15%, 20% 5%
+            );
+            -webkit-clip-path: polygon(
+                50% 0%, 80% 5%, 90% 10%, 75% 25%, /* Corte triangular más grande */
+                95% 15%, 100% 50%, 95% 85%, 75% 95%, 50% 100%, 
+                25% 95%, 5% 85%, 0% 50%, 5% 15%, 20% 5%
+            );
+            border-bottom: 4px solid #5c3e2f; /* Borde inferior con un color similar a la madera */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra sutil alrededor del encabezado */
+        }
+
+        /* Línea horizontal sobre el encabezado para simular una veta de madera */
+        table th::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px; /* Línea más fina */
+            background: rgba(255, 255, 255, 0.2); /* Línea más tenue */
+        }
+
+        /* Fondo de madera en las celdas (td) */
+        table td {
+            background-image: url(../Img/Proyectos/Tabla1.png); /* Fondo de madera */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        /* Estilo para las filas pares */
+        table tr:nth-child(even) td {
+            background-color: #f9f9f9;
+        }
+
+        /* Efecto hover en las celdas */
+        table tr:hover td {
+            background-color: #f1f1f1;
+        }
+
+        a {
+            text-decoration: none;
+            color: #067c39;
+        }
+
+        .hola {
+            color: white;
+        }
+
+        a.btn {
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 0 2px;
+        }
+
+        a.btn-warning {
+            background-color: #ffc107;
+            color: white;
+        }
+
+        a.btn-danger {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .retroceder {
+    position: absolute;
+    top: 82px; /* Distancia desde la parte superior */
+    left: 110px; /* Distancia desde la parte izquierda */
+    font-size: 32px;
+    font-family: "Nikotinus", sans-serif;
+    color: green;
+}
+
+.titulo {
+    position: absolute;
+    top: 150px; /* Distancia desde la parte superior */
+    right: 220px; /* Distancia desde el borde derecho */
+    text-align: right; /* Alinea el texto a la derecha */
+
+}

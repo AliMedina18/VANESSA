@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "buewzNMuyFmPgwfQIeiOkdhJedDcSDJV/KhyFGi4Ha8=",
+  "Hash": "IIeFt6NzXOtoiJ3Fnm17+uSBaa8ZCtQnR3P9pveQAn8=",
   "Source": "Vanessa",
   "BasePath": "_content/Vanessa",
   "Mode": "Default",
@@ -1949,12 +1949,12 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Tipografia\\fontinfo.txt"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-3zyzt774pd.gz",
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-jlvmc18xv5.gz",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Vanessa",
-      "RelativePath": "Css/Solicitud#[.{fingerprint=3zyzt774pd}]?.css.gz",
+      "RelativePath": "Css/Solicitud#[.{fingerprint=jlvmc18xv5}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1963,8 +1963,8 @@
       "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Solicitud.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3hl068xrtn",
-      "Integrity": "Sd01vJTzj2qkkkJUy/Y2cuRrbLZf/IUx/gln0vzOSgU=",
+      "Fingerprint": "40pdhd6nfq",
+      "Integrity": "1ORwYvdWjYh/XHTJH7qs5CFEXo94X5woNo257RXzBgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Solicitud.css"
@@ -2369,6 +2369,27 @@
       "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\9qpn1ihvwv-48bcoxm0vb.gz",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Css/Gestion#[.{fingerprint=48bcoxm0vb}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dj6fy3whpe",
+      "Integrity": "J6MIiTR/CIKw1+saBhWb+vE+ltTlkPlX2eq5AlBHP0w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion.css"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\a3ygkwa5zy-2z0ns9nrw6.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -2495,6 +2516,27 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\bu8nt5v2r7-vjfgl879fz.gz",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Css/Gestion2#[.{fingerprint=vjfgl879fz}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion2.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cijmf66i0g",
+      "Integrity": "vMyE02CsaLTKBYLHtCVKTevB3zF5qD+3BZr658QIZ74=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion2.css"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\bwvnfne84x-a41ggsuiu9.gz",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
@@ -2558,12 +2600,12 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-61kd9aaxpl.gz",
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-kz7wqztlm1.gz",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Vanessa",
-      "RelativePath": "Css/Restablecer#[.{fingerprint=61kd9aaxpl}]?.css.gz",
+      "RelativePath": "Css/Restablecer#[.{fingerprint=kz7wqztlm1}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2572,8 +2614,8 @@
       "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Restablecer.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fzxdmx85p0",
-      "Integrity": "S6e1nIg2H/0YUo0sGRmgnWJlPxyBk2QZonmLAC5x16I=",
+      "Fingerprint": "7eczp70toj",
+      "Integrity": "f54VNlw9xAg9LR7L+s9fwCuFe03Rih8rrDZsssD4k/E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Restablecer.css"
@@ -2957,6 +2999,27 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\g5asbqyro0-rdf3cbstpy.gz",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Js/Seleccionar#[.{fingerprint=rdf3cbstpy}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\Seleccionar.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y7kdw5gh72",
+      "Integrity": "njsV3omCVolBhTumAfHGlfDL4AkcfS5HnsYkMex8GTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\Seleccionar.js"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gpmfsh4cn2-tdbxkamptv.gz",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
@@ -2999,12 +3062,12 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\SVG\\marco-G.png.svg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-eknkwlufcp.gz",
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-hwza7w7z1w.gz",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Vanessa",
-      "RelativePath": "Css/proyectos#[.{fingerprint=eknkwlufcp}]?.css.gz",
+      "RelativePath": "Css/proyectos#[.{fingerprint=hwza7w7z1w}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3013,8 +3076,8 @@
       "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\proyectos.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pafgv0lzqi",
-      "Integrity": "j79IJ4ZmwTSRGjJ2d5h3gXcET3ITjnzQo3YVhzCnlNE=",
+      "Fingerprint": "qeq52tvpl5",
+      "Integrity": "DuXzvd7KGVrkQxe5syUjSfhjQzOpF5AczmSCdyyYf5I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\proyectos.css"
@@ -3041,12 +3104,12 @@
       "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-3885iemcak.gz",
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-pw36i6scau.gz",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Vanessa",
-      "RelativePath": "Js/proyectos3#[.{fingerprint=3885iemcak}]?.js.gz",
+      "RelativePath": "Js/proyectos3#[.{fingerprint=pw36i6scau}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3055,8 +3118,8 @@
       "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\proyectos3.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "trv1xtiymc",
-      "Integrity": "GUwd3PoOqVVDRyhTS270+ZP34iasKQI64Dk8JUnL+ak=",
+      "Fingerprint": "ipy3ssl5pw",
+      "Integrity": "du5mMN/dEvZ5RxRkxAwn4th8uC+abViu34jwWFKdfUk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\proyectos3.js"
@@ -4259,6 +4322,27 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\r9wijl3lio-lqttnezmdm.gz",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Css/Gestion3#[.{fingerprint=lqttnezmdm}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion3.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xxqhecu2to",
+      "Integrity": "W3+fWFCjnyu3K0v0+IYikGzqTVgOoDsDu1wGLEgKD/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion3.css"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\rh65p086id-c2jlpeoesf.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -4551,6 +4635,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\td5vq5lue8-dgthw9xyhu.gz",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Css/Gestion4#[.{fingerprint=dgthw9xyhu}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion4.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "r4phdzl1ae",
+      "Integrity": "e8JqREAOXZQq8jhzvtaDoT2Z67y+VSpWUssMyy6mEBQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion4.css"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\tg53r17ghy-dxx9fxp4il.gz",
@@ -5372,6 +5477,90 @@
       "OriginalItemSpec": "wwwroot\\Css\\CorreoEnvio.css"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion.css",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Css/Gestion#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "48bcoxm0vb",
+      "Integrity": "LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\Gestion.css"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion2.css",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Css/Gestion2#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjfgl879fz",
+      "Integrity": "u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\Gestion2.css"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion3.css",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Css/Gestion3#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lqttnezmdm",
+      "Integrity": "zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\Gestion3.css"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion4.css",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Css/Gestion4#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dgthw9xyhu",
+      "Integrity": "XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\Gestion4.css"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Principal.css",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
@@ -5407,8 +5596,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eknkwlufcp",
-      "Integrity": "shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho=",
+      "Fingerprint": "hwza7w7z1w",
+      "Integrity": "vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Css\\proyectos.css"
@@ -5428,8 +5617,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "61kd9aaxpl",
-      "Integrity": "qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE=",
+      "Fingerprint": "kz7wqztlm1",
+      "Integrity": "cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Css\\Restablecer.css"
@@ -5470,8 +5659,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3zyzt774pd",
-      "Integrity": "MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ=",
+      "Fingerprint": "jlvmc18xv5",
+      "Integrity": "icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Css\\Solicitud.css"
@@ -5666,12 +5855,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\flutter.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\1.png",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
       "BasePath": "_content/Vanessa",
-      "RelativePath": "images/flutter#[.{fingerprint}]?.png",
+      "RelativePath": "images/1#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5680,11 +5869,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fh4o75902x",
-      "Integrity": "Tah4dNM3SlKsSd6gOa7IDKeI3ZBPqcEkVG6k4YH/PxI=",
+      "Fingerprint": "jqgsdegbn5",
+      "Integrity": "RddA+RiMbKv0xQzioY8rz3IP+xGrjIOkCPcQDDh5w1Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\flutter.png"
+      "OriginalItemSpec": "wwwroot\\images\\1.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\codigo.png",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "images/codigo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "npa89didzp",
+      "Integrity": "O0UWzFQHPrtJvfHn5rbNUnA+DUt4M62ontkKANlJrxc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\codigo.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\comparativo.png",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "images/comparativo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r52zuv7kvh",
+      "Integrity": "UeACSa4iH3SU5amXqMAeo+GvYye7966kepDd6k1lzHE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comparativo.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\nieve.png",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "images/nieve#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9w0m553m7e",
+      "Integrity": "CbdKinUYpFcIiMKIfhwI3eT6UG8Knb60E2P2tdqNipc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nieve.png"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\abejitaMichael.png",
@@ -9824,6 +10076,27 @@
       "OriginalItemSpec": "wwwroot\\Img\\Proyectos\\fondo3.png"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\Fondo8.png",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Img/Proyectos/Fondo8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t67dhnzpva",
+      "Integrity": "pULcRtNa8PQchFDXOUNZV555oEFXzrhBum6h12a87UM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Proyectos\\Fondo8.png"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\fondoA.png",
       "SourceId": "Vanessa",
       "SourceType": "Discovered",
@@ -10011,6 +10284,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\Proyectos\\fondoF7.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoGestion2.png",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Img/Proyectos/FondoGestion2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8dwy13ocsu",
+      "Integrity": "pBq15H326bvWkiygZ5IBuJZWQkwi4elyL8C6TEfyqGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Proyectos\\FondoGestion2.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoGestion3.png",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Img/Proyectos/FondoGestion3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bwu4yo3eca",
+      "Integrity": "a+eSHSBD+rAv4IrBxIraq4FhTVxcUZNUyzGNEnu0tm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Proyectos\\FondoGestion3.png"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\gestion.jpg",
@@ -18343,8 +18658,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3885iemcak",
-      "Integrity": "HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo=",
+      "Fingerprint": "pw36i6scau",
+      "Integrity": "t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Js\\proyectos3.js"
@@ -18369,6 +18684,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Js\\quienes.js"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\Seleccionar.js",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "Js/Seleccionar#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rdf3cbstpy",
+      "Integrity": "Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Js\\Seleccionar.js"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\semilleros1.js",
@@ -20259,6 +20595,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Reporte_Usuarios (12).pdf"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (2).pdf",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "uploads/Semilleros (2)#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ly27u7g4xx",
+      "Integrity": "Q5vQcm1HfVjA1tQH3N07ENnwpNAdub22EoKXX4dkyNk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Semilleros (2).pdf"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (3).pdf",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "uploads/Semilleros (3)#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3amdrw2q2b",
+      "Integrity": "9TJvT0vIHk/LnAEPAD+JSNCKzFA0m612LNyf5h1Phrw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Semilleros (3).pdf"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (4).pdf",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "uploads/Semilleros (4)#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjctpbe1yr",
+      "Integrity": "yMkZNBeXeql1eC2QEVZgCQcIuWDP7hH6WhRAyIUeUpw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Semilleros (4).pdf"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (5).pdf",
+      "SourceId": "Vanessa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\",
+      "BasePath": "_content/Vanessa",
+      "RelativePath": "uploads/Semilleros (5)#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vwfw3o8fna",
+      "Integrity": "cWSf6v9PyDD5TS3poRRvvebRyeI+QdvV4WSZr27cO4Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Semilleros (5).pdf"
     }
   ],
   "Endpoints": [
@@ -20941,6 +21361,1198 @@
       ]
     },
     {
+      "Route": "Css/Gestion.48bcoxm0vb.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\9qpn1ihvwv-48bcoxm0vb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000651465798"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1534"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6MIiTR/CIKw1+saBhWb+vE+ltTlkPlX2eq5AlBHP0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 22:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48bcoxm0vb"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion.48bcoxm0vb.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 22:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48bcoxm0vb"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion.48bcoxm0vb.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\9qpn1ihvwv-48bcoxm0vb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6MIiTR/CIKw1+saBhWb+vE+ltTlkPlX2eq5AlBHP0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 22:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48bcoxm0vb"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J6MIiTR/CIKw1+saBhWb+vE+ltTlkPlX2eq5AlBHP0w="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\9qpn1ihvwv-48bcoxm0vb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000651465798"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1534"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6MIiTR/CIKw1+saBhWb+vE+ltTlkPlX2eq5AlBHP0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 22:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 22:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LKD6HkOgTjaQ7IGUIYHyx6FvBajHZdEOLASyEnuSIhs="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\9qpn1ihvwv-48bcoxm0vb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6MIiTR/CIKw1+saBhWb+vE+ltTlkPlX2eq5AlBHP0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 22:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J6MIiTR/CIKw1+saBhWb+vE+ltTlkPlX2eq5AlBHP0w="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion2.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\bu8nt5v2r7-vjfgl879fz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000646830530"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vMyE02CsaLTKBYLHtCVKTevB3zF5qD+3BZr658QIZ74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 23:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion2.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion2.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 23:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion2.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\bu8nt5v2r7-vjfgl879fz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vMyE02CsaLTKBYLHtCVKTevB3zF5qD+3BZr658QIZ74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 23:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vMyE02CsaLTKBYLHtCVKTevB3zF5qD+3BZr658QIZ74="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion2.vjfgl879fz.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\bu8nt5v2r7-vjfgl879fz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000646830530"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vMyE02CsaLTKBYLHtCVKTevB3zF5qD+3BZr658QIZ74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 23:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjfgl879fz"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion2.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion2.vjfgl879fz.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion2.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 23:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjfgl879fz"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion2.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u7c/N/Ov5isrOoOuNI87MrDzv+zopoYTkq/Nd7XXf8M="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion2.vjfgl879fz.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\bu8nt5v2r7-vjfgl879fz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vMyE02CsaLTKBYLHtCVKTevB3zF5qD+3BZr658QIZ74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 23:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjfgl879fz"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion2.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vMyE02CsaLTKBYLHtCVKTevB3zF5qD+3BZr658QIZ74="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion3.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\r9wijl3lio-lqttnezmdm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000653594771"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1529"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W3+fWFCjnyu3K0v0+IYikGzqTVgOoDsDu1wGLEgKD/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 00:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion3.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion3.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 00:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion3.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\r9wijl3lio-lqttnezmdm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W3+fWFCjnyu3K0v0+IYikGzqTVgOoDsDu1wGLEgKD/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 00:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W3+fWFCjnyu3K0v0+IYikGzqTVgOoDsDu1wGLEgKD/E="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion3.lqttnezmdm.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\r9wijl3lio-lqttnezmdm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000653594771"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1529"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W3+fWFCjnyu3K0v0+IYikGzqTVgOoDsDu1wGLEgKD/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 00:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqttnezmdm"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion3.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion3.lqttnezmdm.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion3.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 00:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqttnezmdm"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion3.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zVr12VJjPiIHLDLBuSPxFv8ewNWcwkk7tYdNgqY13j0="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion3.lqttnezmdm.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\r9wijl3lio-lqttnezmdm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W3+fWFCjnyu3K0v0+IYikGzqTVgOoDsDu1wGLEgKD/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 00:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqttnezmdm"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion3.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W3+fWFCjnyu3K0v0+IYikGzqTVgOoDsDu1wGLEgKD/E="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion4.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\td5vq5lue8-dgthw9xyhu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000697836706"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1432"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e8JqREAOXZQq8jhzvtaDoT2Z67y+VSpWUssMyy6mEBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 03:44:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion4.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion4.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 03:44:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion4.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\td5vq5lue8-dgthw9xyhu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e8JqREAOXZQq8jhzvtaDoT2Z67y+VSpWUssMyy6mEBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 03:44:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e8JqREAOXZQq8jhzvtaDoT2Z67y+VSpWUssMyy6mEBQ="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion4.dgthw9xyhu.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\td5vq5lue8-dgthw9xyhu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000697836706"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1432"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e8JqREAOXZQq8jhzvtaDoT2Z67y+VSpWUssMyy6mEBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 03:44:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgthw9xyhu"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion4.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion4.dgthw9xyhu.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Gestion4.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 03:44:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgthw9xyhu"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion4.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSMvdxcdzJUEsNbefitb0HFl5zcuu0GQ3mqJCwcEVfw="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Gestion4.dgthw9xyhu.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\td5vq5lue8-dgthw9xyhu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e8JqREAOXZQq8jhzvtaDoT2Z67y+VSpWUssMyy6mEBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 03:44:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgthw9xyhu"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Gestion4.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e8JqREAOXZQq8jhzvtaDoT2Z67y+VSpWUssMyy6mEBQ="
+        }
+      ]
+    },
+    {
       "Route": "Css/Principal.47yuoxjrld.css",
       "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\fsqhus6jl0-47yuoxjrld.gz",
       "Selectors": [
@@ -21240,12 +22852,12 @@
     },
     {
       "Route": "Css/proyectos.css",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-eknkwlufcp.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-hwza7w7z1w.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000312597687"
+          "Quality": "0.000310945274"
         }
       ],
       "ResponseHeaders": [
@@ -21255,15 +22867,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3198"
+          "Value": "3215"
         },
         {
           "Name": "ETag",
-          "Value": "\"j79IJ4ZmwTSRGjJ2d5h3gXcET3ITjnzQo3YVhzCnlNE=\""
+          "Value": "\"DuXzvd7KGVrkQxe5syUjSfhjQzOpF5AczmSCdyyYf5I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 01:53:31 GMT"
+          "Value": "Sun, 01 Dec 2024 23:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21283,13 +22895,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho=\""
+          "Value": "W/\"vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho="
+          "Value": "sha256-vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo="
         }
       ]
     },
@@ -21304,7 +22916,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23512"
+          "Value": "23582"
         },
         {
           "Name": "Content-Type",
@@ -21312,11 +22924,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho=\""
+          "Value": "\"vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 01:53:31 GMT"
+          "Value": "Sun, 01 Dec 2024 23:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21326,13 +22938,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho="
+          "Value": "sha256-vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo="
         }
       ]
     },
     {
       "Route": "Css/proyectos.css.gz",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-eknkwlufcp.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-hwza7w7z1w.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21341,7 +22953,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3198"
+          "Value": "3215"
         },
         {
           "Name": "Content-Type",
@@ -21349,11 +22961,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j79IJ4ZmwTSRGjJ2d5h3gXcET3ITjnzQo3YVhzCnlNE=\""
+          "Value": "\"DuXzvd7KGVrkQxe5syUjSfhjQzOpF5AczmSCdyyYf5I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 01:53:31 GMT"
+          "Value": "Sun, 01 Dec 2024 23:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21371,18 +22983,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j79IJ4ZmwTSRGjJ2d5h3gXcET3ITjnzQo3YVhzCnlNE="
+          "Value": "sha256-DuXzvd7KGVrkQxe5syUjSfhjQzOpF5AczmSCdyyYf5I="
         }
       ]
     },
     {
-      "Route": "Css/proyectos.eknkwlufcp.css",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-eknkwlufcp.gz",
+      "Route": "Css/proyectos.hwza7w7z1w.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-hwza7w7z1w.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000312597687"
+          "Quality": "0.000310945274"
         }
       ],
       "ResponseHeaders": [
@@ -21392,15 +23004,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3198"
+          "Value": "3215"
         },
         {
           "Name": "ETag",
-          "Value": "\"j79IJ4ZmwTSRGjJ2d5h3gXcET3ITjnzQo3YVhzCnlNE=\""
+          "Value": "\"DuXzvd7KGVrkQxe5syUjSfhjQzOpF5AczmSCdyyYf5I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 01:53:31 GMT"
+          "Value": "Sun, 01 Dec 2024 23:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21420,13 +23032,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho=\""
+          "Value": "W/\"vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eknkwlufcp"
+          "Value": "hwza7w7z1w"
         },
         {
           "Name": "label",
@@ -21434,12 +23046,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho="
+          "Value": "sha256-vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo="
         }
       ]
     },
     {
-      "Route": "Css/proyectos.eknkwlufcp.css",
+      "Route": "Css/proyectos.hwza7w7z1w.css",
       "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\proyectos.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21449,7 +23061,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23512"
+          "Value": "23582"
         },
         {
           "Name": "Content-Type",
@@ -21457,11 +23069,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho=\""
+          "Value": "\"vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 01:53:31 GMT"
+          "Value": "Sun, 01 Dec 2024 23:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21471,7 +23083,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eknkwlufcp"
+          "Value": "hwza7w7z1w"
         },
         {
           "Name": "label",
@@ -21479,13 +23091,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-shdEQyj9oNWhBO+g8cf0oyOeSIm5mvIM0Uihdir57ho="
+          "Value": "sha256-vxST3/R2QcL/78jSo1VCEPw8kGsOR2nID6L5TZssbDo="
         }
       ]
     },
     {
-      "Route": "Css/proyectos.eknkwlufcp.css.gz",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-eknkwlufcp.gz",
+      "Route": "Css/proyectos.hwza7w7z1w.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\gx4btdqa30-hwza7w7z1w.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21494,7 +23106,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3198"
+          "Value": "3215"
         },
         {
           "Name": "Content-Type",
@@ -21502,11 +23114,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j79IJ4ZmwTSRGjJ2d5h3gXcET3ITjnzQo3YVhzCnlNE=\""
+          "Value": "\"DuXzvd7KGVrkQxe5syUjSfhjQzOpF5AczmSCdyyYf5I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 01:53:31 GMT"
+          "Value": "Sun, 01 Dec 2024 23:47:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21524,7 +23136,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eknkwlufcp"
+          "Value": "hwza7w7z1w"
         },
         {
           "Name": "label",
@@ -21532,18 +23144,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j79IJ4ZmwTSRGjJ2d5h3gXcET3ITjnzQo3YVhzCnlNE="
+          "Value": "sha256-DuXzvd7KGVrkQxe5syUjSfhjQzOpF5AczmSCdyyYf5I="
         }
       ]
     },
     {
-      "Route": "Css/Restablecer.61kd9aaxpl.css",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-61kd9aaxpl.gz",
+      "Route": "Css/Restablecer.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-kz7wqztlm1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000449842555"
+          "Quality": "0.000475285171"
         }
       ],
       "ResponseHeaders": [
@@ -21553,19 +23165,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2222"
+          "Value": "2103"
         },
         {
           "Name": "ETag",
-          "Value": "\"S6e1nIg2H/0YUo0sGRmgnWJlPxyBk2QZonmLAC5x16I=\""
+          "Value": "\"f54VNlw9xAg9LR7L+s9fwCuFe03Rih8rrDZsssD4k/E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 02:31:54 GMT"
+          "Value": "Thu, 28 Nov 2024 19:32:06 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -21581,26 +23193,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE=\""
+          "Value": "W/\"cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "61kd9aaxpl"
-        },
-        {
-          "Name": "label",
-          "Value": "Css/Restablecer.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE="
+          "Value": "sha256-cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58="
         }
       ]
     },
     {
-      "Route": "Css/Restablecer.61kd9aaxpl.css",
+      "Route": "Css/Restablecer.css",
       "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Restablecer.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21610,7 +23214,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7544"
+          "Value": "5949"
         },
         {
           "Name": "Content-Type",
@@ -21618,11 +23222,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE=\""
+          "Value": "\"cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 02:31:54 GMT"
+          "Value": "Thu, 28 Nov 2024 19:32:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Restablecer.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-kz7wqztlm1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f54VNlw9xAg9LR7L+s9fwCuFe03Rih8rrDZsssD4k/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 19:32:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f54VNlw9xAg9LR7L+s9fwCuFe03Rih8rrDZsssD4k/E="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Restablecer.kz7wqztlm1.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-kz7wqztlm1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000475285171"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2103"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f54VNlw9xAg9LR7L+s9fwCuFe03Rih8rrDZsssD4k/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 19:32:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kz7wqztlm1"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Restablecer.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Restablecer.kz7wqztlm1.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Restablecer.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 19:32:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21632,7 +23381,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "61kd9aaxpl"
+          "Value": "kz7wqztlm1"
         },
         {
           "Name": "label",
@@ -21640,13 +23389,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE="
+          "Value": "sha256-cMbfTgLo6KV0OFgM8qkXxKnWQ9bI4Ddge/VZa2ksf58="
         }
       ]
     },
     {
-      "Route": "Css/Restablecer.61kd9aaxpl.css.gz",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-61kd9aaxpl.gz",
+      "Route": "Css/Restablecer.kz7wqztlm1.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-kz7wqztlm1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21655,7 +23404,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2222"
+          "Value": "2103"
         },
         {
           "Name": "Content-Type",
@@ -21663,11 +23412,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S6e1nIg2H/0YUo0sGRmgnWJlPxyBk2QZonmLAC5x16I=\""
+          "Value": "\"f54VNlw9xAg9LR7L+s9fwCuFe03Rih8rrDZsssD4k/E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 02:31:54 GMT"
+          "Value": "Thu, 28 Nov 2024 19:32:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21685,7 +23434,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "61kd9aaxpl"
+          "Value": "kz7wqztlm1"
         },
         {
           "Name": "label",
@@ -21693,144 +23442,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-S6e1nIg2H/0YUo0sGRmgnWJlPxyBk2QZonmLAC5x16I="
-        }
-      ]
-    },
-    {
-      "Route": "Css/Restablecer.css",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-61kd9aaxpl.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000449842555"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2222"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S6e1nIg2H/0YUo0sGRmgnWJlPxyBk2QZonmLAC5x16I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 02:31:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE="
-        }
-      ]
-    },
-    {
-      "Route": "Css/Restablecer.css",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Restablecer.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7544"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 02:31:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qpdUgQl8eIMJMW/IGpBJswyy18JZvILcwqmN8+FQlKE="
-        }
-      ]
-    },
-    {
-      "Route": "Css/Restablecer.css.gz",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\c4nj3bwqea-61kd9aaxpl.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2222"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S6e1nIg2H/0YUo0sGRmgnWJlPxyBk2QZonmLAC5x16I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 02:31:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-S6e1nIg2H/0YUo0sGRmgnWJlPxyBk2QZonmLAC5x16I="
+          "Value": "sha256-f54VNlw9xAg9LR7L+s9fwCuFe03Rih8rrDZsssD4k/E="
         }
       ]
     },
@@ -22170,13 +23782,13 @@
       ]
     },
     {
-      "Route": "Css/Solicitud.3zyzt774pd.css",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-3zyzt774pd.gz",
+      "Route": "Css/Solicitud.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-jlvmc18xv5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000572409845"
+          "Quality": "0.000495294700"
         }
       ],
       "ResponseHeaders": [
@@ -22186,19 +23798,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1746"
+          "Value": "2018"
         },
         {
           "Name": "ETag",
-          "Value": "\"Sd01vJTzj2qkkkJUy/Y2cuRrbLZf/IUx/gln0vzOSgU=\""
+          "Value": "\"1ORwYvdWjYh/XHTJH7qs5CFEXo94X5woNo257RXzBgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:39:05 GMT"
+          "Value": "Thu, 28 Nov 2024 19:34:11 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -22214,26 +23826,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ=\""
+          "Value": "W/\"icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "3zyzt774pd"
-        },
-        {
-          "Name": "label",
-          "Value": "Css/Solicitud.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ="
+          "Value": "sha256-icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU="
         }
       ]
     },
     {
-      "Route": "Css/Solicitud.3zyzt774pd.css",
+      "Route": "Css/Solicitud.css",
       "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Solicitud.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22243,7 +23847,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4838"
+          "Value": "5819"
         },
         {
           "Name": "Content-Type",
@@ -22251,11 +23855,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ=\""
+          "Value": "\"icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:39:05 GMT"
+          "Value": "Thu, 28 Nov 2024 19:34:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Solicitud.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-jlvmc18xv5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ORwYvdWjYh/XHTJH7qs5CFEXo94X5woNo257RXzBgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 19:34:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ORwYvdWjYh/XHTJH7qs5CFEXo94X5woNo257RXzBgA="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Solicitud.jlvmc18xv5.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-jlvmc18xv5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000495294700"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2018"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ORwYvdWjYh/XHTJH7qs5CFEXo94X5woNo257RXzBgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 19:34:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jlvmc18xv5"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Solicitud.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Solicitud.jlvmc18xv5.css",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Solicitud.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 19:34:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22265,7 +24014,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3zyzt774pd"
+          "Value": "jlvmc18xv5"
         },
         {
           "Name": "label",
@@ -22273,13 +24022,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ="
+          "Value": "sha256-icYv96t//k3RuFM/Qz48C4+VinXWEKUqD3AQQiMGrBU="
         }
       ]
     },
     {
-      "Route": "Css/Solicitud.3zyzt774pd.css.gz",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-3zyzt774pd.gz",
+      "Route": "Css/Solicitud.jlvmc18xv5.css.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-jlvmc18xv5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22288,7 +24037,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1746"
+          "Value": "2018"
         },
         {
           "Name": "Content-Type",
@@ -22296,11 +24045,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sd01vJTzj2qkkkJUy/Y2cuRrbLZf/IUx/gln0vzOSgU=\""
+          "Value": "\"1ORwYvdWjYh/XHTJH7qs5CFEXo94X5woNo257RXzBgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:39:05 GMT"
+          "Value": "Thu, 28 Nov 2024 19:34:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22318,7 +24067,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3zyzt774pd"
+          "Value": "jlvmc18xv5"
         },
         {
           "Name": "label",
@@ -22326,144 +24075,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sd01vJTzj2qkkkJUy/Y2cuRrbLZf/IUx/gln0vzOSgU="
-        }
-      ]
-    },
-    {
-      "Route": "Css/Solicitud.css",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-3zyzt774pd.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000572409845"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1746"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Sd01vJTzj2qkkkJUy/Y2cuRrbLZf/IUx/gln0vzOSgU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:39:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ="
-        }
-      ]
-    },
-    {
-      "Route": "Css/Solicitud.css",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Css\\Solicitud.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4838"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:39:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MTtle/xqs0HecX2oyR0a6Oum2lK611rsq5PSIWSL3bQ="
-        }
-      ]
-    },
-    {
-      "Route": "Css/Solicitud.css.gz",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\57tlpu252v-3zyzt774pd.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1746"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Sd01vJTzj2qkkkJUy/Y2cuRrbLZf/IUx/gln0vzOSgU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:39:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Sd01vJTzj2qkkkJUy/Y2cuRrbLZf/IUx/gln0vzOSgU="
+          "Value": "sha256-1ORwYvdWjYh/XHTJH7qs5CFEXo94X5woNo257RXzBgA="
         }
       ]
     },
@@ -33718,8 +35330,8 @@
       ]
     },
     {
-      "Route": "images/flutter.fh4o75902x.png",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\flutter.png",
+      "Route": "images/1.jqgsdegbn5.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -33728,7 +35340,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33226"
+          "Value": "348365"
         },
         {
           "Name": "Content-Type",
@@ -33736,11 +35348,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Tah4dNM3SlKsSd6gOa7IDKeI3ZBPqcEkVG6k4YH/PxI=\""
+          "Value": "\"RddA+RiMbKv0xQzioY8rz3IP+xGrjIOkCPcQDDh5w1Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 03:48:29 GMT"
+          "Value": "Thu, 28 Nov 2024 17:29:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33750,21 +35362,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fh4o75902x"
+          "Value": "jqgsdegbn5"
         },
         {
           "Name": "label",
-          "Value": "images/flutter.png"
+          "Value": "images/1.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Tah4dNM3SlKsSd6gOa7IDKeI3ZBPqcEkVG6k4YH/PxI="
+          "Value": "sha256-RddA+RiMbKv0xQzioY8rz3IP+xGrjIOkCPcQDDh5w1Y="
         }
       ]
     },
     {
-      "Route": "images/flutter.png",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\flutter.png",
+      "Route": "images/1.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -33773,7 +35385,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33226"
+          "Value": "348365"
         },
         {
           "Name": "Content-Type",
@@ -33781,11 +35393,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Tah4dNM3SlKsSd6gOa7IDKeI3ZBPqcEkVG6k4YH/PxI=\""
+          "Value": "\"RddA+RiMbKv0xQzioY8rz3IP+xGrjIOkCPcQDDh5w1Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 03:48:29 GMT"
+          "Value": "Thu, 28 Nov 2024 17:29:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33795,7 +35407,253 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Tah4dNM3SlKsSd6gOa7IDKeI3ZBPqcEkVG6k4YH/PxI="
+          "Value": "sha256-RddA+RiMbKv0xQzioY8rz3IP+xGrjIOkCPcQDDh5w1Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/codigo.npa89didzp.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\codigo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O0UWzFQHPrtJvfHn5rbNUnA+DUt4M62ontkKANlJrxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "npa89didzp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/codigo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O0UWzFQHPrtJvfHn5rbNUnA+DUt4M62ontkKANlJrxc="
+        }
+      ]
+    },
+    {
+      "Route": "images/codigo.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\codigo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O0UWzFQHPrtJvfHn5rbNUnA+DUt4M62ontkKANlJrxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O0UWzFQHPrtJvfHn5rbNUnA+DUt4M62ontkKANlJrxc="
+        }
+      ]
+    },
+    {
+      "Route": "images/comparativo.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\comparativo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UeACSa4iH3SU5amXqMAeo+GvYye7966kepDd6k1lzHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 15:44:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UeACSa4iH3SU5amXqMAeo+GvYye7966kepDd6k1lzHE="
+        }
+      ]
+    },
+    {
+      "Route": "images/comparativo.r52zuv7kvh.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\comparativo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UeACSa4iH3SU5amXqMAeo+GvYye7966kepDd6k1lzHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 15:44:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r52zuv7kvh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comparativo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UeACSa4iH3SU5amXqMAeo+GvYye7966kepDd6k1lzHE="
+        }
+      ]
+    },
+    {
+      "Route": "images/nieve.9w0m553m7e.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\nieve.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "591180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbdKinUYpFcIiMKIfhwI3eT6UG8Knb60E2P2tdqNipc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:17:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9w0m553m7e"
+        },
+        {
+          "Name": "label",
+          "Value": "images/nieve.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbdKinUYpFcIiMKIfhwI3eT6UG8Knb60E2P2tdqNipc="
+        }
+      ]
+    },
+    {
+      "Route": "images/nieve.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\images\\nieve.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "591180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbdKinUYpFcIiMKIfhwI3eT6UG8Knb60E2P2tdqNipc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:17:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbdKinUYpFcIiMKIfhwI3eT6UG8Knb60E2P2tdqNipc="
         }
       ]
     },
@@ -49954,6 +51812,88 @@
       ]
     },
     {
+      "Route": "Img/Proyectos/Fondo8.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\Fondo8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5850437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pULcRtNa8PQchFDXOUNZV555oEFXzrhBum6h12a87UM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 02:51:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pULcRtNa8PQchFDXOUNZV555oEFXzrhBum6h12a87UM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Proyectos/Fondo8.t67dhnzpva.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\Fondo8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5850437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pULcRtNa8PQchFDXOUNZV555oEFXzrhBum6h12a87UM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 02:51:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t67dhnzpva"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Proyectos/Fondo8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pULcRtNa8PQchFDXOUNZV555oEFXzrhBum6h12a87UM="
+        }
+      ]
+    },
+    {
       "Route": "Img/Proyectos/fondoA.as82b2qoqe.png",
       "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\fondoA.png",
       "Selectors": [],
@@ -50688,6 +52628,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-+llCtuwLAxQcI0cjG7PuHrkD2lu/ZKMHy+yNC39/OlI="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Proyectos/FondoGestion2.8dwy13ocsu.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoGestion2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2132124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pBq15H326bvWkiygZ5IBuJZWQkwi4elyL8C6TEfyqGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 03:43:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8dwy13ocsu"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Proyectos/FondoGestion2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pBq15H326bvWkiygZ5IBuJZWQkwi4elyL8C6TEfyqGY="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Proyectos/FondoGestion2.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoGestion2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2132124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pBq15H326bvWkiygZ5IBuJZWQkwi4elyL8C6TEfyqGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 03:43:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pBq15H326bvWkiygZ5IBuJZWQkwi4elyL8C6TEfyqGY="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Proyectos/FondoGestion3.bwu4yo3eca.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoGestion3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7283748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a+eSHSBD+rAv4IrBxIraq4FhTVxcUZNUyzGNEnu0tm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 23:03:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwu4yo3eca"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Proyectos/FondoGestion3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a+eSHSBD+rAv4IrBxIraq4FhTVxcUZNUyzGNEnu0tm8="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Proyectos/FondoGestion3.png",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Img\\Proyectos\\FondoGestion3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7283748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a+eSHSBD+rAv4IrBxIraq4FhTVxcUZNUyzGNEnu0tm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 23:03:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a+eSHSBD+rAv4IrBxIraq4FhTVxcUZNUyzGNEnu0tm8="
         }
       ]
     },
@@ -90508,13 +92612,13 @@
       ]
     },
     {
-      "Route": "Js/proyectos3.3885iemcak.js",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-3885iemcak.gz",
+      "Route": "Js/proyectos3.js",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-pw36i6scau.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003676470588"
+          "Quality": "0.003690036900"
         }
       ],
       "ResponseHeaders": [
@@ -90524,19 +92628,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "271"
+          "Value": "270"
         },
         {
           "Name": "ETag",
-          "Value": "\"GUwd3PoOqVVDRyhTS270+ZP34iasKQI64Dk8JUnL+ak=\""
+          "Value": "\"du5mMN/dEvZ5RxRkxAwn4th8uC+abViu34jwWFKdfUk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Jun 2024 23:45:25 GMT"
+          "Value": "Fri, 29 Nov 2024 21:46:02 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -90552,26 +92656,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo=\""
+          "Value": "W/\"t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "3885iemcak"
-        },
-        {
-          "Name": "label",
-          "Value": "Js/proyectos3.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo="
+          "Value": "sha256-t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo="
         }
       ]
     },
     {
-      "Route": "Js/proyectos3.3885iemcak.js",
+      "Route": "Js/proyectos3.js",
       "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\proyectos3.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -90581,7 +92677,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1125"
+          "Value": "1092"
         },
         {
           "Name": "Content-Type",
@@ -90589,11 +92685,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo=\""
+          "Value": "\"t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Jun 2024 23:45:25 GMT"
+          "Value": "Fri, 29 Nov 2024 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo="
+        }
+      ]
+    },
+    {
+      "Route": "Js/proyectos3.js.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-pw36i6scau.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"du5mMN/dEvZ5RxRkxAwn4th8uC+abViu34jwWFKdfUk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-du5mMN/dEvZ5RxRkxAwn4th8uC+abViu34jwWFKdfUk="
+        }
+      ]
+    },
+    {
+      "Route": "Js/proyectos3.pw36i6scau.js",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-pw36i6scau.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003690036900"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"du5mMN/dEvZ5RxRkxAwn4th8uC+abViu34jwWFKdfUk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 21:46:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pw36i6scau"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/proyectos3.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo="
+        }
+      ]
+    },
+    {
+      "Route": "Js/proyectos3.pw36i6scau.js",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\proyectos3.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 21:46:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90603,7 +92844,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3885iemcak"
+          "Value": "pw36i6scau"
         },
         {
           "Name": "label",
@@ -90611,13 +92852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo="
+          "Value": "sha256-t7xLhFHHdjHQbcBMLH2ajgEgF30ZRCsRh1G2VOS0sCo="
         }
       ]
     },
     {
-      "Route": "Js/proyectos3.3885iemcak.js.gz",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-3885iemcak.gz",
+      "Route": "Js/proyectos3.pw36i6scau.js.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-pw36i6scau.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -90626,7 +92867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "271"
+          "Value": "270"
         },
         {
           "Name": "Content-Type",
@@ -90634,11 +92875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GUwd3PoOqVVDRyhTS270+ZP34iasKQI64Dk8JUnL+ak=\""
+          "Value": "\"du5mMN/dEvZ5RxRkxAwn4th8uC+abViu34jwWFKdfUk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Jun 2024 23:45:25 GMT"
+          "Value": "Fri, 29 Nov 2024 21:46:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90656,7 +92897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3885iemcak"
+          "Value": "pw36i6scau"
         },
         {
           "Name": "label",
@@ -90664,144 +92905,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GUwd3PoOqVVDRyhTS270+ZP34iasKQI64Dk8JUnL+ak="
-        }
-      ]
-    },
-    {
-      "Route": "Js/proyectos3.js",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-3885iemcak.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003676470588"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "271"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GUwd3PoOqVVDRyhTS270+ZP34iasKQI64Dk8JUnL+ak=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Jun 2024 23:45:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo="
-        }
-      ]
-    },
-    {
-      "Route": "Js/proyectos3.js",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\proyectos3.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1125"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Jun 2024 23:45:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HZ2Z+xcAe7G3uVeTdSgt0HnBsppjD+dj7JegqS9Amqo="
-        }
-      ]
-    },
-    {
-      "Route": "Js/proyectos3.js.gz",
-      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\hh5hgup34t-3885iemcak.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "271"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GUwd3PoOqVVDRyhTS270+ZP34iasKQI64Dk8JUnL+ak=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Jun 2024 23:45:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-GUwd3PoOqVVDRyhTS270+ZP34iasKQI64Dk8JUnL+ak="
+          "Value": "sha256-du5mMN/dEvZ5RxRkxAwn4th8uC+abViu34jwWFKdfUk="
         }
       ]
     },
@@ -91100,6 +93204,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-1wyp/jA8S7ST9XjzEcm+WEejONLQZ1pjemwbuV4rGUo="
+        }
+      ]
+    },
+    {
+      "Route": "Js/Seleccionar.js",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\g5asbqyro0-rdf3cbstpy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002652519894"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"njsV3omCVolBhTumAfHGlfDL4AkcfS5HnsYkMex8GTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:13:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM="
+        }
+      ]
+    },
+    {
+      "Route": "Js/Seleccionar.js",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\Seleccionar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:13:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM="
+        }
+      ]
+    },
+    {
+      "Route": "Js/Seleccionar.js.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\g5asbqyro0-rdf3cbstpy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"njsV3omCVolBhTumAfHGlfDL4AkcfS5HnsYkMex8GTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:13:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-njsV3omCVolBhTumAfHGlfDL4AkcfS5HnsYkMex8GTY="
+        }
+      ]
+    },
+    {
+      "Route": "Js/Seleccionar.rdf3cbstpy.js",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\g5asbqyro0-rdf3cbstpy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002652519894"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"njsV3omCVolBhTumAfHGlfDL4AkcfS5HnsYkMex8GTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:13:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rdf3cbstpy"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/Seleccionar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM="
+        }
+      ]
+    },
+    {
+      "Route": "Js/Seleccionar.rdf3cbstpy.js",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\Js\\Seleccionar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:13:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rdf3cbstpy"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/Seleccionar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yffgh7eTz+i/xkb30n+MMtle9LgKVlTv703osUGzaGM="
+        }
+      ]
+    },
+    {
+      "Route": "Js/Seleccionar.rdf3cbstpy.js.gz",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\g5asbqyro0-rdf3cbstpy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"njsV3omCVolBhTumAfHGlfDL4AkcfS5HnsYkMex8GTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 16:13:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rdf3cbstpy"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/Seleccionar.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-njsV3omCVolBhTumAfHGlfDL4AkcfS5HnsYkMex8GTY="
         }
       ]
     },
@@ -116077,6 +118479,334 @@
       ]
     },
     {
+      "Route": "uploads/Semilleros (2).ly27u7g4xx.pdf",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (2).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q5vQcm1HfVjA1tQH3N07ENnwpNAdub22EoKXX4dkyNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 23:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ly27u7g4xx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Semilleros (2).pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q5vQcm1HfVjA1tQH3N07ENnwpNAdub22EoKXX4dkyNk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Semilleros (2).pdf",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (2).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q5vQcm1HfVjA1tQH3N07ENnwpNAdub22EoKXX4dkyNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 23:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q5vQcm1HfVjA1tQH3N07ENnwpNAdub22EoKXX4dkyNk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Semilleros (3).3amdrw2q2b.pdf",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (3).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TJvT0vIHk/LnAEPAD+JSNCKzFA0m612LNyf5h1Phrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 20:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3amdrw2q2b"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Semilleros (3).pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TJvT0vIHk/LnAEPAD+JSNCKzFA0m612LNyf5h1Phrw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Semilleros (3).pdf",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (3).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TJvT0vIHk/LnAEPAD+JSNCKzFA0m612LNyf5h1Phrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 20:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TJvT0vIHk/LnAEPAD+JSNCKzFA0m612LNyf5h1Phrw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Semilleros (4).pdf",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (4).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yMkZNBeXeql1eC2QEVZgCQcIuWDP7hH6WhRAyIUeUpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 00:35:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yMkZNBeXeql1eC2QEVZgCQcIuWDP7hH6WhRAyIUeUpw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Semilleros (4).sjctpbe1yr.pdf",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (4).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yMkZNBeXeql1eC2QEVZgCQcIuWDP7hH6WhRAyIUeUpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 00:35:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjctpbe1yr"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Semilleros (4).pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yMkZNBeXeql1eC2QEVZgCQcIuWDP7hH6WhRAyIUeUpw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Semilleros (5).pdf",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (5).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41179"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cWSf6v9PyDD5TS3poRRvvebRyeI+QdvV4WSZr27cO4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 21:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWSf6v9PyDD5TS3poRRvvebRyeI+QdvV4WSZr27cO4Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Semilleros (5).vwfw3o8fna.pdf",
+      "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\wwwroot\\uploads\\Semilleros (5).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41179"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cWSf6v9PyDD5TS3poRRvvebRyeI+QdvV4WSZr27cO4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 21:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vwfw3o8fna"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Semilleros (5).pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWSf6v9PyDD5TS3poRRvvebRyeI+QdvV4WSZr27cO4Q="
+        }
+      ]
+    },
+    {
       "Route": "Vanessa.bundle.scp.css",
       "AssetFile": "C:\\Users\\pc\\Desktop\\Vanessa\\obj\\Debug\\net9.0\\compressed\\436f7b3fb3-xuk2swd1ap.gz",
       "Selectors": [
@@ -116101,7 +118831,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116154,7 +118884,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116191,7 +118921,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116238,7 +118968,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116291,7 +119021,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116328,7 +119058,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116375,7 +119105,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116436,7 +119166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116481,7 +119211,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116536,7 +119266,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116597,7 +119327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -116642,7 +119372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 23:25:25 GMT"
+          "Value": "Fri, 29 Nov 2024 22:32:08 GMT"
         },
         {
           "Name": "Cache-Control",
