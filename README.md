@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Sistema de Divulgación y Gestión de Semilleros y Proyectos Digitales de Investigación 📊</h1> <p align="center"><img width="245" src="https://github.com/davidbcaro/adso-project/blob/main/01-Trimestre%201/React-icon.png?raw=true">
+<h1 align="center">🌐 Sistema de Divulgación y Gestión de Semilleros y Proyectos Digitales de Investigación 📊</h1> <p align="center"><img width="245" src="LOGO/logo.png">
 </p>
 🚀<b>Descripción del Proyecto</b>
 
