@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Sistema de Divulgación y Gestión de Semilleros y Proyectos Digitales de Investigación 📊</h1> <p align="center"> <img width="245" src="LOGO/Logotipo.png" alt="Logo Proyecto"></p>
+<h1 align="center">🌐 Sistema de Divulgación y Gestión de Semilleros y Proyectos Digitales de Investigación 📊</h1> <p align="center">![Logo Proyecto](LOGO/Logotipo.png)</p>
 🚀<b>Descripción del Proyecto</b>
 
 Este proyecto tiene como objetivo desarrollar una plataforma integral que facilite la divulgación y gestión de proyectos de investigación en instituciones educativas de nivel medio, técnico, tecnológico y profesional en Colombia. El sistema busca no solo optimizar la organización de la información, sino también promover la visibilidad y el reconocimiento de los investigadores, abordando problemáticas reales de manera efectiva.
