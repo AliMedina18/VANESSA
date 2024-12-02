@@ -1,44 +1,53 @@
-﻿ @model Vanessa.Models.Proyecto
+﻿@model Vanessa.Models.Proyecto
 @{
     Layout = null;
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Edit</title>
+    <title>Editar Proyecto</title>
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="~/Css/Gestion2.css">
 </head>
 <body>
 
-    <h1>Editar Proyecto</h1>
+  
+   <a class="retroceder" href="@Url.Action("Create", "Proyectos")"></a>
+  
 
-    <form asp-action="Edit" method="post" enctype="multipart/form-data">
-        <div class="form-group">
-            <label for="Nombre">Nombre</label>
-            <input type="text" class="form-control" id="Nombre" name="Nombre" value="@Model.Nombre" required />
-        </div>
-        <div class="form-group">
-            <label for="EquiposInvestigacion">Equipos de Investigación</label>
-            <input type="text" class="form-control" id="EquiposInvestigacion" name="EquiposInvestigacion"
-                   value="@Model.EquiposInvestigacion" required />
-        </div>
-        <div class="form-group">
-            <label for="FechaInicio">Fecha de Inicio</label>
-            <input type="date" class="form-control" id="FechaInicio" name="FechaInicio"
-                   value="@Model.FechaInicio.ToString("yyyy-MM-dd")" required />
-        </div>
-        <div class="form-group">
-            <label for="pdfFile">Actualizar Documento PDF</label>
-            <input type="file" class="form-control" id="pdfFile" name="pdfFile" accept="application/pdf" />
-            @if (!string.IsNullOrEmpty(Model.DocumentoProyecto))
-            {
-                <p>Documento actual: <a asp-action="Download" asp-route-id="@Model.Id">Descargar PDF</a></p>
-            }
-        </div>
-        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
-        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
-    </form>
+    <div class="titulo">
+        <p>EDITAR</p>
+    </div>
+
+    <div class="formulario">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+
+            <!-- Campo oculto para el archivo PDF existente -->
+            <input type="hidden" name="DocumentoProyecto" value="@Model.DocumentoProyecto" />
+
+            <!-- Campo para el nombre del proyecto -->
+            <label for="Nombre" class="label1">NOMBRE</label>
+            <input type="text" class="input1" id="Nombre" name="Nombre" value="@Model.Nombre" required />
+
+            <!-- Campo para los equipos de investigación -->
+            <label for="EquiposInvestigacion" class="label2">EQUIPO</label>
+            <input type="text" class="input2" id="EquiposInvestigacion" name="EquiposInvestigacion" value="@Model.EquiposInvestigacion" required />
+
+            <!-- Campo para la fecha de inicio -->
+            <label for="FechaInicio" class="label3">FECHA DE INICIO</label>
+            <input type="date" class="input3" id="FechaInicio" name="FechaInicio" value="@Model.FechaInicio.ToString("yyyy-MM-dd")" required />
+
+            <!-- Campo para actualizar el archivo PDF -->
+            <label for="pdfFile" class="label4">ACTUALIZAR DOCUMENTO</label>
+            <input type="file" class="input4" id="pdfFile" name="pdfFile" accept="application/pdf" />
+
+            <!-- Botón para guardar los cambios -->
+            <button type="submit" class="guardar">GUARDAR</button>
+
+        </form>
+    </div>
+
 </body>
 </html>

@@ -34,9 +34,11 @@ C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.mi
 C:\Users\pc\Desktop\Vanessa\wwwroot\Css\semilleros7.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tabla-inf-izq-rota.png.svg
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Gestion.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Gestion2.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\tablas-acceso.png.svg
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery-validation\LICENSE.md
 C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Restablecer.css
@@ -53,6 +55,7 @@ C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Principal.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\pc\Desktop\Vanessa\wwwroot\Js\Seleccionar.js
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\marco-G.png.svg
 C:\Users\pc\Desktop\Vanessa\wwwroot\Css\proyectos.css
@@ -94,6 +97,7 @@ C:\Users\pc\Desktop\Vanessa\wwwroot\Tipografia\index.html
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\pc\Desktop\Vanessa\wwwroot\Js\verificarFortaleza.js
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Gestion3.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\Img\SVG\enredaderas-prinG.png.svg
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -102,6 +106,7 @@ C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.m
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Usuario.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\pc\Desktop\Vanessa\wwwroot\Css\Gestion4.css
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\pc\Desktop\Vanessa\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
@@ -124,6 +129,10 @@ C:\Users\pc\Desktop\Vanessa\wwwroot\Js\quienes.js
 wwwroot\Audio\Madera Rompiendose\WoodImpactShrtBig PE1057005.mp3
 wwwroot\Css\animacion.css
 wwwroot\Css\CorreoEnvio.css
+wwwroot\Css\Gestion.css
+wwwroot\Css\Gestion2.css
+wwwroot\Css\Gestion3.css
+wwwroot\Css\Gestion4.css
 wwwroot\Css\Principal.css
 wwwroot\Css\proyectos.css
 wwwroot\Css\Restablecer.css
@@ -138,7 +147,10 @@ wwwroot\Css\Usuario3.css
 wwwroot\Css\Usuario4.css
 wwwroot\Css\Usuario5.css
 wwwroot\favicon.ico
-wwwroot\images\flutter.png
+wwwroot\images\1.png
+wwwroot\images\codigo.png
+wwwroot\images\comparativo.png
+wwwroot\images\nieve.png
 wwwroot\Img\abejitaMichael.png
 wwwroot\Img\abejitaMichaelAlaDerecha.png
 wwwroot\Img\abejitaMichaelAlaIzquierda.png
@@ -336,6 +348,7 @@ wwwroot\Img\Proyectos\fila2.png
 wwwroot\Img\Proyectos\fila3.png
 wwwroot\Img\Proyectos\fondo.png
 wwwroot\Img\Proyectos\fondo3.png
+wwwroot\Img\Proyectos\Fondo8.png
 wwwroot\Img\Proyectos\fondoA.png
 wwwroot\Img\Proyectos\FondoB.png
 wwwroot\Img\Proyectos\fondoDocumento.png
@@ -345,6 +358,8 @@ wwwroot\Img\Proyectos\fondoF3.png
 wwwroot\Img\Proyectos\fondoF5.png
 wwwroot\Img\Proyectos\fondoF6.png
 wwwroot\Img\Proyectos\fondoF7.png
+wwwroot\Img\Proyectos\FondoGestion2.png
+wwwroot\Img\Proyectos\FondoGestion3.png
 wwwroot\Img\Proyectos\gestion.jpg
 wwwroot\Img\Proyectos\Gestion.png
 wwwroot\Img\Proyectos\gestion2.jpg
@@ -743,6 +758,7 @@ wwwroot\Js\Ojito.js
 wwwroot\Js\OndaAgua.js
 wwwroot\Js\proyectos3.js
 wwwroot\Js\quienes.js
+wwwroot\Js\Seleccionar.js
 wwwroot\Js\semilleros1.js
 wwwroot\Js\semilleros2.js
 wwwroot\Js\validarCorreo.js
@@ -833,3 +849,7 @@ wwwroot\Tipografia\thumbnail.png
 wwwroot\Tipografia\Tipografias.jfif
 wwwroot\Tipografia\Tropical Taste Demo.otf
 wwwroot\uploads\Reporte_Usuarios (12).pdf
+wwwroot\uploads\Semilleros (2).pdf
+wwwroot\uploads\Semilleros (3).pdf
+wwwroot\uploads\Semilleros (4).pdf
+wwwroot\uploads\Semilleros (5).pdf

@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.Text;
+using PdfSharp.Charting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+
 // Registrar AuthService para inyección de dependencias
 builder.Services.AddScoped<AuthService>();
 
@@ -24,6 +27,9 @@ builder.Services.AddScoped<EmailService>();
 
 // Registrar el servicio RecuperacionService
 builder.Services.AddScoped<RecuperacionService>();
+
+// Registrar el servicio para eliminación automática
+builder.Services.AddHostedService<EliminarUsuariosInactivosService>();
 
 
 
@@ -44,9 +50,6 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
-
-// Registrar el servicio para eliminación automática
-builder.Services.AddHostedService<EliminarUsuariosInactivosService>();
 
 var app = builder.Build();
 

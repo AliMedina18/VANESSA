@@ -4,33 +4,48 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Css/proyectos.css">
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <title>Detalles del Proyecto</title>
+    <style>
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            border: none;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Detalles del Proyecto</h1>
+    <section class="proyectoDocumento" id="documentos">
+        <div class="marco"></div>
 
-    <div>
-        <p><strong>Nombre:</strong> @Model.Nombre</p>
-        <p><strong>Equipos de Investigación:</strong> @Model.EquiposInvestigacion</p>
-        <p><strong>Fecha de Inicio:</strong> @Model.FechaInicio.ToShortDateString()</p>
-        <p>
-            <strong>Documento:</strong>
-            @if (!string.IsNullOrEmpty(Model.DocumentoProyecto))
-            {
-                <a asp-action="Download" asp-route-id="@Model.Id">Descargar PDF</a>
-            }
-            else
-            {
-                <span>No disponible</span>
-            }
-        </p>
-    </div>
+        @if (ViewBag.PdfPath != null && System.IO.File.Exists(ViewBag.PdfPath))
+        {
+            <div class="iframe-container">
+                <iframe src="@Url.Content("~/uploads/" + Model.DocumentoProyecto)" width="55%" height="1000px"></iframe>
+            </div>
+        }
+        else
+        {
+            <p>No hay PDF asociado a este proyecto.</p>
+        }
 
-    <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+        <a href="@Url.Action("Index", "Proyectos")" class="volver">VOLVER</a>
+    </section>
+
+    <script src="~/Js/proyectos3.js"></script>
 </body>
 </html>
