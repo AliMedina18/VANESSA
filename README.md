@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Sistema de Divulgación y Gestión de Semilleros y Proyectos Digitales de Investigación 📊</h1> <p align="center"> <img width="500" src="Logo.png">
+<h1 align="center">🌐 Sistema de Divulgación y Gestión de Semilleros y Proyectos Digitales de Investigación 📊</h1> <p align="center"> <img width="500" src=".png">
 </p>
 🚀<b>Descripción del Proyecto</b>
 
