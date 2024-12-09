@@ -1,0 +1,32 @@
+﻿@model Vanessa.Models.Publicacion;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Eliminar</title>
+</head>
+<body>
+    <h1>Confirmar Eliminación</h1>
+    <p>¿Estás seguro de que deseas eliminar esta publicación?</p>
+
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">@Model.NombrePublicacion</h5>
+            <p class="card-text">@Model.ContenidoPublicacion</p>
+        </div>
+    </div>
+
+    <form asp-action="Eliminar" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id_Publicacion" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</body>
+</html>
+
