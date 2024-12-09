@@ -1,0 +1,261 @@
+﻿@model IEnumerable<Vanessa.Models.Publicacion>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="csrf-token" content="@Html.AntiForgeryToken()" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/Css/styleMuroP14.css" />
+    <link rel="stylesheet" href="~/Css/tipografias.css" />
+    <style>
+        .modal-imagen {
+            max-width: 300px; /* Tamaño máximo de imagen */
+            max-height: 300px;
+            object-fit: cover; /* Mantiene la proporción */
+        }
+
+        .pdf-viewer {
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Modal de confirmación de eliminación */
+        #modalEliminar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none; /* Asegúrate de que está oculto inicialmente */
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+            #modalEliminar .contenido-modal {
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                text-align: center;
+                max-width: 500px;
+                width: 90%;
+            }
+
+            #modalEliminar .botones {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin-top: 20px;
+            }
+
+            #modalEliminar button {
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            #modalEliminar .btn-eliminar {
+                background-color: #dc3545;
+                color: white;
+            }
+
+            #modalEliminar .btn-cancelar {
+                background-color: #6c757d;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div></div>
+        <div onmouseover="casitas()" onmouseout="casitas2()" id="casita1" class="casita1">
+            <p>VOLVER</p>
+            <a href="@Url.Action("Index", "Home")" id="link1"></a>
+        </div>
+        <div></div>
+        <div id="abr" onclick="abrirGestion()">
+            <p>GESTION</p>
+            <a href="@Url.Action("Crear", "Publicacion")"></a>
+        </div>
+        <div class="titulo1">MURO</div>
+        <div class="titulo2">DE</div>
+        <div class="titulo3">PUBLICACIONES</div>
+        <div id="volver" class="hide" onclick="cerrarGestion()"></div>
+    </header>
+
+    <section id="mostrarPublicaciones">
+        <section class="fila fila1">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="fila fila2">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="fila fila3">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="fila fila4">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+        <section class="asdon">
+            <aside class="asd1"></aside>
+            <aside class="asd2"></aside>
+        </section>
+    </section>
+
+    <!-- Mostrar publicaciones -->
+    <section class="publicaciones">
+        @foreach (var item in Model)
+        {
+            <div class="publicacion" onclick="mostrarModal(@item.Id_Publicacion)">
+                <img src="@item.ImagenPublicacion" alt="Imagen de Publicación" onerror="this.style.display='none'" />
+                <a id="inf" href="#@item.Id_Publicacion">
+                    <p class="nombreP">@item.NombrePublicacion</p>
+                    <p class="autor">@item.FechaPublicacion.ToShortDateString()</p>
+                    <p class="horaP">@item.FechaPublicacion.ToShortTimeString()</p>
+                </a>
+            </div>
+        }
+    </section>
+
+    <!-- Modal de publicación -->
+    @foreach (var item in Model)
+    {
+        <section class="modalPublicacion hide" id="modal-@item.Id_Publicacion">
+            <div class="modalCerrar" id="cerrar">
+                <a href="#" onclick="ocultarModal(@item.Id_Publicacion)" class="btnAtras">VOLVER</a>
+            </div>
+            <div class="publicac">
+                <div class="barraL"></div>
+                <div class="barraT"></div>
+
+                <p class="nombrePubli">
+                    @item.NombrePublicacion
+                    <div class="actualizar">
+                        <a asp-action="Editar" asp-route-id="@item.Id_Publicacion" class="btn btn-warning btn-sm">Editar</a>
+                    </div>
+                    <div class="eliminar">
+                        <a href="javascript:void(0);" onclick="mostrarModalEliminar('@item.Id_Publicacion', '@item.NombrePublicacion')" class="btn btn-danger btn-sm">Eliminar</a>
+                    </div>
+                </p>
+
+                <div class="cacion">
+                    <div class="imagen">
+                        <img src="@item.ImagenPublicacion" class="modal-imagen" onerror="this.style.display='none'">
+                    </div>
+                    <div class="fecha">
+                        <p>FECHA:</p>
+                        <p>@item.FechaPublicacion.ToShortDateString()</p>
+                    </div>
+                    <div class="hora">
+                        <p>HORA:</p>
+                        <p>@item.FechaPublicacion.ToShortTimeString()</p>
+                    </div>
+                    <div class="lugar">
+                        <p>LUGAR:</p>
+                        <p>@item.LugarPublicacion</p>
+                    </div>
+                    <div class="tipoP">
+                        <p>TIPO:</p>
+                        <p>@item.TipoPublicacion</p>
+                    </div>
+                    <div class="contenido">
+                        <p>CONTENIDO:</p>
+                        <div>
+                            <p>@item.ContenidoPublicacion</p>
+                        </div>
+                    </div>
+                    <div class="actividades">
+                        <p>ACTIVIDADES:</p>
+                        <div>
+                            <p>@item.ActividadesPublicacion</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    }
+
+    <!-- Modal de confirmación de eliminación -->
+    <div id="modalEliminar">
+        <div class="contenido-modal">
+            <h2>Confirmar Eliminación</h2>
+            <p>¿Estás seguro de que deseas eliminar esta publicación?</p>
+            <div id="detallesEliminar"></div>
+            <div class="botones">
+                <button class="btn-eliminar" onclick="confirmarEliminacion()">Eliminar</button>
+                <button class="btn-cancelar" onclick="cerrarModalEliminar()">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script href="~/Js/muroPublicacion5.js"></script>
+    <script>
+        function mostrarModal(id) {
+            const modal = document.getElementById('modal-' + id);
+            if (modal) modal.classList.remove('hide');
+        }
+
+        function ocultarModal(id) {
+            const modal = document.getElementById('modal-' + id);
+            if (modal) modal.classList.add('hide');
+        }
+
+        function mostrarModalEliminar(id, nombre) {
+            const modalEliminar = document.getElementById('modalEliminar');
+            document.getElementById('detallesEliminar').innerHTML = `<p><strong>Nombre:</strong> ${nombre}</p>`;
+            modalEliminar.dataset.publicacionId = id;
+            modalEliminar.style.display = 'flex';
+        }
+
+        function cerrarModalEliminar() {
+            const modalEliminar = document.getElementById('modalEliminar');
+            if (modalEliminar) modalEliminar.style.display = 'none';
+        }
+
+        function confirmarEliminacion() {
+            const modalEliminar = document.getElementById('modalEliminar');
+            const publicacionId = modalEliminar.dataset.publicacionId;
+
+            console.log('Eliminando publicación con ID: ' + publicacionId); // Esto te ayudará a depurar
+
+            const form = document.createElement('form');
+            form.method = 'post';
+            form.action = '/Publicacion/ConfirmarEliminacion';
+
+            const input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = 'id';  // Asegúrate de que este nombre coincida con el parámetro en el controlador
+            input.value = publicacionId;
+            form.appendChild(input);
+
+            // Añadir el token de antifalsificación
+            const tokenInput = document.createElement('input');
+            tokenInput.type = 'hidden';
+            tokenInput.name = '__RequestVerificationToken';
+            tokenInput.value = document.querySelector('input[name="__RequestVerificationToken"]').value;  // Obtener el token desde el HTML
+            form.appendChild(tokenInput);
+
+            document.body.appendChild(form);
+            form.submit();
+        }
+    </script>
+    @Html.AntiForgeryToken()
+</body>
+</html>
+
