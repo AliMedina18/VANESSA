@@ -1,0 +1,709 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Vanessa.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vanessa.xuk2swd1ap.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Audio\\Madera Rompiendose\\WoodImpactShrtBig PE1057005.mp3",
+      "PackagePath": "staticwebassets\\Audio\\Madera Rompiendose\\WoodImpactShrtBig PE1057005.mp3"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\44BBEEEA-3376-425E-A750-38941AF910FA.png",
+      "PackagePath": "staticwebassets\\Tipografia\\44BBEEEA-3376-425E-A750-38941AF910FA.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\Betterflies20-Regular.ttf",
+      "PackagePath": "staticwebassets\\Tipografia\\Betterflies20-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\Font_Preview_ 2.png",
+      "PackagePath": "staticwebassets\\Tipografia\\Font_Preview_ 2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\Font_Preview_.png",
+      "PackagePath": "staticwebassets\\Tipografia\\Font_Preview_.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\Priesta-Regular.ttf",
+      "PackagePath": "staticwebassets\\Tipografia\\Priesta-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\Readme.txt",
+      "PackagePath": "staticwebassets\\Tipografia\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\Tipografias.jfif",
+      "PackagePath": "staticwebassets\\Tipografia\\Tipografias.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\Tropical Taste Demo.otf",
+      "PackagePath": "staticwebassets\\Tipografia\\Tropical Taste Demo.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\__MACOSX\\._fontinfo.txt",
+      "PackagePath": "staticwebassets\\Tipografia\\__MACOSX\\._fontinfo.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\__MACOSX\\._nikotinusDEMO.otf",
+      "PackagePath": "staticwebassets\\Tipografia\\__MACOSX\\._nikotinusDEMO.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\betterflies.zip",
+      "PackagePath": "staticwebassets\\Tipografia\\betterflies.zip"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\fontinfo.txt",
+      "PackagePath": "staticwebassets\\Tipografia\\fontinfo.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\index.html",
+      "PackagePath": "staticwebassets\\Tipografia\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\nikotinus-demo.zip",
+      "PackagePath": "staticwebassets\\Tipografia\\nikotinus-demo.zip"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\nikotinusDEMO.otf",
+      "PackagePath": "staticwebassets\\Tipografia\\nikotinusDEMO.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\nikotinusDEMO2.otf",
+      "PackagePath": "staticwebassets\\Tipografia\\nikotinusDEMO2.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\prev1.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\prev2.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\prev3.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\prev4.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\prev5.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\prev6.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\prev7.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\prev8.png",
+      "PackagePath": "staticwebassets\\Tipografia\\prev8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\Tipografia\\thumbnail.png",
+      "PackagePath": "staticwebassets\\Tipografia\\thumbnail.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\CorreoEnvio.css",
+      "PackagePath": "staticwebassets\\css\\CorreoEnvio.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\FormularioMuro.css",
+      "PackagePath": "staticwebassets\\css\\FormularioMuro.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Gestion.css",
+      "PackagePath": "staticwebassets\\css\\Gestion.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Gestion2.css",
+      "PackagePath": "staticwebassets\\css\\Gestion2.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Gestion3.css",
+      "PackagePath": "staticwebassets\\css\\Gestion3.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Gestion4.css",
+      "PackagePath": "staticwebassets\\css\\Gestion4.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\MiMuro.css",
+      "PackagePath": "staticwebassets\\css\\MiMuro.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\MuroPublicaciones.css",
+      "PackagePath": "staticwebassets\\css\\MuroPublicaciones.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Principal.css",
+      "PackagePath": "staticwebassets\\css\\Principal.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Restablecer.css",
+      "PackagePath": "staticwebassets\\css\\Restablecer.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Solicitud.css",
+      "PackagePath": "staticwebassets\\css\\Solicitud.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Usuario.css",
+      "PackagePath": "staticwebassets\\css\\Usuario.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Usuario2.css",
+      "PackagePath": "staticwebassets\\css\\Usuario2.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Usuario3.css",
+      "PackagePath": "staticwebassets\\css\\Usuario3.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Usuario4.css",
+      "PackagePath": "staticwebassets\\css\\Usuario4.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\Usuario5.css",
+      "PackagePath": "staticwebassets\\css\\Usuario5.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\animacion.css",
+      "PackagePath": "staticwebassets\\css\\animacion.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\proyectos.css",
+      "PackagePath": "staticwebassets\\css\\proyectos.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\semilleros7.css",
+      "PackagePath": "staticwebassets\\css\\semilleros7.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\styleInterfaz2.css",
+      "PackagePath": "staticwebassets\\css\\styleInterfaz2.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\styleMuroP14.css",
+      "PackagePath": "staticwebassets\\css\\styleMuroP14.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\css\\tipografias.css",
+      "PackagePath": "staticwebassets\\css\\tipografias.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\images\\Casas.png",
+      "PackagePath": "staticwebassets\\images\\Casas.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\images\\Trabajo.png",
+      "PackagePath": "staticwebassets\\images\\Trabajo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\images\\codigo.png",
+      "PackagePath": "staticwebassets\\images\\codigo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\images\\comparativo.png",
+      "PackagePath": "staticwebassets\\images\\comparativo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\images\\nieve.png",
+      "PackagePath": "staticwebassets\\images\\nieve.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\Js.js",
+      "PackagePath": "staticwebassets\\js\\Js.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\JsN.js",
+      "PackagePath": "staticwebassets\\js\\JsN.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\ModalPublicacion.js",
+      "PackagePath": "staticwebassets\\js\\ModalPublicacion.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\Navegador.js",
+      "PackagePath": "staticwebassets\\js\\Navegador.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\Ojito.js",
+      "PackagePath": "staticwebassets\\js\\Ojito.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\OndaAgua.js",
+      "PackagePath": "staticwebassets\\js\\OndaAgua.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\SeleccionPost.js",
+      "PackagePath": "staticwebassets\\js\\SeleccionPost.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\Seleccionar.js",
+      "PackagePath": "staticwebassets\\js\\Seleccionar.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\ValidacionesPublicacion.js",
+      "PackagePath": "staticwebassets\\js\\ValidacionesPublicacion.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\abeja.js",
+      "PackagePath": "staticwebassets\\js\\abeja.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\confAc1.js",
+      "PackagePath": "staticwebassets\\js\\confAc1.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\confForm.js",
+      "PackagePath": "staticwebassets\\js\\confForm.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\expresionesregulares.js",
+      "PackagePath": "staticwebassets\\js\\expresionesregulares.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\expresionesregulares1.js",
+      "PackagePath": "staticwebassets\\js\\expresionesregulares1.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\muroPublicacion1.js",
+      "PackagePath": "staticwebassets\\js\\muroPublicacion1.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\muroPublicacion2.js",
+      "PackagePath": "staticwebassets\\js\\muroPublicacion2.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\muroPublicacion5.js",
+      "PackagePath": "staticwebassets\\js\\muroPublicacion5.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\muroPublicacion7.js",
+      "PackagePath": "staticwebassets\\js\\muroPublicacion7.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\proyectos3.js",
+      "PackagePath": "staticwebassets\\js\\proyectos3.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\quienes.js",
+      "PackagePath": "staticwebassets\\js\\quienes.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\semilleros1.js",
+      "PackagePath": "staticwebassets\\js\\semilleros1.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\semilleros2.js",
+      "PackagePath": "staticwebassets\\js\\semilleros2.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\toggleMenuPost.js",
+      "PackagePath": "staticwebassets\\js\\toggleMenuPost.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\validarCorreo.js",
+      "PackagePath": "staticwebassets\\js\\validarCorreo.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\js\\verificarFortaleza.js",
+      "PackagePath": "staticwebassets\\js\\verificarFortaleza.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\1.png",
+      "PackagePath": "staticwebassets\\uploads\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\2\\Lista Chequeo Trimestre VII (1).docx",
+      "PackagePath": "staticwebassets\\uploads\\2\\Lista Chequeo Trimestre VII (1).docx"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\2\\Reporte_Usuarios (3).pdf",
+      "PackagePath": "staticwebassets\\uploads\\2\\Reporte_Usuarios (3).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\2\\Semilleros (2).pdf",
+      "PackagePath": "staticwebassets\\uploads\\2\\Semilleros (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\2\\desig.txt",
+      "PackagePath": "staticwebassets\\uploads\\2\\desig.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Alice2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Alice2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Captura de pantalla 2025-02-12 094643.png",
+      "PackagePath": "staticwebassets\\uploads\\Captura de pantalla 2025-02-12 094643.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Captura de pantalla 2025-02-12 094802.png",
+      "PackagePath": "staticwebassets\\uploads\\Captura de pantalla 2025-02-12 094802.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Leonardo_Anime_XL_Un_logo_impactante_con_un_diseo_poderoso_y_m_0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Leonardo_Anime_XL_Un_logo_impactante_con_un_diseo_poderoso_y_m_0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Lista Chequeo Trimestre VII (1) (1).docx",
+      "PackagePath": "staticwebassets\\uploads\\Lista Chequeo Trimestre VII (1) (1).docx"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Lista Chequeo Trimestre VII (1).docx",
+      "PackagePath": "staticwebassets\\uploads\\Lista Chequeo Trimestre VII (1).docx"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Mapa conceptual.png",
+      "PackagePath": "staticwebassets\\uploads\\Mapa conceptual.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Modelo Entidad Relación (1).png",
+      "PackagePath": "staticwebassets\\uploads\\Modelo Entidad Relación (1).png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Reporte_Usuarios (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Reporte_Usuarios (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Reporte_Usuarios (12).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Reporte_Usuarios (12).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Reporte_Usuarios.pdf",
+      "PackagePath": "staticwebassets\\uploads\\Reporte_Usuarios.pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Semilleros (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Semilleros (2).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Semilleros (3).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros (3).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Semilleros (4).pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros (4).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Semilleros.pdf",
+      "PackagePath": "staticwebassets\\uploads\\Semilleros.pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Sustentación.png",
+      "PackagePath": "staticwebassets\\uploads\\Sustentación.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\TALLER1_MEDINAOQUENDOALICIAVALERIA_FichaNo.2892266.pdf",
+      "PackagePath": "staticwebassets\\uploads\\TALLER1_MEDINAOQUENDOALICIAVALERIA_FichaNo.2892266.pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Tabla Canvas de Modelo de Negocio.png",
+      "PackagePath": "staticwebassets\\uploads\\Tabla Canvas de Modelo de Negocio.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\Taller2_IntroAdmServer.docx.pdf",
+      "PackagePath": "staticwebassets\\uploads\\Taller2_IntroAdmServer.docx.pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\flutter.png",
+      "PackagePath": "staticwebassets\\uploads\\flutter.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\nieve.png",
+      "PackagePath": "staticwebassets\\uploads\\nieve.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\wwwroot\\uploads\\programa.png",
+      "PackagePath": "staticwebassets\\uploads\\programa.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Vanessa.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Vanessa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Vanessa.props",
+      "PackagePath": "build\\Vanessa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Vanessa.props",
+      "PackagePath": "buildMultiTargeting\\Vanessa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Vanessa.props",
+      "PackagePath": "buildTransitive\\Vanessa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

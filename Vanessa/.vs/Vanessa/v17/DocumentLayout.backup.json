@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\Vanessa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|c:\\users\\pc\\source\\repos\\vanessa\\vanessa\\views\\publicacion\\mimuro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|solutionrelative:vanessa\\views\\publicacion\\mimuro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|c:\\users\\pc\\source\\repos\\vanessa\\vanessa\\views\\publicacion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|solutionrelative:vanessa\\views\\publicacion\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|c:\\users\\pc\\source\\repos\\vanessa\\vanessa\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|solutionrelative:vanessa\\controllers\\publicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|c:\\users\\pc\\source\\repos\\vanessa\\vanessa\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|solutionrelative:vanessa\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|c:\\users\\pc\\source\\repos\\vanessa\\vanessa\\views\\publicacion\\murogeneral.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99F8619-4FB0-4DC2-8982-111BF7EAD1CE}|Vanessa\\Vanessa.csproj|solutionrelative:vanessa\\views\\publicacion\\murogeneral.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MiMuro.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Views\\Publicacion\\MiMuro.cshtml",
+              "RelativeDocumentMoniker": "Vanessa\\Views\\Publicacion\\MiMuro.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Views\\Publicacion\\MiMuro.cshtml",
+              "RelativeToolTip": "Vanessa\\Views\\Publicacion\\MiMuro.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:06:35.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Vanessa\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Vanessa\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswEYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:05:44.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Views\\Publicacion\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Vanessa\\Views\\Publicacion\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Views\\Publicacion\\Editar.cshtml",
+              "RelativeToolTip": "Vanessa\\Views\\Publicacion\\Editar.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwFwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T04:37:41.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MuroGeneral.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Views\\Publicacion\\MuroGeneral.cshtml",
+              "RelativeDocumentMoniker": "Vanessa\\Views\\Publicacion\\MuroGeneral.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Views\\Publicacion\\MuroGeneral.cshtml",
+              "RelativeToolTip": "Vanessa\\Views\\Publicacion\\MuroGeneral.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T03:51:02.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PublicacionController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Controllers\\PublicacionController.cs",
+              "RelativeDocumentMoniker": "Vanessa\\Controllers\\PublicacionController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Vanessa\\Vanessa\\Controllers\\PublicacionController.cs",
+              "RelativeToolTip": "Vanessa\\Controllers\\PublicacionController.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAOEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T03:36:15.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

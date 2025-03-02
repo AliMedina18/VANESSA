@@ -1,0 +1,58 @@
+﻿@model Vanessa.Models.Proyecto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Crear Proyecto</title>
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="~/Css/Gestion.css">
+</head>
+<body>
+
+
+    
+    <a class="retroceder" href="@Url.Action("Index", "Proyectos")"></a>
+   
+    <div class="titulo"><p>GESTION</p></div>
+
+    <!-- Botón para mostrar proyectos -->
+    <a class="toggle-btn" href="@Url.Action("Configuracion", "Proyectos")">PROYECTOS</a>
+
+    <div class="formulario" id="formContainer">
+
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+
+            <label for="Nombre" class="label1">NOMBRE</label>
+            <input type="text" class="input1" id="Nombre" name="Nombre" required />
+
+
+            <label for="EquiposInvestigacion" class="label2">EQUIPO</label>
+            <input type="text" class="input2" id="EquiposInvestigacion" name="EquiposInvestigacion" required />
+
+            <label for="FechaInicio" class="label3">FECHA DE INICIO</label>
+            <input type="date" class="input3" id="FechaInicio" name="FechaInicio" required />
+
+            <label for="SemilleroId" class="label5">SEMILLERO</label>
+            <select id="SemilleroId" name="SemilleroId" class="input5" required>
+                <option value="">Seleccione un semillero</option>
+                @foreach (var semillero in ViewBag.Semilleros)
+                {
+                    <option value="@semillero.Value">@semillero.Text</option>
+                }
+            </select>
+
+            <label for="pdfFile" class="label4">ARCHIVO PDF</label>
+            <input type="file" class="input4" id="pdfFile" name="pdfFile" accept="application/pdf" />
+
+            <button type="submit" class="guardar">GUARDAR</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

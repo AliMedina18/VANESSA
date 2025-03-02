@@ -1,0 +1,507 @@
+ body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo para la barra de navegación centrada y moderna */
+        .Navegacion {
+            position: fixed;
+            top: 0;
+            width: 85%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: 65px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            overflow: hidden;
+            box-sizing: border-box;
+            flex-wrap: nowrap;
+        }
+
+        .Navegacion a {
+            color: #333;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 10px 10px;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s, color 0.3s;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .Navegacion a:hover {
+            background-color: #f0f0f0;
+            color: #007bff;
+            border-radius: 5px;
+        }
+
+        .Navegacion i {
+            margin-right: 12px;
+            font-size: 18px;
+        }
+
+        .Navegacion .logo {
+            font-weight: bold;
+            font-size: 18px;
+            color: #007bff;
+            margin-right: auto;
+        }
+
+        .Navegacion .links {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 768px) {
+            .Navegacion {
+                width: 100%; 
+                padding: 0 10px; 
+                height: auto;
+                margin-top: 0;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .Navegacion .logo {
+                margin-right: 0; 
+                margin-bottom: 10px; 
+            }
+
+            .Navegacion .links {
+                flex-direction: column; 
+                align-items: flex-start; 
+                width: 100%; 
+            }
+
+            .Navegacion a {
+                margin: 5px 0; 
+                font-size: 14px;
+            }
+
+            .Navegacion i {
+                margin-right: 10px; 
+            }
+        }
+
+        /* Estilo para el encabezado con imagen de fondo */
+        .Encabezado-img {
+            background-image: url('Img/fondo.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .Encabezado-img .header-content {
+            padding: 0 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .Encabezado-img h1 {
+            font-size: 35px;
+            margin-bottom: 30px;
+            animation: fadeInUp 1s forwards;
+        }
+
+        .Encabezado-img p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            animation: fadeInUp 1s forwards;
+        }
+
+        /* Estilo para la sección de Carreras de Estudio */
+        .Carreras {
+            padding: 100px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s, transform 1s;
+            margin-top: 0px; /* Espacio adicional antes de la siguiente sección */
+        }
+
+        .Carreras.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .Carreras h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #333;
+            animation: fadeInUp 1s forwards;
+        }
+
+        .Carreras p {
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+            color: #666;
+            animation: fadeInUp 1s 0.5s forwards;
+        }
+
+        @keyframes scaleIn {
+            from {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .Carreras .carrera-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .Carreras .carrera {
+            position: relative;
+            width: 220px;
+            height: 220px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: scaleIn 1s forwards;
+        }
+
+        .Carreras .carrera img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .Carreras .carrera:hover img {
+            transform: scale(1.1);
+        }
+
+        .Carreras .carrera .text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 768px) {
+            .Carreras .carrera {
+                width: 180px;
+                height: 180px;
+            }
+
+            .Carreras .carrera-container {
+                gap: 20px;
+            }
+        }
+
+        /* Estilo para la sección de Evaluaciones Diagnósticas */
+        .Evaluaciones {
+            padding: 100px 20px;
+            background-color: #e0f7fa;
+            text-align: center;
+            position: relative;
+            transform: translateY(50px);
+            transition: opacity 1s, transform 1s;
+        }
+
+        .Evaluaciones.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+
+        .Evaluaciones h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #00796b;
+        }
+
+        .Evaluaciones p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #004d40;
+        }
+
+        @keyframes scaleIn {
+            from {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .Evaluaciones .tarjeta-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .Evaluaciones .tarjeta {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .Evaluaciones .tarjeta:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .Evaluaciones .tarjeta img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .Evaluaciones .tarjeta .titulo {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #00796b;
+        }
+
+        .Evaluaciones .tarjeta .descripcion {
+            font-size: 1rem;
+            color: #004d40;
+        }
+
+        .Evaluaciones .tarjeta .btn-info {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #00796b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .Evaluaciones .tarjeta .btn-info:hover {
+            background-color: #004d40;
+        }
+
+        .Evaluaciones .tarjeta .info {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            border-top: 2px solid #00796b;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #004d40;
+            text-align: left;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 0.3s, transform 0.3s;
+            transform: translateY(20px);
+        }
+
+        .Evaluaciones .tarjeta.show-info .info {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .Evaluaciones .tarjeta .info img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .Evaluaciones .tarjeta-container {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .Evaluaciones .tarjeta {
+                width: 90%;
+                max-width: 400px;
+            }
+        }
+
+   /* Estilo para la sección de Biblioteca Virtual */
+.Biblioteca {
+    padding: 100px 20px;
+    background-color: #fff3e0;
+    text-align: center;
+    position: relative;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+    }
+
+.Biblioteca.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Biblioteca h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #d84315;
+}
+
+.Biblioteca p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #5d4037;
+}
+
+@keyframes scaleIn {
+    from {
+    transform: scale(0.9);
+    opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+.Biblioteca .mosaico-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center; /* Alinea los elementos del grid verticalmente */
+}
+
+.Biblioteca .mosaico-item {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Biblioteca .mosaico-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.Biblioteca .mosaico-item:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .Biblioteca .mosaico-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content {
+    max-width: 1200px; /* Ajusta según sea necesario */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer .contact-info {
+    margin-bottom: 10px;
+}
+
+.footer .contact-info a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .contact-info a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .social-icons i {
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover i {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px 10px;
+    }
+
+    .footer .contact-info {
+        font-size: 14px;
+    }
+
+    .footer .social-icons i {
+        font-size: 18px;
+    }
+}

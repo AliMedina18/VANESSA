@@ -1,0 +1,72 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Css/Principal.css">
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Vanessa</title>
+</head>
+<body>
+    <div class="rain">
+        <!-- Gotas de lluvia generadas dinámicamente con CSS -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="notification-icon">
+        <i class="fas fa-bell"></i>
+        <span class="notification-count">3</span>
+    </div>
+
+    <!-- Navegador con botones -->
+    <h1>VANESSA</h1>
+    <div class="Navegador" id="barraNavegador">
+
+        <!-- Si el usuario es Coordinador, muestra "Gestión de Usuarios" -->
+        @if (User.IsInRole("Coordinador"))
+        {
+            <a href="@Url.Action("Index", "Usuarios")" class="boton">Gestion de Usuarios</a>
+            <a href="@Url.Action("Index", "Semillero")" class="boton">Gestion de Semilleros</a>
+            <a href="@Url.Action("Index", "Proyectos")" class="boton">Gestion de Proyectos</a>
+            <a href="@Url.Action("MuroGeneral", "Publicacion")" class="boton">Gestion de Publicaciones</a>
+        }
+        else if (User.IsInRole("Cliente"))
+        {
+        <!-- Si el usuario es Cliente, solo muestra Proyectos y Perfil -->
+        <a href="@Url.Action("VerPerfil", "Perfil")" class="boton">Ver mi Perfil</a>
+            <a href="@Url.Action("Index", "Proyectos")" class="boton">Gestion de Proyectos</a>
+        }
+        else if (User.IsInRole("Docente") || User.IsInRole("Estudiante"))
+        {
+        <!-- Si el usuario es Docente o Estudiante, solo muestra Publicaciones, Semilleros, y Proyectos -->
+        <a href="@Url.Action("VerPerfil", "Perfil")" class="boton">Ver mi Perfil</a>
+        <a href="@Url.Action("Index", "Semillero")" class="boton">Gestion de Semilleros</a>
+        <a href="@Url.Action("Index", "Proyectos")" class="boton">Gestion de Proyectos</a>
+        <a href="@Url.Action("MuroGeneral", "Publicacion")" class="boton">Gestion de Publicaciones</a>
+        }
+
+    </div>
+
+    <div class="vertical-buttons-container">
+        <button class="boton" id="toggleBtn">VER</button>
+    </div>
+
+    <div class="cerrarSesion"><a href="@Url.Action("Logout", "Auth")">Cerrar Sesion</a></div>
+
+    <script src="~/Js/Navegador.js"></script>
+</body>
+</html>

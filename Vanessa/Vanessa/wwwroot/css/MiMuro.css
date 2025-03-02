@@ -1,0 +1,720 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    height: 180%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    min-height: 500px;
+    max-height: 550px;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Contenedor para el título */
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el título */
+.title-container h1 {
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.5;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .title-container h1 {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-container h1 {
+        font-size: 8vw;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-container h1 {
+        font-size: 10vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .title-container h1 {
+        font-size: 12vw;
+    }
+}
+
+/* Contenedor de los botones */
+.button-container {
+    position: absolute;
+    top: 40px;
+    left: 65px;
+    right: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo de los botones */
+button {
+    background-color: beige;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+/* Imágenes de los botones */
+.Volver-btn {
+    background-image: url('ruta-a-tu-imagen-izquierda.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Separación entre los botones */
+.Volver-btn {
+    margin-right: 20px;
+}
+
+/* Contenido principal */
+.content {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+    margin-top: 110px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ahora con 3 columnas */
+    column-gap: 80px;
+    row-gap: 60px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+/* Contenedor para el post y su Info */
+.post-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+/* Estilos del post */
+.post {
+    width: 100%;
+    height: 230px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url('https://via.placeholder.com/300x200');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Overlay del post */
+.post-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-sidebar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(223, 33, 49);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    z-index: 20;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilo para resaltar el post seleccionado */
+.post-sidebar.selected {
+    background-color: #08457a;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* Media queries para ajustar tamaños en pantallas más pequeñas */
+@media (max-width: 1024px) {
+    .post-sidebar {
+        top: 8px;
+        right: 8px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .post-sidebar {
+        top: 6px;
+        right: 6px;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post-sidebar {
+        top: 4px;
+        right: 4px;
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 1330px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 80px;
+        row-gap: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+        column-gap: 50px;
+        row-gap: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+        row-gap: 60px;
+    }
+}
+
+
+/* Contenedor para el buscador */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    width: 40%;
+    padding: 14px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Contenedor de filtros y botón */
+.filters-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Contenedor de filtros */
+.filters {
+    display: flex;
+    gap: 20px;
+}
+
+/* Filtros */
+.category-filter, .date-filter {
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+/* Botón de búsqueda */
+.search-btn {
+    padding: 18px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 160px;
+}
+
+.search-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .search-container {
+        padding: 10px 40px;
+    }
+
+    .search-bar {
+        width: 50%;
+    }
+
+    .filters-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+    }
+
+    .category-filter, .date-filter {
+        width: 100%;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-container {
+        padding: 10px 20px;
+    }
+
+    .search-bar {
+        width: 70%;
+    }
+
+    .filters-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .category-filter, .date-filter {
+        width: 100%;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-container {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 80px;
+    }
+
+    .search-bar {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px 14px;
+    }
+
+    .filters-container {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .category-filter, .date-filter {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .search-btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 16px;
+        margin-top: 10px;
+    }
+}
+
+/* Estilo General del Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Permite hacer scroll si el modal es más alto que la pantalla */
+}
+
+/* Contenido del Modal */
+.modal-content {
+    background: #fff;
+    padding: 30px;
+    width: 40%;
+    max-width: 700px;
+    max-height: 90vh; /* Máximo 90% de la altura de la pantalla */
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Permite desplazarse dentro del modal */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Botón de Cerrar */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 40px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close:hover {
+    color: #d9534f;
+}
+
+/* Cabecera con Nombre de la Publicación */
+.modal-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.modal-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Imagen */
+.modal-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.modal-image {
+    width: 100%;
+    max-width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Información */
+.modal-info {
+    margin-top: 10px;
+    padding: 8px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.modal-info label {
+    font-weight: bold;
+    display: block;
+    color: #333;
+}
+
+.modal-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #444;
+}
+
+/* Estilo para Tipo y Lugar */
+.modal-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.modal-row .modal-info {
+    width: 48%;
+}
+
+/* Estilo para Fecha y Hora */
+.modal-date-time {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.modal-date-time .modal-info {
+    width: 48%;
+}
+
+/* Archivos Adjuntos */
+.modal-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal-info ul li {
+    margin: 5px 0;
+}
+
+.modal-info ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.modal-info ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de Página del Modal */
+.modal-footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #666;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Pantallas grandes (más de 1200px) */
+@media (min-width: 1200px) {
+    .modal-content {
+        width: 35%;
+    }
+}
+
+/* Tablets y pantallas medianas (entre 768px y 1200px) */
+@media (max-width: 1200px) {
+    .modal-content {
+        width: 50%;
+    }
+}
+
+/* Móviles grandes (entre 480px y 768px) */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .modal-title {
+        font-size: 24px;
+    }
+
+    .modal-row, .modal-date-time {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .modal-row .modal-info,
+    .modal-date-time .modal-info {
+        width: 100%;
+    }
+}
+
+/* Móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+    .modal-content {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .modal-title {
+        font-size: 22px;
+    }
+
+    .close {
+        font-size: 30px;
+        top: 10px;
+        right: 15px;
+    }
+
+    .modal-image {
+        height: 100px;
+    }
+
+    .modal-footer {
+        font-size: 18px;
+    }
+}
+
+
+/* Estilos de la barra de herramientas flotante */
+.floating-toolbar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 30;
+}
+
+/* Botón flotante azul */
+.toolbar-btn {
+    width: 60px;
+    height: 60px;
+    background: #007bff; /* Azul sólido */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Efecto hover en el botón */
+.toolbar-btn:hover {
+    background: #0056b3; /* Azul más oscuro */
+    transform: scale(1.1);
+}
+
+/* Menú desplegable */
+.toolbar-menu {
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 180px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Estilos de los enlaces del menú */
+.toolbar-menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+/* Último enlace sin borde */
+.toolbar-menu a:last-child {
+    border-bottom: none;
+}
+
+/* Efecto hover en los enlaces */
+.toolbar-menu a:hover {
+    background: #f1f1f1;
+    padding-left: 15px;
+}
+
+/* Clases dinámicas para mostrar el menú */
+.toolbar-menu.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .floating-toolbar {
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .toolbar-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .toolbar-menu {
+        width: 160px;
+        bottom: 60px;
+    }
+
+    .toolbar-menu a {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .floating-toolbar {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .toolbar-btn {
+        width: 45px;
+        height: 45px;
+    }
+
+    .toolbar-menu {
+        width: 150px;
+        bottom: 55px;
+    }
+
+    .toolbar-menu a {
+        padding: 8px;
+    }
+}

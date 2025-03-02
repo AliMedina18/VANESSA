@@ -1,0 +1,83 @@
+﻿@model Vanessa.Models.Publicacion
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/Css/FormularioMuro.css">
+</head>
+<body>
+    <!-- Contenedor principal del formulario -->
+    <div class="create-post-form-container">
+        <form asp-action="@(Model?.Id_Publicacion == null ? "Crear" : "Editar")" method="post" enctype="multipart/form-data" onsubmit="return validarFormulario()">
+          
+
+            <!-- Botón para cerrar el formulario -->
+            <button type="button" class="btn-close" onclick="location.href='@Url.Action("MiMuro", "Publicacion")'">Cerrar</button>
+
+            <!-- Título de la publicación -->
+            <div class="form-group">
+                <label asp-for="NombrePublicacion">Título</label>
+                <input asp-for="NombrePublicacion" class="form-control" required minlength="5" maxlength="100">
+                <small id="titleError" class="error"></small>
+            </div>
+
+            <!-- Imagen de la publicación -->
+            <div class="form-group">
+                <label for="ImagenFile">Añadir Imagen</label>
+                <input type="file" name="ImagenFile" class="form-control" accept="image/*">
+                <small id="imageError" class="error"></small>
+            </div>
+
+            <!-- Contenido de la publicación -->
+            <div class="form-group">
+                <label asp-for="ContenidoPublicacion">Contenido</label>
+                <textarea asp-for="ContenidoPublicacion" class="form-control" required minlength="10"></textarea>
+                <small id="contentError" class="error"></small>
+            </div>
+
+            <!-- Tipo de publicación -->
+            <div class="form-group">
+                <label asp-for="TipoPublicacion">Tipo de Publicación</label>
+                <select asp-for="TipoPublicacion" class="form-control" required>
+                    <option value="articulo">Artículo</option>
+                    <option value="evento">Evento</option>
+                    <option value="noticia">Noticia</option>
+                </select>
+            </div>
+
+            <!-- Fecha y hora -->
+            <div class="form-group">
+                <label asp-for="FechaPublicacion">Fecha y Hora</label>
+                <input asp-for="FechaPublicacion" type="datetime-local" class="form-control" required>
+                <small id="dateError" class="error"></small>
+            </div>
+
+            <!-- Ubicación -->
+            <div class="form-group">
+                <label asp-for="LugarPublicacion">Lugar (opcional)</label>
+                <input asp-for="LugarPublicacion" class="form-control" maxlength="150">
+            </div>
+
+            <!-- Archivos Adjuntos -->
+            <div class="form-group">
+                <label for="ArchivosAdjuntos">Archivos Adjuntos (PDF, DOCX)</label>
+                <input type="file" name="ArchivosAdjuntos" class="form-control" multiple accept=".pdf,.doc,.docx">
+            </div>
+
+            <!-- Botón para publicar -->
+            <div class="form-group">
+                <button type="submit" class="btn-submit">@(Model?.Id_Publicacion == null ? "Publicar" : "Guardar Cambios")</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/Js/ValidacionesPublicacion.js"></script>
+</body>
+</html>
