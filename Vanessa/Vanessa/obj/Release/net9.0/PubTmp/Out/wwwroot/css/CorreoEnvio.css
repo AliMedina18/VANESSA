@@ -1,0 +1,280 @@
+/* Diseño global */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #49ebfa, #70adfe);
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    cursor: pointer;
+}
+
+/* Imagen de fondo */
+.Hojas {
+    position: absolute; /* Fija la posición dentro del body */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Img/Usuario/Hojas.png);
+    background-size: cover; /* Escala proporcionalmente para cubrir el fondo */
+    background-position: center; /* Centra la imagen */
+    z-index: -1; /* Coloca detrás de todo el contenido */
+}
+
+/* Animación de expansión de ondas */
+@keyframes wave {
+    0% {
+        transform: scale(0);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(2); /* Reducción en la escala de expansión */
+        opacity: 0;
+    }
+}
+
+/* Clase base para las ondas */
+.wave {
+    position: absolute;
+    border-radius: 50%; /* Asegura que las ondas sean circulares */
+    border: 3px solid rgba(255, 255, 255, 0.6); /* Borde blanco */
+    opacity: 0;
+    animation: wave infinite;
+    z-index: 0; /* Mantener detrás de todo */
+    pointer-events: none; /* Asegura que no interfieran con otros elementos */
+}
+
+/* Clase para las ondas internas dentro de cada onda principal */
+.inner-wave {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.4); /* Borde más tenue para las ondas internas */
+    animation: wave infinite;
+    z-index: 1; 
+    pointer-events: none;
+}
+
+/* Añadir un desvanecimiento y suavizado general */
+.wave, .inner-wave {
+    transition: opacity 2s ease-out; /* Transición más suave de opacidad */
+}
+
+/* Suavizar el desvanecimiento de las ondas */
+.wave {
+    opacity: 0.6;  /* Más suave la visibilidad */
+}
+
+/* Contenedor principal */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    z-index: 100; /* Coloca este contenedor sobre la imagen de fondo */
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Título principal */
+h1 {
+    font-size: 24px;
+    color: #4caf50;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+/* Texto adicional */
+p {
+    font-size: 16px;
+    color: #374151;
+    margin-bottom: 30px;
+}
+
+/* Icono principal */
+.icon {
+    font-size: 60px;
+    color: #64b5f6;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los botones */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #4caf50;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.2);
+    transition: all 0.3s ease;
+    border: none;
+    z-index: 12;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+.btn:hover {
+    background: #388e3c;
+    box-shadow: 0 6px 15px rgba(56, 142, 60, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos para formularios */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Estilos de etiquetas */
+label {
+    font-size: 14px;
+    color: #374151;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos de los campos de texto */
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Efecto de enfoque en los campos de texto */
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
+    outline: none;
+    border-color: none;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.2);
+}
+
+/* Feedback visual para errores o éxitos */
+.feedback {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.feedback.error {
+    color: #e53935;
+}
+
+.feedback.success {
+    color: #43a047;
+}
+
+/* Fondo de formulario con color */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo adicional para los inputs de contraseñas y el ojo */
+.password-container {
+    position: relative;
+}
+
+/* Estilo del ícono de ojo */
+.password-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px; /* Hacer el ojo más grande */
+    color: #64b5f6;
+    transition: color 0.3s ease;
+}
+
+.password-icon:hover {
+    color: #4caf50;
+}
+
+/* Estilo de la fortaleza de la contraseña */
+.password-strength {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Colores para la fortaleza de la contraseña */
+.password-strength.strong {
+    color: green;
+}
+
+.password-strength.medium {
+    color: orange;
+}
+
+.password-strength.weak {
+    color: red;
+}
+
+/* Estilo de ícono de candado */
+.password-icon-lock {
+    font-size: 30px;
+    color: #64b5f6;
+    transition: color 0.3s ease;
+}
+
+/* Estilo de íconos de candado cuando está activo */
+.password-icon-lock:hover {
+    color: #4caf50;
+}
+
+/* Estilo para el botón de regreso */
+.btn-back {
+    background-color: #4caf50; /* Color verde */
+    color: white;
+    padding: 10px 20px; /* Tamaño más pequeño */
+    font-size: 14px; /* Tamaño de texto más pequeño */
+    border-radius: 8px;
+    border: none;
+    position: absolute; /* Posicionamiento absoluto */
+    top: 30px; /* Un poco de espacio desde la parte superior */
+    left: 30px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #388e3c; /* Verde más oscuro cuando se pasa el mouse */
+    transform: translateY(-2px);
+}

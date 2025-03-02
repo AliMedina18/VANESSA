@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Vanessa.Models.Proyecto>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Css/proyectos.css">
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <title>Proyectos</title>
+</head>
+<body>
+    <section class="secProyectos" id="proyectos">
+        <section class="proyectos">
+            <!-- Proyecto de ejemplo -->
+            @foreach (var proyecto in Model)
+            {
+                <div class="proyecto">
+                    <div class="texto">
+                        <p>@proyecto.Nombre</p>
+                        <p>@proyecto.FechaInicio.ToString("dd/MM/yyyy")</p>
+                    </div>
+                    <a href="@Url.Action("Details", "Proyectos", new { id = proyecto.Id })"></a>
+                </div>
+            }
+        </section>
+
+        <a class="btnGestion" href="@Url.Action("Configuracion", "Proyectos")"></a>
+     
+        <div class="tituloProyectos"><p>PROYECTOS</p></div>
+        <div class="btnRetroceder"><a href="@Url.Action("Index", "Home")">← VOLVER</a></div>
+    </section>
+
+    @if (TempData["Success"] != null)
+    {
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            Swal.fire({
+                icon: 'success',
+                title: 'Éxito',
+                text: '@TempData["Success"]',
+                confirmButtonColor: '#3085d6',
+                confirmButtonText: 'Aceptar'
+            });
+        </script>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: '@TempData["Error"]',
+                confirmButtonColor: '#d33',
+                confirmButtonText: 'Aceptar'
+            });
+        </script>
+    }
+
+
+    <script src="~/Js/proyectos3.js"></script>
+</body>
+</html>

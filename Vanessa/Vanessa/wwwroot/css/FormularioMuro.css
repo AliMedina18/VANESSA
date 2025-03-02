@@ -1,0 +1,182 @@
+/* Estilo general del formulario */
+.create-post-form-container {
+    max-width: 600px; /* Reducir el ancho del formulario */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Necesario para el posicionamiento del botón */
+    width: 100%; /* Para adaptarse a todas las pantallas */
+}
+
+/* Formulario */
+.create-post-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+.create-post-form h2 {
+    font-size: 20px; /* Tamaño más pequeño */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo de los grupos de formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Etiquetas */
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Inputs, selects y textareas */
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Ajustes para textarea */
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Ajustes para input file */
+.form-group input[type="file"] {
+    padding: 0;
+}
+
+/* Estilo del botón de enviar */
+.btn-submit {
+    background-color: #1877f2; /* Color de Facebook */
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #0058d1;
+}
+
+/* Estilo del botón de cerrar */
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-close:hover {
+    background-color: #999;
+}
+
+/* Último grupo sin margen inferior extra */
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+/* 🔹 Responsividad 🔹 */
+@media (max-width: 768px) {
+    .create-post-form-container {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .create-post-form {
+        padding: 15px;
+    }
+
+    .create-post-form h2 {
+        font-size: 18px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .btn-close {
+        top: 5px;
+        right: 5px;
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .btn-submit {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .create-post-form-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .create-post-form {
+        padding: 10px;
+    }
+
+    .create-post-form h2 {
+        font-size: 16px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .btn-submit {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .btn-close {
+        top: 5px;
+        right: 5px;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+/* Mensajes de error */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}

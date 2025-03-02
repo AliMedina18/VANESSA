@@ -1,0 +1,86 @@
+﻿@model List<Vanessa.Models.Proyecto>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="~/Css/Gestion4.css">
+</head>
+<body>
+    <div class="projects-container">
+        <!-- Botón Volver -->
+        <div class="retroceder">
+            <a href="@Url.Action("Index", "Proyectos")">VOLVER</a>
+        </div>
+
+        <!-- Botón Crear Proyecto -->
+        <div class="crear-proyecto">
+            <a href="@Url.Action("Create", "Proyectos")" class="btn btn-success">Crear Proyecto</a>
+        </div>
+
+        <!-- Título CONFIGURACIÓN -->
+        <div class="titulo">
+            <h2>CONFIGURACION</h2>
+        </div>
+
+        <!-- Buscador -->
+        <form method="get" action="@Url.Action("Configuracion", "Proyectos")">
+            <div class="buscador">
+                <input type="text" name="search" placeholder="Buscar por nombre..." value="@ViewData["SearchQuery"]">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </div>
+        </form>
+
+        <!-- Verificación y visualización de proyectos -->
+        @if (Model == null || !Model.Any())
+        {
+            <p>No hay proyectos disponibles.</p>
+        }
+        else
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>NOMBRE</th>
+                        <th>EQUIPO</th>
+                        <th>FECHA DE INICIO</th>
+                        <th>ARCHIVO PDF</th>
+                        <th>ACCIONES CRUD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var proyecto in Model)
+                    {
+                        <tr>
+                            <td><a href="@Url.Action("Consulta", "Proyectos", new { id = proyecto.Id })">@proyecto.Nombre</a></td>
+                            <td>@proyecto.EquiposInvestigacion</td>
+                            <td>@proyecto.FechaInicio.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(proyecto.DocumentoProyecto))
+                                {
+                                    <a class="hola" href="@Url.Action("Download", "Proyectos", new { id = proyecto.Id })">Descargar PDF</a>
+                                }
+                            </td>
+                            <td>
+                                <a href="@Url.Action("Edit", "Proyectos", new { id = proyecto.Id })" class="btn btn-warning">Editar</a>
+                                @if (User.IsInRole("Coordinador"))
+                                {
+                                    <a href="@Url.Action("Delete", "Proyectos", new { id = proyecto.Id })" class="btn btn-danger">Eliminar</a>
+                                }
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</body>
+</html>

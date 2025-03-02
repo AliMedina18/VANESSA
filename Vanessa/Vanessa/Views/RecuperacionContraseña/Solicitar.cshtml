@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Recuperación</title>
+    <link rel="stylesheet" href="~/Css/Solicitud.css">
+    <link rel="stylesheet" href="~/Css/Restablecer.css">
+ 
+    
+</head>
+<body>
+    <div class="Ramas"></div>
+    <div class="Hojas"></div>
+    <button type="button" class="btn-back" onclick="window.history.back()">Regresar</button>
+
+    <div class="leaf-container">
+        <h1>Recuperar Contraseña</h1>
+        <p>Ingresa tu correo electrónico para solicitar un enlace de recuperación.</p>
+        <form asp-action="Solicitar" method="post" onsubmit="return validarCorreo()">
+            <div class="form-group">
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="ejemplo@correo.com" required />
+                <span id="email-icon" class="email-icon"></span>
+                <div id="email-feedback" class="feedback" aria-live="polite"></div>
+            </div>
+            <button type="submit"  class="Btn">Solicitar Recuperación</button>
+        </form>
+    </div>
+
+    <script src="~/Js/validarCorreo.js"></script>
+    <script src="~/Js/OndaAgua.js"></script>
+</body>
+</html>

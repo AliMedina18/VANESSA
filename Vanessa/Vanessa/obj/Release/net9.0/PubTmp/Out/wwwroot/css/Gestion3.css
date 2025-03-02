@@ -1,0 +1,220 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Img/Proyectos/FondoGestion3.png);
+    background-size: 100% 100%;
+    overflow: hidden; /* Desactiva el scroll */
+}
+
+/* Estilo del botón "PROYECTOS" */
+.toggle-btn {
+    position: relative;
+    top: 312px;
+    left: 256px;
+    letter-spacing: calc(.1vw + .3vh);
+    font-family: "Nikotinus", sans-serif;
+    background-color: transparent; /* Fondo transparente */
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    text-align: center;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno que aparece al hacer clic */
+    transition: 0.3s; /* Transición suave para efectos visuales */
+}
+
+    .toggle-btn:active {
+        color: #07652a;
+    }
+
+/* Estilo del título "GESTION" */
+.titulo {
+    font-size: calc(3vw + 3.2vh);
+    font-family: "Nikotinus", sans-serif;
+    margin-left: -5%;
+    position: absolute;
+    top: 34%;
+    left: 46%;
+    width: 22%;
+    height: 13%;
+    z-index: 1; /* Asegura que el título quede encima de otros elementos */
+}
+
+    .titulo > p {
+        text-align: center;
+        margin-top: .1%;
+        letter-spacing: calc(.1vw + .3vh);
+        font-family: "Nikotinus", sans-serif;
+        font-weight: 90;
+        background: linear-gradient(rgb(96, 221, 77), rgb(8, 63, 11));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+/* Estilo del botón "Guardar" */
+.guardar {
+    position: fixed;
+    bottom: 100px; 
+    right: 155px; 
+    font-family: "Nikotinus", sans-serif;
+    padding: 10px 12px;
+    background-color: transparent; /* Fondo transparente */
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    letter-spacing: calc(.1vw + .3vh);
+    text-align: center;
+    border: none; /* Elimina el borde */
+    outline: none; 
+    transition: 0.5s; 
+    z-index: 1; 
+}
+
+    .guardar:active {
+        color: #07652a;
+    }
+
+/* Estilo del label "Nombre" */
+.label1 {
+    position: absolute; /* Posiciona el label de forma absoluta */
+    top: 51%; 
+    left: 16%; /* 5% desde el lado izquierdo de la pantalla */
+    font-size: calc(1.5vw + 1.5vh); 
+    font-family: "Nikotinus", sans-serif;
+    color: white; /* Color del texto */
+    letter-spacing: calc(.1vw + .3vh); /* Espaciado entre letras */
+}
+
+/* Estilo del label "Equipos" */
+.label2 {
+    position: absolute; /* Posiciona el label de forma absoluta */
+    top: 52%; 
+    left: 36%; /* 5% desde el lado izquierdo de la pantalla */
+    font-size: calc(1.5vw + 1.5vh); /* Ajusta el tamaño de la fuente para hacerlo responsivo */
+    font-family: "Nikotinus", sans-serif;
+    color: white; /* Color del texto */
+    letter-spacing: calc(.1vw + .3vh); /* Espaciado entre letras */
+}
+
+/* Estilo del label "Fecha de Inicio" */
+.label3 {
+    position: absolute; /* Posiciona el label de forma absoluta */
+    top: 52.2%; 
+    left: 53%; /* 5% desde el lado izquierdo de la pantalla */
+    font-size: calc(1.5vw + 1.5vh); 
+    font-family: "Nikotinus", sans-serif;
+    color: white; /* Color del texto */
+    letter-spacing: calc(.1vw + .3vh); /* Espaciado entre letras */
+}
+
+/* Estilo del label "Archivo PDF" */
+.label4 {
+    position: absolute; /* Posiciona el label de forma absoluta */
+    top: 52.2%; 
+    left: 77%; 
+    font-size: calc(1.5vw + 1.5vh); /* Ajusta el tamaño de la fuente para hacerlo responsivo */
+    font-family: "Nikotinus", sans-serif;
+    color: white; /* Color del texto */
+    letter-spacing: calc(.1vw + .3vh); /* Espaciado entre letras */
+}
+
+.input1 {
+    position: absolute; /* Posiciona el input de forma absoluta */
+    top: 58%; 
+    left: 11.2%; /* 5% desde el lado izquierdo de la pantalla */
+    font-size: 40px; /* Ajusta el tamaño del texto dentro del input */
+    padding: 11px; /* Aumenta el espacio dentro del input */
+    font-family: "Nikotinus", sans-serif;
+    color: white; /* Color del texto */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 237px; /* Ancho del input, puedes ajustarlo */
+    transition: border-color 0.3s ease-in-out; /* Efecto de transición en el borde */
+    /* Centrar el texto horizontal y verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 40px; /* Centra el texto verticalmente */
+  
+    text-transform: uppercase; /* Hace que todo el texto ingresado sea en mayúsculas */
+}
+
+/* Opcional: Efecto cuando el input está en foco (cuando se hace clic en el input) */
+input:focus {
+    border-color: #4CAF50; /* Cambia el color del borde cuando el input está activo */
+    outline: none; /* Elimina el contorno predeterminado del navegador */
+}
+
+.input2 {
+    position: absolute; /* Posiciona el input de forma absoluta */
+    top: 58%; 
+    left: 30.5%; /* 5% desde el lado izquierdo de la pantalla */
+    font-size: 40px; /* Ajusta el tamaño del texto dentro del input */
+    padding: 12px; /* Aumenta el espacio dentro del input */
+    font-family: "Nikotinus", sans-serif;
+    color: white; /* Color del texto */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 260px; /* Ancho del input, puedes ajustarlo */
+    transition: border-color 0.3s ease-in-out; /* Efecto de transición en el borde */
+    /* Centrar el texto horizontal y verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 40px; /* Centra el texto verticalmente */
+    /* Convertir el texto a mayúsculas */
+    text-transform: uppercase; /* Hace que todo el texto ingresado sea en mayúsculas */
+}
+
+.input3 {
+    position: absolute; /* Posiciona el input de forma absoluta */
+    top: 58%;
+    left: 52%; /* 5% desde el lado izquierdo de la pantalla */
+    font-size: 40px; /* Ajusta el tamaño del texto dentro del input */
+    padding: 15px; /* Aumenta el espacio dentro del input */
+    font-family: "Nikotinus", sans-serif;
+    color: white; /* Color del texto */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 244px; /* Ancho del input, puedes ajustarlo */
+    transition: border-color 0.3s ease-in-out; /* Efecto de transición en el borde */
+    /* Centrar el texto horizontal y verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 40px; /* Centra el texto verticalmente */
+    /* Convertir el texto a mayúsculas */
+    text-transform: uppercase; /* Hace que todo el texto ingresado sea en mayúsculas */
+}
+
+
+.input4 {
+    position: absolute; /* Posiciona el input de forma absoluta */
+    top: 63%; /* Aproximadamente a la mitad de la pantalla (puedes ajustar el valor) */
+    left: 73.5%; /* 5% desde el lado izquierdo de la pantalla */
+    font-size: 28px; /* Ajusta el tamaño del texto dentro del input */
+    padding: 15px; /* Aumenta el espacio dentro del input */
+    font-family: "Nikotinus", sans-serif;
+    color: white; /* Color del texto */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 244px; /* Ancho del input, puedes ajustarlo */
+    transition: border-color 0.3s ease-in-out; /* Efecto de transición en el borde */
+    /* Centrar el texto horizontal y verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 40px; /* Centra el texto verticalmente */
+    /* Convertir el texto a mayúsculas */
+    text-transform: uppercase; /* Hace que todo el texto ingresado sea en mayúsculas */
+}
+
+.retroceder {
+    width: 11.5%;
+    height: 11.5%;
+    position: absolute;
+    right: 18%;
+    top: 18%;
+    padding: 10px 20px;
+    cursor: pointer;
+}

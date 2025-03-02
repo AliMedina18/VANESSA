@@ -1,0 +1,102 @@
+﻿@model Vanessa.Models.Semillero
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Css/tipografias.css">
+    <link rel="stylesheet" href="~/Css/semilleros7.css">
+    <title>Editar Semillero</title>
+</head>
+<body>
+    <!-- Sección del muro y ventana para mantener el diseño -->
+    <section class="muro">
+        <div class="ventanas vent1"></div>
+        <div class="grid">
+            <div class="semillero">
+                <a href="#">
+                    <p>1</p>
+                    <div class="img">
+                        <img src="Img/semilleros/Pr/gato.png" alt="">
+                        <div class="pied"></div>
+                    </div>
+                    <h3>GATITOS</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Barra lateral con opciones de gestión -->
+    <aside>
+        <div class="casita" id="casaVolver"><a href="#"></a></div>
+        <div class="gestion" id="conf"><a href="#" onclick="abrirGestion()"></a></div>
+        <div class="papel" id="papel"><a href="#"></a></div>
+    </aside>
+
+    <!-- Formulario de edición de semillero -->
+    <section class="modalSemillero" id="modalC">
+        <!-- Enlace para volver a la vista Index -->
+        <div class="modalCerrar" id="cerrarC">
+            <a href="@Url.Action("Index", "Semillero")">
+            </a>
+        </div>
+
+        <form method="post" enctype="multipart/form-data">
+            <!-- ID oculto -->
+            <input type="hidden" name="Id" value="@Model.Id" />
+
+            <!-- Campo de nombre -->
+            <div class="nombreSemillero">
+                <label for="Nombre">Nombre</label>
+                <input type="text" class="nombreSemilleroC" id="Nombre" name="Nombre" value="@Model.Nombre" placeholder="NOMBRE DEL SEMILLERO (MAYUSCULAS)" required />
+            </div>
+
+            <!-- Campo de área -->
+            <div class="areaS">
+                <label for="Area">Área</label>
+                <input type="text" id="Area" name="Area" value="@Model.Area" required placeholder="ÁREA" />
+            </div>
+
+            <!-- Campo para subir imagen -->
+            <div class="img2">
+                <p>IMAGEN</p>
+                <input type="file" name="imagen" />
+                <input type="hidden" name="ImagenActual" value="@Model.Imagen" />
+
+                <!-- Mostrar imagen actual si existe -->
+                @if (!string.IsNullOrEmpty(Model.Imagen))
+                {
+                    <div class="mt-2">
+                        <img src="~/images/@Model.Imagen" alt="Imagen Actual" style="max-width: 265px; height: 158px;" />
+                    </div>
+                }
+            </div>
+
+            <!-- Descripción del semillero -->
+            <div class="descripcionCv">
+                <label for="Descripcion">Descripción</label>
+                <textarea name="Descripcion" id="descC" class="descripcionC" rows="10" placeholder="DESCRIPCIÓN" required>@Model.Descripcion</textarea>
+            </div>
+
+            <!-- Proyectos relacionados -->
+            <div class="nombreProyectos">
+                <p>PROYECTOS RELACIONADOS</p>
+            </div>
+            <div class="proyectos">
+                <div class="proy">
+                    <p>VER PROYECTOS</p>
+                </div>
+            </div>
+
+            <!-- Botón para actualizar semillero -->
+            <button class="crearSemilleroBTN" type="submit" name="crearSemilleroBTN">ACTUALIZAR SEMILLERO</button>
+        </form>
+    </section>
+
+    <script src="~/Js/semilleros1.js"></script>
+</body>
+</html>
