@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://via.placeholder.com/1920x1080');
+    background-image: url('../Img/Publicacion_2/Fondo_datos.png');
     background-size: cover;
     background-position: center;
     height: 180%;
@@ -11,19 +11,21 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header */
 .header {
     position: relative;
     width: 100%;
     height: 600px;
-    min-height: 500px;
+    min-height: 850px;
     max-height: 550px;
-    background: rgba(0, 0, 0, 0.85);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
-    box-sizing: border-box;
+    padding: 0 30px;
+    background-image: url('../Img/Publicacion_2/Encabezado2.png');
+    background-size: 100% 100%;  /* La imagen ocupa todo el espacio */
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 /* Contenedor para el título */
@@ -40,10 +42,10 @@ body {
 
 /* Estilo para el título */
 .title-container h1 {
-    font-size: 5vw;
+    font-size: 8vw;
     font-weight: bold;
     color: white;
-    margin-top: -20px;
+    margin-top: -20%;
     word-wrap: break-word;
     hyphens: auto;
     line-height: 1.5;
@@ -87,26 +89,27 @@ body {
 
 /* Estilo de los botones */
 button {
-    background-color: beige;
     border: none;
     padding: 10px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 300px;
+    height: 100px;
+    background: none; /* Quitamos el fondo blanco del botón */
+    position: relative;
 }
 
 /* Imágenes de los botones */
 .left-btn {
-    background-image: url('ruta-a-tu-imagen-izquierda.png');
+    background-image: url('../Img/Publicacion_2/Casa_icono.png');
     background-size: cover;
     background-position: center;
 }
 
 .right-btn {
-    background-image: url('ruta-a-tu-imagen-derecha.png');
+    background-image: url('../Img/Publicacion_2/Persona_icono.png');
     background-size: cover;
     background-position: center;
 }
@@ -134,7 +137,7 @@ button {
     row-gap: 120px;
     justify-content: center;
     max-width: 100%;
-    padding: 0 20px;
+    padding: 0 ;
 }
 
 /* Publicaciones */
@@ -146,7 +149,7 @@ button {
     background-color: #ddd;
     border-radius: 10px;
     overflow: hidden;
-    background-image: url('https://via.placeholder.com/300x200');
+    background-image: url('../Img/Publicacion_2/Arbustos_superiores.png');
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -351,9 +354,9 @@ button {
 
 /* Contenido del Modal */
 .modal-content {
-    background: #fff;
     padding: 30px;
-    width: 40%;
+    width: 50%;
+    height: 800px;
     max-width: 700px;
     max-height: 90vh; /* Máximo 90% de la altura de la pantalla */
     border-radius: 15px;
@@ -361,6 +364,33 @@ button {
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
     overflow-y: auto; /* Permite desplazarse dentro del modal */
     transition: all 0.3s ease-in-out;
+    background-image: url("../Img/Publicacion_2/Modal.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Estilo del Botón de Cerrar */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 40px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close:hover {
+    color: #d9534f;
+}
+
+/* Estilo del Botón de Cerrar */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 40px;
+
 }
 
 /* Botón de Cerrar */
@@ -400,17 +430,25 @@ button {
 .modal-image {
     width: 100%;
     max-width: 100%;
-    height: 125px;
+    height: 200px;
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-image: url("../Img/Publicacion_2/Plantas.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Contenido */
+.modal-content {
+    padding: 0 20px;
 }
 
 /* Información */
 .modal-info {
     margin-top: 10px;
     padding: 8px;
-    background: #f8f9fa;
+    background: rgba(248, 249, 250, 0.6);
     border-radius: 8px;
 }
 
@@ -540,4 +578,18 @@ button {
     }
 }
 
+.footer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    min-height: 850px;
+    max-height: 550px;
+    justify-content: center;
+    padding: 0 30px;
+    background-image: url('../Img/Publicacion_2/Pie_pagina.png');
+    background-size: 100% 100%;  /* La imagen ocupa todo el espacio */
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;*/
+}
 

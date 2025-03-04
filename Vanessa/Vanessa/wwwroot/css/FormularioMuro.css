@@ -1,13 +1,30 @@
 /* Estilo general del formulario */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../Img/Publicacion_2/Fondo_datos.png');
+    background-size: cover;
+    background-position: center;
+    height: 180%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
 .create-post-form-container {
     max-width: 600px; /* Reducir el ancho del formulario */
     margin: 0 auto;
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 10px;
+    color: #0000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: relative; /* Necesario para el posicionamiento del botón */
     width: 100%; /* Para adaptarse a todas las pantallas */
+    background-image: url('../Img/Publicacion_2/Modal.png');
+    background-size: 100% 100%;  /* La imagen ocupa todo el espacio */
 }
 
 /* Formulario */
@@ -16,6 +33,8 @@
     padding: 20px;
     border-radius: 10px;
     font-family: Arial, sans-serif;
+    background: rgba(250, 250, 250, 0.9);
+
 }
 
 /* Título */
@@ -66,7 +85,7 @@
 
 /* Estilo del botón de enviar */
 .btn-submit {
-    background-color: #1877f2; /* Color de Facebook */
+    background-color: #166113; /* Color de Facebook */
     color: white;
     font-size: 16px;
     padding: 12px 24px;
@@ -79,7 +98,7 @@
 }
 
 .btn-submit:hover {
-    background-color: #0058d1;
+    background-color: #166113;
 }
 
 /* Estilo del botón de cerrar */
@@ -87,8 +106,8 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #ccc;
-    color: #333;
+    background-color: #fa0000;
+    color: #ebebeb;
     border: none;
     border-radius: 5px;
     padding: 8px 16px;
@@ -97,7 +116,7 @@
 }
 
 .btn-close:hover {
-    background-color: #999;
+    background-color: #fa0000;
 }
 
 /* Último grupo sin margen inferior extra */
@@ -180,3 +199,4 @@
     font-size: 12px;
     margin-top: 4px;
 }
+

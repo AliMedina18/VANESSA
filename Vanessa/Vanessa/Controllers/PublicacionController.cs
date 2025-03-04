@@ -214,7 +214,8 @@ namespace Vanessa.Controllers
         // GET: Editar
         public async Task<IActionResult> Editar(int id)
         {
-            if (!User.Identity.IsAuthenticated)
+            if (!(User.Identity?.IsAuthenticated ?? false))
+
             {
                 return Unauthorized(); // Solo usuarios autenticados pueden acceder
             }

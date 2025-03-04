@@ -8,32 +8,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/Css/MuroPublicaciones.css" />
+    <link rel="stylesheet" href="~/Css/MuroPublicaciones.css">
+    <link rel="stylesheet" href="~/Css/tipografias.css">
     <title>Módulo de publicaciones</title>
 </head>
 <body>
-
     <div class="header">
-        <!-- Contenedor de los botones -->
         <div class="button-container">
             <button class="left-btn" onclick="location.href='@Url.Action("Index", "Home")'"></button>
             <button class="right-btn" onclick="location.href='@Url.Action("MiMuro", "Publicacion")'"></button>
         </div>
-
-        <!-- Contenedor del título -->
         <div class="title-container">
             <h1>
-                Muro<br>
-                de<br>
+                Muro de<br>
                 Publicaciones
             </h1>
         </div>
     </div>
-
-    <!-- Buscador con filtros debajo del header -->
+    
     <form method="get" class="search-container">
         <input type="text" name="searchString" class="search-bar" placeholder="Buscar publicaciones..." value="@ViewData["SearchString"]" />
-
         <div class="filters-container">
             <div class="filters">
                 <select name="category" class="category-filter">
@@ -47,30 +41,20 @@
             <button type="submit" class="search-btn">Buscar</button>
         </div>
     </form>
-
-    <!-- Modal único para mostrar la publicación seleccionada -->
+    
     <div id="modal-1" class="modal">
         <div class="modal-content">
-            <!-- Botón de Cerrar -->
             <span class="close" onclick="closeModal()">&times;</span>
-
-            <!-- Nombre de la Publicación -->
             <div class="modal-header">
                 <h2 id="modalTitle" class="modal-title"></h2>
             </div>
-
-            <!-- Imagen de la Publicación -->
             <div class="modal-image-container">
                 <img id="modalImage" class="modal-image" src="" alt="Imagen de la Publicación">
             </div>
-
-            <!-- Contenido -->
             <div class="modal-info">
                 <label>Contenido:</label>
                 <p id="modalContent"></p>
             </div>
-
-            <!-- Tipo de Publicación y Lugar -->
             <div class="modal-row">
                 <div class="modal-info">
                     <label>Tipo de Publicación:</label>
@@ -81,8 +65,6 @@
                     <p id="modalPlace"></p>
                 </div>
             </div>
-
-            <!-- Fecha y Hora -->
             <div class="modal-row">
                 <div class="modal-info">
                     <label>Fecha:</label>
@@ -93,22 +75,16 @@
                     <p id="modalTime"></p>
                 </div>
             </div>
-
-            <!-- Archivos Adjuntos -->
             <div class="modal-info">
                 <label>Archivos Adjuntos:</label>
                 <ul id="modalPDFList"></ul>
             </div>
-
-            <!-- Autor -->
             <div class="modal-footer">
                 <p>Publicado por: <span id="modalUser"></span></p>
             </div>
         </div>
     </div>
-
-
-    <!-- Contenedor de los posts -->
+    
     <div class="content">
         @foreach (var publicacion in Model)
         {
@@ -118,11 +94,9 @@
             </div>
         }
     </div>
+    
+    <div class="footer"> </div>
 
-
-
-  <script src="~/Js/ModalPublicacion.js"></script>
-
+    <script src="~/Js/ModalPublicacion.js"></script>
 </body>
 </html>
-

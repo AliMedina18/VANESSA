@@ -10,7 +10,8 @@ body {
 
     position: relative;
     background-color: #24dbcc;
-    background-image: url(../Img/Interfaz/Fondo.png);
+    /* background-image: url(/Img/Interfaz/Fondo.png); */
+    background-image: url(/Vanessa/wwwroot/images/);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
