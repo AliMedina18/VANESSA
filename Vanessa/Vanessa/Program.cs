@@ -7,39 +7,33 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.Text;
 using PdfSharp.Charting;
+using Npgsql.EntityFrameworkCore.PostgreSQL; 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ConfiguraciÛn para la autenticaciÛn con cookies y manejo de acceso denegado
+// Configuraci√≥n para la autenticaci√≥n con cookies y manejo de acceso denegado
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.AccessDeniedPath = "/Semillero/AccessDenied"; // Redirigir a una acciÛn personalizada en SemilleroController
+    options.AccessDeniedPath = "/Semillero/AccessDenied";
 });
-
 
 // Agregar servicios al contenedor
 builder.Services.AddControllersWithViews();
 
-// **Registrar IHttpContextAccessor para usarlo en vistas y controladores**
+// Registrar IHttpContextAccessor
 builder.Services.AddHttpContextAccessor();
 
-// ConfiguraciÛn de la cadena de conexiÛn a la base de datos
+// ‚≠ê CAMBIO IMPORTANTE: usar PostgreSQL en lugar de SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Registrar AuthService para inyecciÛn de dependencias
+// Registrar servicios
 builder.Services.AddScoped<AuthService>();
-
-// Configurar servicios EmailService
 builder.Services.AddScoped<EmailService>();
-
-// Registrar el servicio RecuperacionService
 builder.Services.AddScoped<RecuperacionService>();
-
-// Registrar el servicio para eliminaciÛn autom·tica
 builder.Services.AddHostedService<EliminarUsuariosInactivosService>();
 
-// ConfiguraciÛn para la autenticaciÛn con cookies
+// Configuraci√≥n de autenticaci√≥n con cookies
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -49,7 +43,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.SlidingExpiration = true;
     });
 
-// Middleware para usar sesiones
+// Sesiones
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -59,8 +53,14 @@ builder.Services.AddSession(options =>
 
 var app = builder.Build();
 
-// MÈtodo para convertir la contraseÒa a hash seguro
-string ConvertirContraseÒa(string contraseÒa)
+app.Use(async (context, next) =>
+{
+    context.Response.Headers.Add("ngrok-skip-browser-warning", "true");
+    await next();
+});
+
+// M√©todo hash
+string ConvertirContrase√±a(string contrase√±a)
 {
     byte[] salt = new byte[128 / 8];
     using (var rng = RandomNumberGenerator.Create())
@@ -69,7 +69,7 @@ string ConvertirContraseÒa(string contraseÒa)
     }
 
     var hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
-        password: contraseÒa,
+        password: contrase√±a,
         salt: salt,
         prf: KeyDerivationPrf.HMACSHA256,
         iterationCount: 10000,
@@ -78,7 +78,7 @@ string ConvertirContraseÒa(string contraseÒa)
     return $"{Convert.ToBase64String(salt)}.{hashed}";
 }
 
-// MÈtodo para inicializar datos en la base de datos
+// Inicializar datos
 void InicializarDatos(ApplicationDbContext context)
 {
     try
@@ -105,7 +105,7 @@ void InicializarDatos(ApplicationDbContext context)
                     Nombre = "Alicia",
                     Documento = 12345678,
                     Correo = "alivalmedina2006@gmail.com",
-                    ContraseÒa = ConvertirContraseÒa("Ali*02102006"),
+                    Contrase√±a = ConvertirContrase√±a("Ali*02102006"),
                     RolId = rolCoordinador.Id
                 };
 
@@ -120,14 +120,14 @@ void InicializarDatos(ApplicationDbContext context)
     }
 }
 
-// Inicializar datos en la base de datos
+// Inicializar BD
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     InicializarDatos(context);
 }
 
-// Configura el manejo de excepciones y errores
+// Middleware y configuraci√≥n final
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -136,10 +136,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
 
-// Middleware para evitar cachÈ
 app.Use(async (context, next) =>
 {
     context.Response.Headers.Append("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0");
@@ -148,12 +146,10 @@ app.Use(async (context, next) =>
     await next();
 });
 
-// Middleware para sesiones y autenticaciÛn
 app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Configura las rutas de los controladores
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Auth}/{action=Registro}/{id?}");

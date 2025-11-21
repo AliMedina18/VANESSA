@@ -30,10 +30,12 @@ namespace Vanessa.Services
             using (var scope = _serviceProvider.CreateScope())
             {
                 var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                var fechaLimite = DateTime.Now.AddDays(-30);
+
+                // 🔥 PostgreSQL requiere UTC
+                var fechaLimite = DateTime.UtcNow.AddDays(-30);
 
                 var usuariosParaEliminar = await context.Usuarios
-                    .Where(u => !u.Activo && u.FechaInactivo <= fechaLimite)
+                    .Where(u => !u.Activo && u.FechaInactivo.HasValue && u.FechaInactivo.Value <= fechaLimite)
                     .ToListAsync();
 
                 if (usuariosParaEliminar.Any())

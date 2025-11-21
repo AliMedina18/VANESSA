@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frede\\source\\repos\\ProyectoFIna\\Vanessa\\Vanessa\\Vanessa.csproj": {}
+    "C:\\Users\\USUARIO\\OneDrive\\Documentos\\GitHub\\VANESSA\\Vanessa\\Vanessa\\Vanessa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frede\\source\\repos\\ProyectoFIna\\Vanessa\\Vanessa\\Vanessa.csproj": {
+    "C:\\Users\\USUARIO\\OneDrive\\Documentos\\GitHub\\VANESSA\\Vanessa\\Vanessa\\Vanessa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frede\\source\\repos\\ProyectoFIna\\Vanessa\\Vanessa\\Vanessa.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\GitHub\\VANESSA\\Vanessa\\Vanessa\\Vanessa.csproj",
         "projectName": "Vanessa",
-        "projectPath": "C:\\Users\\frede\\source\\repos\\ProyectoFIna\\Vanessa\\Vanessa\\Vanessa.csproj",
-        "packagesPath": "C:\\Users\\frede\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frede\\source\\repos\\ProyectoFIna\\Vanessa\\Vanessa\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\GitHub\\VANESSA\\Vanessa\\Vanessa\\Vanessa.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\GitHub\\VANESSA\\Vanessa\\Vanessa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frede\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,9 +36,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -96,6 +96,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "PDFsharp": {
               "target": "Package",
               "version": "[6.1.1, )"
@@ -124,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

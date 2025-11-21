@@ -1,12 +1,13 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace Vanessa.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialPostgres : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,10 +16,10 @@ namespace Vanessa.Migrations
                 name: "Permisos",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Descripcion = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nombre = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Descripcion = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -29,9 +30,9 @@ namespace Vanessa.Migrations
                 name: "Roles",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nombre = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -42,17 +43,17 @@ namespace Vanessa.Migrations
                 name: "Usuarios",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
-                    Documento = table.Column<int>(type: "int", nullable: false),
-                    Correo = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Contraseña = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    RolId = table.Column<int>(type: "int", nullable: false),
-                    Activo = table.Column<bool>(type: "bit", nullable: false),
-                    FechaInactivo = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    TokenRecuperacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TokenExpiracion = table.Column<DateTime>(type: "datetime2", nullable: true)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nombre = table.Column<string>(type: "character varying(40)", maxLength: 40, nullable: false),
+                    Documento = table.Column<int>(type: "integer", nullable: false),
+                    Correo = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Contraseña = table.Column<string>(type: "text", nullable: false),
+                    RolId = table.Column<int>(type: "integer", nullable: false),
+                    Activo = table.Column<bool>(type: "boolean", nullable: false),
+                    FechaInactivo = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    TokenRecuperacion = table.Column<string>(type: "text", nullable: true),
+                    TokenExpiracion = table.Column<DateTime>(type: "timestamp with time zone", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -69,17 +70,17 @@ namespace Vanessa.Migrations
                 name: "Publicaciones",
                 columns: table => new
                 {
-                    Id_Publicacion = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NombrePublicacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ContenidoPublicacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TipoPublicacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    LugarPublicacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    FechaPublicacion = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    HoraPublicacion = table.Column<TimeSpan>(type: "time", nullable: false),
-                    ImagenPublicacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ActividadesPublicacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UsuarioId = table.Column<int>(type: "int", nullable: true)
+                    Id_Publicacion = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    NombrePublicacion = table.Column<string>(type: "text", nullable: true),
+                    ContenidoPublicacion = table.Column<string>(type: "text", nullable: true),
+                    TipoPublicacion = table.Column<string>(type: "text", nullable: true),
+                    LugarPublicacion = table.Column<string>(type: "text", nullable: true),
+                    FechaPublicacion = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    HoraPublicacion = table.Column<TimeSpan>(type: "interval", nullable: false),
+                    ImagenPublicacion = table.Column<string>(type: "text", nullable: true),
+                    ActividadesPublicacion = table.Column<string>(type: "text", nullable: true),
+                    UsuarioId = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -96,13 +97,13 @@ namespace Vanessa.Migrations
                 name: "Semilleros",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Imagen = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Area = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UsuarioId = table.Column<int>(type: "int", nullable: true)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nombre = table.Column<string>(type: "text", nullable: true),
+                    Imagen = table.Column<string>(type: "text", nullable: true),
+                    Area = table.Column<string>(type: "text", nullable: true),
+                    Descripcion = table.Column<string>(type: "text", nullable: true),
+                    UsuarioId = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -118,8 +119,8 @@ namespace Vanessa.Migrations
                 name: "UsuarioPermisos",
                 columns: table => new
                 {
-                    UsuarioId = table.Column<int>(type: "int", nullable: false),
-                    PermisoId = table.Column<int>(type: "int", nullable: false)
+                    UsuarioId = table.Column<int>(type: "integer", nullable: false),
+                    PermisoId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -142,14 +143,14 @@ namespace Vanessa.Migrations
                 name: "Proyectos",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DocumentoProyecto = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    EquiposInvestigacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    FechaInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    SemilleroId = table.Column<int>(type: "int", nullable: false),
-                    UsuarioId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nombre = table.Column<string>(type: "text", nullable: false),
+                    DocumentoProyecto = table.Column<string>(type: "text", nullable: true),
+                    EquiposInvestigacion = table.Column<string>(type: "text", nullable: true),
+                    FechaInicio = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    SemilleroId = table.Column<int>(type: "integer", nullable: false),
+                    UsuarioId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
