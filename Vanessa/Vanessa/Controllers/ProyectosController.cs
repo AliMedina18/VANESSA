@@ -1,262 +1,152 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using System.IO;
 using System.IO.Compression;
 using System.Security.Claims;
-using System.Threading.Tasks;
-using Vanessa.Data;
+using Vanessa.Interfaces;
 using Vanessa.Models;
 
 namespace Vanessa.Controllers
 {
     public class ProyectosController : Controller
     {
-        private readonly ApplicationDbContext _context;
-        private readonly string _uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+        private readonly IProyectoRepository  _proyectoRepo;
+        private readonly ISemilleroRepository _semilleroRepo;
+        private readonly IWebHostEnvironment  _env;
 
-        public ProyectosController(ApplicationDbContext context)
+        private string UploadPath => Path.Combine(_env.WebRootPath, "uploads");
+
+        public ProyectosController(
+            IProyectoRepository proyectoRepo,
+            ISemilleroRepository semilleroRepo,
+            IWebHostEnvironment env)
         {
-            _context = context;
-            if (!Directory.Exists(_uploadPath))
-            {
-                Directory.CreateDirectory(_uploadPath);
-            }
+            _proyectoRepo  = proyectoRepo;
+            _semilleroRepo = semilleroRepo;
+            _env           = env;
+            if (!Directory.Exists(Path.Combine(env.WebRootPath, "uploads")))
+                Directory.CreateDirectory(Path.Combine(env.WebRootPath, "uploads"));
+        }
+
+        // GET: Proyectos/Index
+        [Authorize(Roles = "Cliente,Estudiante,Docente,Coordinador")]
+        public async Task<IActionResult> Index()
+        {
+            return View(await _proyectoRepo.GetAllAsync());
         }
 
         // GET: Proyectos/Configuracion
         [Authorize(Roles = "Coordinador,Docente,Estudiante")]
-        public IActionResult Configuracion(string search)
+        public async Task<IActionResult> Configuracion(string? search)
         {
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "0");
-            var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+            var userId   = ObtenerUsuarioId();
+            var userRole = User.FindFirstValue(ClaimTypes.Role);
+            var todos    = await _proyectoRepo.GetAllAsync();
+            IEnumerable<Proyecto> proyectos = todos;
 
-            var proyectos = _context.Proyectos.AsQueryable();
-
-            if (userRole == "Docente" || userRole == "Estudiante")
-            {
-                proyectos = proyectos.Where(p => p.UsuarioId == userId);
-            }
+            if (userRole is "Docente" or "Estudiante")
+                proyectos = proyectos.Where(p => p.UsuarioCoordenadorId == userId);
 
             if (!string.IsNullOrEmpty(search))
             {
-                proyectos = proyectos.Where(p => p.Nombre != null && p.Nombre.Contains(search));
+                proyectos = proyectos.Where(p =>
+                    p.Nombre != null && p.Nombre.Contains(search, StringComparison.OrdinalIgnoreCase));
                 ViewData["SearchQuery"] = search;
             }
-
-            return View("Configuracion", proyectos.ToList());
+            return View(proyectos.ToList());
         }
 
-        // 🔹 SOLO COORDINADOR, DOCENTE Y ESTUDIANTE PUEDEN CREAR PROYECTOS
+        // GET: Proyectos/Create
         [Authorize(Roles = "Coordinador,Docente,Estudiante")]
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewBag.Semilleros = new SelectList(_context.Semilleros, "Id", "Nombre");
+            ViewBag.Semilleros = new SelectList(await _semilleroRepo.GetAllAsync(), "Id", "Nombre");
             return View();
         }
 
+        // POST: Proyectos/Create
         [HttpPost]
         [Authorize(Roles = "Coordinador,Docente,Estudiante")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre,EquiposInvestigacion,FechaInicio,SemilleroId")] Proyecto proyecto,
-            IFormFile pdfFile,
-            List<int> proyectosSeleccionados)
+        public async Task<IActionResult> Create(
+            [Bind("Id,Nombre,FechaInicio,SemilleroId")] Proyecto proyecto,
+            IFormFile? pdfFile)
         {
             if (!ModelState.IsValid)
             {
-                ViewBag.Semilleros = new SelectList(_context.Semilleros, "Id", "Nombre");
+                ViewBag.Semilleros = new SelectList(await _semilleroRepo.GetAllAsync(), "Id", "Nombre");
                 return View(proyecto);
             }
-
-            // Asignar el ID del usuario autenticado al proyecto
-            proyecto.UsuarioId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "0");
-
-            // Subir el archivo PDF
+            proyecto.UsuarioCoordenadorId = ObtenerUsuarioId();
             if (pdfFile != null && pdfFile.Length > 0)
-            {
-                var fileName = Path.GetFileName(pdfFile.FileName);
-                var filePath = Path.Combine(_uploadPath, fileName);
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await pdfFile.CopyToAsync(stream);
-                }
-                proyecto.DocumentoProyecto = fileName;
-            }
+                proyecto.DocumentoProyecto = await GuardarArchivoAsync(pdfFile, UploadPath);
 
-            _context.Add(proyecto);
-            await _context.SaveChangesAsync();
-
-            // Asignar los proyectos seleccionados si existen
-            if (proyectosSeleccionados != null)
-            {
-                foreach (var id in proyectosSeleccionados)
-                {
-                    var proyectoExistente = await _context.Proyectos.FindAsync(id);
-                    if (proyectoExistente != null)
-                    {
-                        // Lógica para asociar proyectos aquí
-                    }
-                }
-            }
-
+            await _proyectoRepo.AddAsync(proyecto);
             TempData["Success"] = "Proyecto creado exitosamente.";
             return RedirectToAction(nameof(Index));
         }
 
-        // 🔹 CLIENTES, ESTUDIANTES, DOCENTES Y COORDINADORES PUEDEN VER PROYECTOS
-        [Authorize(Roles = "Cliente,Estudiante,Docente,Coordinador")]
-        public async Task<IActionResult> Index()
-        {
-            var proyectos = await _context.Proyectos
-                .OrderByDescending(p => p.FechaInicio) // Ordenar por fecha de inicio más reciente
-                .ToListAsync();
-
-            return View(proyectos);
-        }
-
-        // 🔹 CLIENTES, ESTUDIANTES, DOCENTES Y COORDINADORES PUEDEN VER DETALLES
+        // GET: Proyectos/Details/5
         [Authorize(Roles = "Cliente,Estudiante,Docente,Coordinador")]
         public async Task<IActionResult> Details(int id)
         {
-            var proyecto = await _context.Proyectos.FindAsync(id);
-            if (proyecto == null)
-            {
-                return NotFound();
-            }
-
-            // Pasamos la ruta del PDF a la vista
-            ViewBag.PdfPath = Path.Combine(_uploadPath, proyecto.DocumentoProyecto ?? "");
-
+            var proyecto = await _proyectoRepo.GetByIdAsync(id);
+            if (proyecto == null) return NotFound();
             return View(proyecto);
         }
 
-        // 🔹 SOLO COORDINADOR, DOCENTE Y ESTUDIANTE PUEDEN EDITAR PROYECTOS
+        // GET: Proyectos/Edit/5
         [Authorize(Roles = "Coordinador,Docente,Estudiante")]
         public async Task<IActionResult> Edit(int id)
         {
-            var proyecto = await _context.Proyectos.FindAsync(id);
-            if (proyecto == null)
+            var proyecto = await _proyectoRepo.GetByIdAsync(id);
+            if (proyecto == null) return NotFound();
+            if (User.IsInRole("Estudiante") && proyecto.UsuarioCoordenadorId != ObtenerUsuarioId())
             {
-                return NotFound();
+                TempData["Error"] = "No puedes editar proyectos que no te pertenecen.";
+                return RedirectToAction(nameof(Index));
             }
-
-            // Verificar si el usuario es Estudiante y el proyecto no es suyo
-            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (User.IsInRole("Estudiante") && userIdClaim != null && int.TryParse(userIdClaim, out int userId))
-            {
-                if (proyecto.UsuarioId != userId)
-                {
-                    TempData["Error"] = "No puedes editar proyectos que no te pertenecen.";
-                    return RedirectToAction(nameof(Index));
-
-                }
-            }
-
-
             return View(proyecto);
         }
 
+        // POST: Proyectos/Edit/5
         [HttpPost]
         [Authorize(Roles = "Coordinador,Docente,Estudiante")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Proyecto proyecto, IFormFile pdfFile)
+        public async Task<IActionResult> Edit(int id, Proyecto proyecto, IFormFile? pdfFile)
         {
-            if (id != proyecto.Id)
+            if (id != proyecto.Id) return NotFound();
+            if (!ModelState.IsValid) return View(proyecto);
+
+            var existente = await _proyectoRepo.GetByIdAsync(id);
+            if (existente == null) return NotFound();
+
+            if (User.IsInRole("Estudiante") && existente.UsuarioCoordenadorId != ObtenerUsuarioId())
             {
-                return NotFound();
-            }
-
-            if (!ModelState.IsValid)
-            {
-                return View(proyecto);
-            }
-
-            try
-            {
-                // Recuperar el proyecto existente de la base de datos
-                var proyectoExistente = await _context.Proyectos.FirstOrDefaultAsync(p => p.Id == id);
-                if (proyectoExistente == null)
-                {
-                    return NotFound();
-                }
-
-                // Obtener el ID del usuario autenticado
-                var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
-                if (User.IsInRole("Estudiante") && userIdClaim != null && int.TryParse(userIdClaim, out int userId))
-                {
-                    if (proyectoExistente.UsuarioId != userId)
-                    {
-                        TempData["Error"] = "No puedes editar proyectos que no te pertenecen.";
-                        return RedirectToAction(nameof(Index));
-                    }
-                }
-
-                // Verificar si el usuario es Estudiante e intenta cambiar el semillero
-                if (User.IsInRole("Estudiante") && proyectoExistente.SemilleroId != proyecto.SemilleroId)
-                {
-                    TempData["Error"] = "No puedes cambiar el semillero sin aprobación del Coordinador.";
-                    return RedirectToAction(nameof(Index));
-                }
-
-                // Actualizar los campos editables
-                proyectoExistente.Nombre = proyecto.Nombre;
-                proyectoExistente.EquiposInvestigacion = proyecto.EquiposInvestigacion;
-                proyectoExistente.FechaInicio = proyecto.FechaInicio;
-
-                // Si se sube un nuevo archivo, reemplazar el archivo existente
-                if (pdfFile != null && pdfFile.Length > 0)
-                {
-                    // Eliminar el archivo existente si corresponde
-                    if (!string.IsNullOrEmpty(proyectoExistente.DocumentoProyecto))
-                    {
-                        var existingFilePath = Path.Combine(_uploadPath, proyectoExistente.DocumentoProyecto);
-                        if (System.IO.File.Exists(existingFilePath))
-                        {
-                            System.IO.File.Delete(existingFilePath);
-                        }
-                    }
-
-                    // Guardar el nuevo archivo
-                    var fileName = Path.GetFileName(pdfFile.FileName);
-                    var filePath = Path.Combine(_uploadPath, fileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await pdfFile.CopyToAsync(stream);
-                    }
-                    proyectoExistente.DocumentoProyecto = fileName;
-                }
-
-                // Guardar cambios en la base de datos
-                _context.Update(proyectoExistente);
-                await _context.SaveChangesAsync();
-
-                TempData["Success"] = "Proyecto actualizado correctamente.";
+                TempData["Error"] = "No puedes editar proyectos que no te pertenecen.";
                 return RedirectToAction(nameof(Index));
             }
-            catch (DbUpdateConcurrencyException)
+
+            existente.Nombre = proyecto.Nombre;
+            existente.FechaInicio = proyecto.FechaInicio;
+            existente.FechaActualizacion = DateTime.UtcNow;
+
+            if (pdfFile != null && pdfFile.Length > 0)
             {
-                if (!_context.Proyectos.Any(e => e.Id == proyecto.Id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                EliminarArchivoSiExiste(Path.Combine(UploadPath, existente.DocumentoProyecto ?? ""));
+                existente.DocumentoProyecto = await GuardarArchivoAsync(pdfFile, UploadPath);
             }
+            await _proyectoRepo.UpdateAsync(existente);
+            TempData["Success"] = "Proyecto actualizado correctamente.";
+            return RedirectToAction(nameof(Index));
         }
 
-        // 🔹 SOLO EL COORDINADOR PUEDE ELIMINAR PROYECTOS
+        // GET: Proyectos/Delete/5
         [Authorize(Roles = "Coordinador")]
         public async Task<IActionResult> Delete(int id)
         {
-            var proyecto = await _context.Proyectos.FindAsync(id);
-            if (proyecto == null)
-            {
-                return NotFound();
-            }
+            var proyecto = await _proyectoRepo.GetByIdAsync(id);
+            if (proyecto == null) return NotFound();
             return View(proyecto);
         }
 
@@ -265,151 +155,108 @@ namespace Vanessa.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var proyecto = await _context.Proyectos.FindAsync(id);
+            var proyecto = await _proyectoRepo.GetByIdAsync(id);
             if (proyecto != null)
             {
-                var filePath = Path.Combine(_uploadPath, proyecto.DocumentoProyecto ?? "");
-
-                if (System.IO.File.Exists(filePath))
-                {
-                    System.IO.File.Delete(filePath);
-                }
-
-                _context.Proyectos.Remove(proyecto);
-                await _context.SaveChangesAsync();
+                EliminarArchivoSiExiste(Path.Combine(UploadPath, proyecto.DocumentoProyecto ?? ""));
+                await _proyectoRepo.DeleteAsync(proyecto);
             }
-
             TempData["Success"] = "Proyecto eliminado correctamente.";
             return RedirectToAction(nameof(Index));
         }
 
-
         // GET: Proyectos/Download/5
-
+        [Authorize(Roles = "Cliente,Estudiante,Docente,Coordinador")]
         public async Task<IActionResult> Download(int id)
         {
-            var proyecto = await _context.Proyectos.FindAsync(id);
-            if (proyecto == null || string.IsNullOrEmpty(proyecto.DocumentoProyecto))
-            {
-                return NotFound(); // Si no hay proyecto o no tiene documento asociado
-            }
-
-            var filePath = Path.Combine(_uploadPath, proyecto.DocumentoProyecto);
-
-            if (!System.IO.File.Exists(filePath))
-            {
-                return NotFound(); // Si el archivo no existe
-            }
-
-            var fileBytes = await System.IO.File.ReadAllBytesAsync(filePath);
-            return File(fileBytes, "application/pdf", proyecto.DocumentoProyecto);
+            var proyecto = await _proyectoRepo.GetByIdAsync(id);
+            if (proyecto == null || string.IsNullOrEmpty(proyecto.DocumentoProyecto)) return NotFound();
+            var path = Path.Combine(UploadPath, proyecto.DocumentoProyecto);
+            if (!System.IO.File.Exists(path)) return NotFound();
+            return File(await System.IO.File.ReadAllBytesAsync(path), "application/pdf", proyecto.DocumentoProyecto);
         }
 
-        // GET: Proyectos/Consulta
+        // GET: Proyectos/Consulta/5
+        [Authorize(Roles = "Cliente,Estudiante,Docente,Coordinador")]
         public async Task<IActionResult> Consulta(int id)
         {
-            var proyecto = await _context.Proyectos.FindAsync(id);
-            if (proyecto == null)
-            {
-                return NotFound();
-            }
+            var proyecto = await _proyectoRepo.GetByIdAsync(id);
+            if (proyecto == null) return NotFound();
 
-            // Obtener la lista de archivos del proyecto (Word, PDF, Excel, etc.) asociados a este proyecto
-            var projectDirectory = Path.Combine(_uploadPath, id.ToString());
-            var allowedExtensions = new[] { ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".txt" };
-
-            var files = Directory.Exists(projectDirectory)
-                ? Directory.GetFiles(projectDirectory)
-                    .Where(f => allowedExtensions.Contains(Path.GetExtension(f)?.ToLower() ?? string.Empty))
-                    .Select(f => Path.GetFileName(f) ?? string.Empty)
+            var allowedExt = new[] { ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".txt" };
+            var projectDir = Path.Combine(UploadPath, id.ToString());
+            var files = Directory.Exists(projectDir)
+                ? Directory.GetFiles(projectDir)
+                    .Where(f => allowedExt.Contains(Path.GetExtension(f).ToLower()))
+                    .Select(Path.GetFileName)
                     .Where(f => !string.IsNullOrEmpty(f))
+                    .Select(f => f!)
                     .ToList()
                 : new List<string>();
 
-            ViewBag.Files = files;
-            ViewBag.ProjectId = id;
-            ViewBag.DocumentoProyecto = (!string.IsNullOrEmpty(proyecto.DocumentoProyecto) && files.Contains(proyecto.DocumentoProyecto))
-                ? proyecto.DocumentoProyecto
-                : null;
-
+            ViewBag.Files             = files;
+            ViewBag.ProjectId         = id;
+            ViewBag.DocumentoProyecto = !string.IsNullOrEmpty(proyecto.DocumentoProyecto) && files.Contains(proyecto.DocumentoProyecto)
+                ? proyecto.DocumentoProyecto : null;
             return View(proyecto);
         }
 
-        // POST: Subir archivo al proyecto
+        // POST: Proyectos/UploadFile
         [HttpPost]
-        public async Task<IActionResult> UploadFile(int id, IFormFile file)
+        [Authorize(Roles = "Coordinador,Docente,Estudiante")]
+        public async Task<IActionResult> UploadFile(int id, IFormFile? file)
         {
             if (file != null && file.Length > 0)
             {
-                var projectDirectory = Path.Combine(_uploadPath, id.ToString());
-                if (!Directory.Exists(projectDirectory))
-                {
-                    Directory.CreateDirectory(projectDirectory);
-                }
-
-                var fileName = Path.GetFileName(file.FileName);
-                var filePath = Path.Combine(projectDirectory, fileName);
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await file.CopyToAsync(stream);
-                }
+                var projectDir = Path.Combine(UploadPath, id.ToString());
+                if (!Directory.Exists(projectDir)) Directory.CreateDirectory(projectDir);
+                await GuardarArchivoAsync(file, projectDir);
             }
-
             return RedirectToAction("Consulta", new { id });
         }
 
-        // GET: Descargar archivo
+        // GET: Proyectos/DownloadFile
+        [Authorize(Roles = "Cliente,Estudiante,Docente,Coordinador")]
         public IActionResult DownloadFile(int id, string fileName)
         {
-            if (string.IsNullOrEmpty(fileName))
-            {
-                return BadRequest("El nombre del archivo no puede estar vacío.");
-            }
-
-            var projectDirectory = Path.Combine(_uploadPath, id.ToString());
-            var filePath = Path.Combine(projectDirectory, fileName);
-
-            if (!System.IO.File.Exists(filePath))
-            {
-                return NotFound("El archivo solicitado no existe.");
-            }
-
-            var fileBytes = System.IO.File.ReadAllBytes(filePath);
-            return File(fileBytes, "application/octet-stream", fileName);
+            if (string.IsNullOrEmpty(fileName)) return BadRequest("Nombre de archivo inválido.");
+            var path = Path.Combine(UploadPath, id.ToString(), fileName);
+            if (!System.IO.File.Exists(path)) return NotFound();
+            return File(System.IO.File.ReadAllBytes(path), "application/octet-stream", fileName);
         }
 
-        // GET: Descargar todos los archivos de un proyecto en un ZIP
+        // GET: Proyectos/DownloadAllFiles
+        [Authorize(Roles = "Cliente,Estudiante,Docente,Coordinador")]
         public IActionResult DownloadAllFiles(int id)
         {
-            var projectDirectory = Path.Combine(_uploadPath, id.ToString());
-            if (!Directory.Exists(projectDirectory))
-            {
-                return NotFound("No hay archivos para descargar en este proyecto.");
-            }
+            var projectDir = Path.Combine(UploadPath, id.ToString());
+            if (!Directory.Exists(projectDir)) return NotFound("No hay archivos en este proyecto.");
+            var files = Directory.GetFiles(projectDir);
+            if (files.Length == 0) return NotFound("No hay archivos en este proyecto.");
 
-            var files = Directory.GetFiles(projectDirectory);
-            if (files.Length == 0)
-            {
-                return NotFound("No hay archivos en este proyecto.");
-            }
+            using var ms = new MemoryStream();
+            using (var zip = new ZipArchive(ms, ZipArchiveMode.Create, true))
+                foreach (var f in files) zip.CreateEntryFromFile(f, Path.GetFileName(f));
 
-            var zipFileName = $"Proyecto_{id}_Archivos.zip";
-            var zipFilePath = Path.Combine(_uploadPath, zipFileName);
-
-            using (var zipArchive = System.IO.Compression.ZipFile.Open(zipFilePath, System.IO.Compression.ZipArchiveMode.Create))
-            {
-                foreach (var file in files)
-                {
-                    zipArchive.CreateEntryFromFile(file, Path.GetFileName(file));
-                }
-            }
-
-            var zipBytes = System.IO.File.ReadAllBytes(zipFilePath);
-            System.IO.File.Delete(zipFilePath); // Eliminar el ZIP después de enviarlo
-
-            return File(zipBytes, "application/zip", zipFileName);
+            return File(ms.ToArray(), "application/zip", $"Proyecto_{id}_Archivos.zip");
         }
 
+        // ─── Helpers ─────────────────────────────────────────────────────────
+        private int ObtenerUsuarioId() =>
+            int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "0");
+
+        private static async Task<string> GuardarArchivoAsync(IFormFile file, string dir)
+        {
+            var name = Path.GetFileName(file.FileName);
+            using var s = new FileStream(Path.Combine(dir, name), FileMode.Create);
+            await file.CopyToAsync(s);
+            return name;
+        }
+
+        private static void EliminarArchivoSiExiste(string path)
+        {
+            if (!string.IsNullOrEmpty(path) && System.IO.File.Exists(path))
+                System.IO.File.Delete(path);
+        }
     }
 }

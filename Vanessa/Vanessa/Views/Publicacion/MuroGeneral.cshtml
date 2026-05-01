@@ -88,7 +88,7 @@
     <div class="content">
         @foreach (var publicacion in Model)
         {
-            <div class="post" data-post-id="@publicacion.Id_Publicacion" onclick="openModal(@publicacion.Id_Publicacion)">
+            <div class="post" data-post-id="@publicacion.Id" onclick="openModal(@publicacion.Id)">
                 <div class="post-overlay">@publicacion.FechaPublicacion.ToShortDateString()</div>
                 <h3>@publicacion.NombrePublicacion</h3>
             </div>

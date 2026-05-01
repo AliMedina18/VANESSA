@@ -1,0 +1,37 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+
+## Secretos y credenciales — NUNCA subir al repositorio
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+*.env
+.env
+
+## .NET User Secrets
+**/Properties/launchSettings.json
+
+## Logs
+logs/
+*.log
+
+## Archivos de publicación
+publish/
+**/publish/
+**/Properties/PublishProfiles/
+
+## NuGet
+*.nupkg
+.nuget/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Uploads de usuarios (no versionar archivos subidos)
+**/wwwroot/uploads/

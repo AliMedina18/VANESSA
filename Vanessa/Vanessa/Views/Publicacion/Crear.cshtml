@@ -15,7 +15,7 @@
 <body>
     <!-- Contenedor principal del formulario -->
     <div class="create-post-form-container">
-        <form asp-action="@(Model?.Id_Publicacion == null ? "Crear" : "Editar")" method="post" enctype="multipart/form-data" onsubmit="return validarFormulario()">
+        <form asp-action="@(Model?.Id == null ? "Crear" : "Editar")" method="post" enctype="multipart/form-data" onsubmit="return validarFormulario()">
           
 
             <!-- Botón para cerrar el formulario -->
@@ -44,11 +44,11 @@
 
             <!-- Tipo de publicación -->
             <div class="form-group">
-                <label asp-for="TipoPublicacion">Tipo de Publicación</label>
-                <select asp-for="TipoPublicacion" class="form-control" required>
-                    <option value="articulo">Artículo</option>
-                    <option value="evento">Evento</option>
-                    <option value="noticia">Noticia</option>
+                <label asp-for="TipoPublicacionId">Tipo de Publicación</label>
+                <select asp-for="TipoPublicacionId" class="form-control" required>
+                    <option value="1">Artículo</option>
+                    <option value="2">Evento</option>
+                    <option value="3">Noticia</option>
                 </select>
             </div>
 
@@ -73,7 +73,7 @@
 
             <!-- Botón para publicar -->
             <div class="form-group">
-                <button type="submit" class="btn-submit">@(Model?.Id_Publicacion == null ? "Publicar" : "Guardar Cambios")</button>
+                <button type="submit" class="btn-submit">@(Model?.Id == null ? "Publicar" : "Guardar Cambios")</button>
             </div>
         </form>
     </div>
