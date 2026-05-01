@@ -133,7 +133,8 @@ static string GetDatabaseConnectionString(IConfiguration configuration)
             Username = userInfo.ElementAtOrDefault(0) ?? string.Empty,
             Password = userInfo.ElementAtOrDefault(1) ?? string.Empty,
             Database = uri.AbsolutePath.TrimStart('/'),
-            SslMode = SslMode.Prefer
+            SslMode = SslMode.Require,
+            TrustServerCertificate = true
         };
         return builder.ToString();
     }
