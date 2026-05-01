@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Vanessa.Services;
+using Microsoft.AspNetCore.Mvc;
 using Vanessa.Models;
-using System.Threading.Tasks;
+using Vanessa.Services;
 
 namespace Vanessa.Controllers
 {
@@ -14,14 +13,9 @@ namespace Vanessa.Controllers
             _recuperacionService = recuperacionService;
         }
 
-        // Vista para solicitar la recuperación de contraseña
         [HttpGet]
-        public IActionResult Solicitar()
-        {
-            return View();
-        }
+        public IActionResult Solicitar() => View();
 
-        // Acción que se llama cuando el usuario envía el correo
         [HttpPost]
         public async Task<IActionResult> Solicitar(string correo)
         {
@@ -31,57 +25,38 @@ namespace Vanessa.Controllers
                 return View();
             }
 
-            // Pasar el `Url` helper al servicio para generar la URL dinámica
             var resultado = await _recuperacionService.SolicitarRecuperacionAsync(correo, Url);
             if (resultado)
-            {
-                return View("CorreoEnviado"); // Vista que indica que el correo ha sido enviado
-            }
-            else
-            {
-                ModelState.AddModelError("", "No se encontró un usuario con ese correo.");
-            }
+                return View("CorreoEnviado");
 
+            ModelState.AddModelError("", "No se encontró un usuario con ese correo.");
             return View();
         }
 
-        // Vista para restablecer la contraseña
         [HttpGet]
         public IActionResult Restablecer(string token)
         {
             if (string.IsNullOrEmpty(token))
-                return RedirectToAction("Index", "Home"); // Redirigir a la página principal si no hay token
+                return RedirectToAction("Index", "Home");
 
-            // Pasar el token al modelo de la vista
-            return View(model: new RestablecerContraseñaViewModel
+            return View(new RestablecerContraseñaViewModel
             {
-                Token = token,
-                NuevaContraseña = string.Empty,  // Inicializar con una cadena vacía
-                ConfirmarContraseña = string.Empty // Inicializar con una cadena vacía
+                Token             = token,
+                NuevaContraseña   = string.Empty,
+                ConfirmarContraseña = string.Empty
             });
-
-
         }
 
-        // Acción que se llama cuando el usuario envía la nueva contraseña
         [HttpPost]
         public IActionResult Restablecer(RestablecerContraseñaViewModel model)
         {
-            if (ModelState.IsValid)
-            {
-                // Intentar restablecer la contraseña con el token y la nueva contraseña
-                var resultado = _recuperacionService.RestablecerContraseña(model.Token, model.NuevaContraseña);
-                if (resultado)
-                {
-                    return RedirectToAction("Login", "Auth"); // Redirigir al login si el restablecimiento fue exitoso
-                }
-                else
-                {
-                    ModelState.AddModelError("", "El token es inválido o ha expirado.");
-                }
-            }
+            if (!ModelState.IsValid) return View(model);
 
-            return View(model); // Mostrar la vista con los errores
+            if (_recuperacionService.RestablecerContraseña(model.Token, model.NuevaContraseña))
+                return RedirectToAction("Login", "Auth");
+
+            ModelState.AddModelError("", "El token es inválido o ha expirado.");
+            return View(model);
         }
     }
 }

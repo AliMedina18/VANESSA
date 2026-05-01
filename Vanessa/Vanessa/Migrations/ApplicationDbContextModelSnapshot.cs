@@ -54,73 +54,166 @@ namespace Vanessa.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("DocumentoProyecto")
-                        .HasColumnType("text");
+                        .HasMaxLength(260)
+                        .HasColumnType("character varying(260)");
 
-                    b.Property<string>("EquiposInvestigacion")
-                        .HasColumnType("text");
+                    b.Property<int>("Estado")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("FechaFin")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime>("FechaInicio")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
 
                     b.Property<int>("SemilleroId")
                         .HasColumnType("integer");
 
-                    b.Property<int>("UsuarioId")
+                    b.Property<int>("UsuarioCoordenadorId")
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
 
                     b.HasIndex("SemilleroId");
 
-                    b.HasIndex("UsuarioId");
+                    b.HasIndex("UsuarioCoordenadorId");
+
+                    b.HasIndex("SemilleroId", "Estado");
 
                     b.ToTable("Proyectos");
                 });
 
-            modelBuilder.Entity("Vanessa.Models.Publicacion", b =>
+            modelBuilder.Entity("Vanessa.Models.ProyectoMiembro", b =>
                 {
-                    b.Property<int>("Id_Publicacion")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id_Publicacion"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("ActividadesPublicacion")
-                        .HasColumnType("text");
+                    b.Property<DateTime?>("FechaDesvinculacion")
+                        .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("ContenidoPublicacion")
-                        .HasColumnType("text");
+                    b.Property<DateTime>("FechaIncorporacion")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("ProyectoId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("RolMiembro")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.HasIndex("ProyectoId", "RolMiembro");
+
+                    b.HasIndex("ProyectoId", "UsuarioId")
+                        .IsUnique();
+
+                    b.ToTable("ProyectoMiembros");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.Publicacion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("Id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Contenido")
+                        .HasMaxLength(5000)
+                        .HasColumnType("character varying(5000)");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime>("FechaPublicacion")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<TimeSpan>("HoraPublicacion")
-                        .HasColumnType("interval");
-
-                    b.Property<string>("ImagenPublicacion")
-                        .HasColumnType("text");
+                    b.Property<string>("Imagen")
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
 
                     b.Property<string>("LugarPublicacion")
-                        .HasColumnType("text");
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
 
-                    b.Property<string>("NombrePublicacion")
-                        .HasColumnType("text");
+                    b.Property<int>("TipoPublicacionId")
+                        .HasColumnType("integer");
 
-                    b.Property<string>("TipoPublicacion")
-                        .HasColumnType("text");
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
 
                     b.Property<int?>("UsuarioId")
                         .HasColumnType("integer");
 
-                    b.HasKey("Id_Publicacion");
+                    b.HasKey("Id");
+
+                    b.HasIndex("FechaPublicacion");
+
+                    b.HasIndex("TipoPublicacionId");
 
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("Publicaciones");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.PublicacionAdjunto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("FechaAgregado")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int?>("Orden")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PublicacionId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("RutaArchivo")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<string>("TipoArchivo")
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PublicacionId");
+
+                    b.ToTable("PublicacionAdjuntos");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Rol", b =>
@@ -141,6 +234,21 @@ namespace Vanessa.Migrations
                     b.ToTable("Roles");
                 });
 
+            modelBuilder.Entity("Vanessa.Models.RolPermiso", b =>
+                {
+                    b.Property<int>("RolId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PermisoId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("RolId", "PermisoId");
+
+                    b.HasIndex("PermisoId");
+
+                    b.ToTable("RolPermisos");
+                });
+
             modelBuilder.Entity("Vanessa.Models.Semillero", b =>
                 {
                     b.Property<int>("Id")
@@ -149,26 +257,66 @@ namespace Vanessa.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<bool>("Activo")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("Area")
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.Property<string>("Descripcion")
-                        .HasColumnType("text");
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Imagen")
-                        .HasColumnType("text");
+                        .HasMaxLength(260)
+                        .HasColumnType("character varying(260)");
 
                     b.Property<string>("Nombre")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)");
 
-                    b.Property<int?>("UsuarioId")
+                    b.Property<int>("UsuarioCoordinadorId")
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UsuarioId");
+                    b.HasIndex("Nombre");
+
+                    b.HasIndex("UsuarioCoordinadorId");
+
+                    b.HasIndex("Activo", "FechaCreacion");
 
                     b.ToTable("Semilleros");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.TiposPublicacion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descripcion")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TiposPublicacion");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Usuario", b =>
@@ -184,38 +332,80 @@ namespace Vanessa.Migrations
 
                     b.Property<string>("Contraseña")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
 
                     b.Property<string>("Correo")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("character varying(50)");
+                        .HasMaxLength(254)
+                        .HasColumnType("character varying(254)");
 
-                    b.Property<int>("Documento")
-                        .HasColumnType("integer");
+                    b.Property<long>("Documento")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime?>("FechaInactivo")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("character varying(40)");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.Property<int>("RolId")
                         .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Correo")
+                        .IsUnique();
+
+                    b.HasIndex("Documento")
+                        .IsUnique();
+
+                    b.HasIndex("RolId");
+
+                    b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.UsuarioAuditoria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("FechaCreacionToken")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("FechaUltimoLogin")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime?>("TokenExpiracion")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("TokenRecuperacion")
-                        .HasColumnType("text");
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RolId");
+                    b.HasIndex("UsuarioId")
+                        .IsUnique();
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("UsuarioAuditorias");
                 });
 
             modelBuilder.Entity("Vanessa.Models.UsuarioPermiso", b =>
@@ -225,6 +415,14 @@ namespace Vanessa.Migrations
 
                     b.Property<int>("PermisoId")
                         .HasColumnType("integer");
+
+                    b.Property<DateTime>("FechaOtorgamiento")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Tipo")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
 
                     b.HasKey("UsuarioId", "PermisoId");
 
@@ -238,35 +436,96 @@ namespace Vanessa.Migrations
                     b.HasOne("Vanessa.Models.Semillero", "Semillero")
                         .WithMany("Proyectos")
                         .HasForeignKey("SemilleroId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Vanessa.Models.Usuario", "UsuarioCoordenador")
+                        .WithMany("ProyectosCoordinados")
+                        .HasForeignKey("UsuarioCoordenadorId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Semillero");
+
+                    b.Navigation("UsuarioCoordenador");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.ProyectoMiembro", b =>
+                {
+                    b.HasOne("Vanessa.Models.Proyecto", "Proyecto")
+                        .WithMany("Miembros")
+                        .HasForeignKey("ProyectoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Vanessa.Models.Usuario", "Usuario")
-                        .WithMany("Proyectos")
+                        .WithMany("MiembrosiaProyectos")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Semillero");
+                    b.Navigation("Proyecto");
 
                     b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Publicacion", b =>
                 {
+                    b.HasOne("Vanessa.Models.TiposPublicacion", "TipoPublicacion")
+                        .WithMany("Publicaciones")
+                        .HasForeignKey("TipoPublicacionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("Vanessa.Models.Usuario", "Usuario")
                         .WithMany("Publicaciones")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade);
 
+                    b.Navigation("TipoPublicacion");
+
                     b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.PublicacionAdjunto", b =>
+                {
+                    b.HasOne("Vanessa.Models.Publicacion", "Publicacion")
+                        .WithMany("Adjuntos")
+                        .HasForeignKey("PublicacionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Publicacion");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.RolPermiso", b =>
+                {
+                    b.HasOne("Vanessa.Models.Permiso", "Permiso")
+                        .WithMany("RolPermisos")
+                        .HasForeignKey("PermisoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Vanessa.Models.Rol", "Rol")
+                        .WithMany("Permisos")
+                        .HasForeignKey("RolId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Permiso");
+
+                    b.Navigation("Rol");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Semillero", b =>
                 {
-                    b.HasOne("Vanessa.Models.Usuario", null)
-                        .WithMany("Semilleros")
-                        .HasForeignKey("UsuarioId");
+                    b.HasOne("Vanessa.Models.Usuario", "UsuarioCoordinador")
+                        .WithMany("SemillerosCoordinados")
+                        .HasForeignKey("UsuarioCoordinadorId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("UsuarioCoordinador");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Usuario", b =>
@@ -278,6 +537,17 @@ namespace Vanessa.Migrations
                         .IsRequired();
 
                     b.Navigation("Rol");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.UsuarioAuditoria", b =>
+                {
+                    b.HasOne("Vanessa.Models.Usuario", "Usuario")
+                        .WithOne("Auditoria")
+                        .HasForeignKey("Vanessa.Models.UsuarioAuditoria", "UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("Vanessa.Models.UsuarioPermiso", b =>
@@ -301,11 +571,25 @@ namespace Vanessa.Migrations
 
             modelBuilder.Entity("Vanessa.Models.Permiso", b =>
                 {
+                    b.Navigation("RolPermisos");
+
                     b.Navigation("UsuarioPermisos");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.Proyecto", b =>
+                {
+                    b.Navigation("Miembros");
+                });
+
+            modelBuilder.Entity("Vanessa.Models.Publicacion", b =>
+                {
+                    b.Navigation("Adjuntos");
                 });
 
             modelBuilder.Entity("Vanessa.Models.Rol", b =>
                 {
+                    b.Navigation("Permisos");
+
                     b.Navigation("Usuarios");
                 });
 
@@ -314,13 +598,22 @@ namespace Vanessa.Migrations
                     b.Navigation("Proyectos");
                 });
 
+            modelBuilder.Entity("Vanessa.Models.TiposPublicacion", b =>
+                {
+                    b.Navigation("Publicaciones");
+                });
+
             modelBuilder.Entity("Vanessa.Models.Usuario", b =>
                 {
-                    b.Navigation("Proyectos");
+                    b.Navigation("Auditoria");
+
+                    b.Navigation("MiembrosiaProyectos");
+
+                    b.Navigation("ProyectosCoordinados");
 
                     b.Navigation("Publicaciones");
 
-                    b.Navigation("Semilleros");
+                    b.Navigation("SemillerosCoordinados");
 
                     b.Navigation("UsuarioPermisos");
                 });

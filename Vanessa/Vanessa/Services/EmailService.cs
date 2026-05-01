@@ -1,55 +1,59 @@
-﻿using MailKit.Net.Smtp;
+using MailKit.Net.Smtp;
+using MailKit.Security;
 using MimeKit;
-using Microsoft.Extensions.Configuration;
+using Vanessa.Interfaces;
 
-public class EmailService
+namespace Vanessa.Services
 {
-    private readonly IConfiguration _configuration;
-
-    // Constructor donde se inyecta la configuración
-    public EmailService(IConfiguration configuration)
+    public class EmailService : IEmailService
     {
-        _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
-    }
+        private readonly IConfiguration _configuration;
+        private readonly ILogger<EmailService> _logger;
 
-    // Método para enviar el correo
-    public async Task SendEmailAsync(string toEmail, string subject, string body)
-    {
-        // Obtener la configuración del correo desde appsettings.json
-        var emailSettings = _configuration.GetSection("EmailSettings");
-        var smtpServer = emailSettings["SmtpServer"] ?? throw new InvalidOperationException("SmtpServer no está configurado.");
-
-        // Validar el puerto SMTP antes de convertirlo
-        if (!int.TryParse(emailSettings["SmtpPort"], out int smtpPort))
+        public EmailService(IConfiguration configuration, ILogger<EmailService> logger)
         {
-            throw new InvalidOperationException("SmtpPort no es un número válido.");
+            _configuration = configuration;
+            _logger = logger;
         }
 
-        var senderEmail = emailSettings["SenderEmail"] ?? throw new InvalidOperationException("SenderEmail no está configurado.");
-        var senderPassword = emailSettings["SenderPassword"] ?? throw new InvalidOperationException("SenderPassword no está configurado.");
-        var senderName = emailSettings["SenderName"] ?? "Remitente";
-
-        // Crear el mensaje que se enviará
-        var message = new MimeMessage();
-        message.From.Add(new MailboxAddress(senderName, senderEmail)); // Agregar el remitente
-        message.To.Add(new MailboxAddress("Nombre Destinatario", toEmail)); // Agregar el destinatario
-        message.Subject = subject; // Asunto del correo
-
-        // Cuerpo del correo
-        var bodyBuilder = new BodyBuilder { HtmlBody = body }; // Aquí puedes incluir HTML si lo necesitas
-        message.Body = bodyBuilder.ToMessageBody(); // Asignar el cuerpo del correo
-
-        // Usar SmtpClient para enviar el correo
-        using (var client = new SmtpClient())
+        public async Task SendEmailAsync(string toEmail, string subject, string body)
         {
-            // Conectar al servidor SMTP
-            await client.ConnectAsync(smtpServer, smtpPort, false);
-            // Autenticar con las credenciales
-            await client.AuthenticateAsync(senderEmail, senderPassword);
-            // Enviar el correo
-            await client.SendAsync(message);
-            // Desconectar
-            await client.DisconnectAsync(true);
+            var settings = _configuration.GetSection("EmailSettings");
+            var smtpServer   = settings["SmtpServer"]   ?? "smtp.gmail.com";
+            var senderEmail  = settings["SenderEmail"]  ?? string.Empty;
+            var senderPass   = settings["SenderPassword"] ?? string.Empty;
+            var senderName   = settings["SenderName"]   ?? "EpicSoft18";
+
+            if (!int.TryParse(settings["SmtpPort"], out int smtpPort))
+                smtpPort = 587;
+
+            // Sin credenciales configuradas: solo registrar advertencia y no fallar
+            if (string.IsNullOrWhiteSpace(senderEmail) || string.IsNullOrWhiteSpace(senderPass))
+            {
+                _logger.LogWarning("EmailService: credenciales SMTP no configuradas. Correo a {Email} no enviado.", toEmail);
+                return;
+            }
+
+            try
+            {
+                var message = new MimeMessage();
+                message.From.Add(new MailboxAddress(senderName, senderEmail));
+                message.To.Add(new MailboxAddress(string.Empty, toEmail));
+                message.Subject = subject;
+                message.Body = new BodyBuilder { HtmlBody = body }.ToMessageBody();
+
+                using var client = new SmtpClient();
+                // Puerto 587 requiere StartTls (no SSL directo)
+                await client.ConnectAsync(smtpServer, smtpPort, SecureSocketOptions.StartTls);
+                await client.AuthenticateAsync(senderEmail, senderPass);
+                await client.SendAsync(message);
+                await client.DisconnectAsync(true);
+            }
+            catch (Exception ex)
+            {
+                // El error de correo no rompe el flujo de la aplicación
+                _logger.LogError(ex, "Error al enviar correo a {Email}", toEmail);
+            }
         }
     }
 }

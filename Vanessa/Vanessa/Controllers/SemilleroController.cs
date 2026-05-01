@@ -1,350 +1,197 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Vanessa.Models;
-using Microsoft.Extensions.Configuration;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using System.IO;
-using System.Threading.Tasks;
-using System.Linq;
-using Vanessa.Data;
-using System.Security.Claims;
-using System;
-using Microsoft.EntityFrameworkCore;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
+using System.Security.Claims;
+using Vanessa.Interfaces;
+using Vanessa.Models;
 
 namespace Vanessa.Controllers
 {
-    [Authorize] // Asegura que solo usuarios autenticados puedan acceder al controlador
+    [Authorize]
     public class SemilleroController : Controller
     {
-        private readonly IConfiguration _configuration;
-        private readonly IWebHostEnvironment _hostingEnvironment;
-        private readonly ApplicationDbContext _context;
+        private readonly ISemilleroRepository _semilleroRepo;
+        private readonly IWebHostEnvironment  _env;
 
-        public SemilleroController(IConfiguration configuration, IWebHostEnvironment hostingEnvironment, ApplicationDbContext context)
+        public SemilleroController(ISemilleroRepository semilleroRepo, IWebHostEnvironment env)
         {
-            _configuration = configuration;
-            _hostingEnvironment = hostingEnvironment;
-            _context = context;
+            _semilleroRepo = semilleroRepo;
+            _env           = env;
         }
 
-        // 🔹 SOLO ESTUDIANTES, DOCENTES Y COORDINADORES PUEDEN VER SEMILLEROS
         [Authorize(Roles = "Estudiante,Docente,Coordinador")]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             if (TempData["ErrorPermiso"] != null)
-            {
-                ViewBag.ErrorPermiso = TempData["ErrorPermiso"]; // Pasamos el mensaje a la vista
-            }
-
-            var semilleros = _context.Semilleros.ToList(); // Obtener todos los semilleros de la base de datos
-            return View(semilleros);
+                ViewBag.ErrorPermiso = TempData["ErrorPermiso"];
+            return View(await _semilleroRepo.GetAllAsync());
         }
 
-
-        // Generar PDF con el listado de semilleros
         [Obsolete]
         [Authorize(Roles = "Docente,Coordinador")]
-        public IActionResult GenerarPdf()
+        public async Task<IActionResult> GenerarPdf()
         {
-            var semilleros = _context.Semilleros.ToList(); // Obtener los semilleros de la base de datos
-
+            var semilleros = await _semilleroRepo.GetAllAsync();
             var pdfDocument = new PdfDocument();
-            var fontTitle = new XFont("Verdana Bold", 16);
+            var fontTitle   = new XFont("Verdana Bold", 16);
             var fontSubTitle = new XFont("Verdana", 12);
             var fontContent = new XFont("Verdana", 10);
-            var fontPageNumber = new XFont("Verdana Bold", 8);
-            var fontFooter = new XFont("Verdana Italic", 8);
-            var fontHeader = new XFont("Verdana", 10);
+            var fontPageNum = new XFont("Verdana Bold", 8);
+            var fontFooter  = new XFont("Verdana Italic", 8);
+            var fontHeader  = new XFont("Verdana", 10);
+            var darkBlue    = XColor.FromArgb(60, 90, 150);
+            var lightBlue   = XColor.FromArgb(220, 240, 255);
 
             int pageNumber = 1;
-            PdfPage page = pdfDocument.AddPage();
-            XGraphics graphics = XGraphics.FromPdfPage(page);
-
-            // Colores
-            XColor lightBlue = XColor.FromArgb(220, 240, 255);  // Azul claro para el borde
-            XColor darkBlue = XColor.FromArgb(60, 90, 150);     // Azul oscuro para los textos
-            XColor gray = XColor.FromArgb(200, 200, 200);       // Gris para otras líneas
-
-            // Títulos
+            var page    = pdfDocument.AddPage();
+            var graphics = XGraphics.FromPdfPage(page);
             DrawTitle(graphics, page, fontTitle, fontSubTitle, darkBlue);
 
-            double yPosition = 100; // Inicio del contenido
-            double leftMargin = 50;
-            double rightMargin = page.Width - 50;
+            double y = 100, left = 50, right = page.Width - 50;
+            graphics.DrawLine(new XPen(darkBlue, 1), left, y - 10, right, y - 10);
+            y += 20;
+            graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue),
+                new XRect(page.Width - 190, 20, 150, 20), XStringFormats.TopRight);
 
-            // Línea divisoria en azul oscuro
-            graphics.DrawLine(new XPen(darkBlue, 1), leftMargin, yPosition - 10, rightMargin, yPosition - 10);
-            yPosition += 20;
-
-            graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 190, 20, 150, 20), XStringFormats.TopRight);
-
-            foreach (var semillero in semilleros)
+            foreach (var s in semilleros)
             {
-                if (yPosition > page.Height - 100) // Crear nueva página si se llena
+                if (y > page.Height - 100)
                 {
-                    // Crear nueva página
                     page = pdfDocument.AddPage();
                     graphics = XGraphics.FromPdfPage(page);
-                    // Volver a dibujar encabezado en la nueva página
                     DrawTitle(graphics, page, fontTitle, fontSubTitle, darkBlue);
-
-                    // Nombre de la empresa en la esquina superior derecha
-                    graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue), new XRect(page.Width - 150, 20, 150, 20), XStringFormats.TopRight);
-
-                    yPosition = 100; // Restablecer la posición vertical
+                    graphics.DrawString("EPICSOFT", fontHeader, new XSolidBrush(darkBlue),
+                        new XRect(page.Width - 150, 20, 150, 20), XStringFormats.TopRight);
+                    y = 100;
                 }
-
-                // Dibujar cuadro estilizado para cada semillero con solo línea azul claro alrededor
-                graphics.DrawRoundedRectangle(new XPen(lightBlue, 2), leftMargin - 10, yPosition - 15, page.Width - 2 * leftMargin + 10, 85, 10, 10);
-
-                // Dibujar contenido con texto en color azul oscuro
-                graphics.DrawString($"Nombre: {semillero.Nombre ?? "N/A"}", fontContent, new XSolidBrush(darkBlue), leftMargin, yPosition);
-                graphics.DrawString($"Descripción: {semillero.Descripcion ?? "N/A"}", fontContent, new XSolidBrush(darkBlue), leftMargin, yPosition + 20);
-
-                yPosition += 100; // Incrementar para el siguiente semillero
+                graphics.DrawRoundedRectangle(new XPen(lightBlue, 2), left - 10, y - 15, page.Width - 2 * left + 10, 85, 10, 10);
+                graphics.DrawString($"Nombre: {s.Nombre ?? "N/A"}", fontContent, new XSolidBrush(darkBlue), left, y);
+                graphics.DrawString($"Descripción: {s.Descripcion ?? "N/A"}", fontContent, new XSolidBrush(darkBlue), left, y + 20);
+                y += 100;
             }
 
-            // Número de página en la parte superior derecha (Estilo APA)
-            graphics.DrawString($"{pageNumber}", fontPageNumber, new XSolidBrush(darkBlue), new XRect(page.Width - 40, 20, 30, 20), XStringFormats.TopRight);
+            graphics.DrawString($"{pageNumber}", fontPageNum, new XSolidBrush(darkBlue),
+                new XRect(page.Width - 40, 20, 30, 20), XStringFormats.TopRight);
+            graphics.DrawString($"Generado el {DateTime.Now:dd/MM/yyyy HH:mm}", fontFooter,
+                new XSolidBrush(XColor.FromArgb(169, 169, 169)),
+                new XRect(0, page.Height - 30, page.Width, 20), XStringFormats.BottomCenter);
 
-            // Pie de página con la fecha de creación del PDF
-            graphics.DrawString($"Generado el {DateTime.Now:dd/MM/yyyy HH:mm}", fontFooter, new XSolidBrush(XColor.FromArgb(169, 169, 169)), new XRect(0, page.Height - 30, page.Width, 20), XStringFormats.BottomCenter);
-
-            // Incrementar el contador de páginas
-            pageNumber++;
-
-            // Guardar el PDF en un MemoryStream
             var stream = new MemoryStream();
             pdfDocument.Save(stream, false);
             stream.Position = 0;
-
-            // Retornar el archivo PDF como una respuesta para descarga
             return File(stream, "application/pdf", "Semilleros.pdf");
         }
 
-        // Método para dibujar el título y subtítulo
-        private void DrawTitle(XGraphics graphics, PdfPage page, XFont fontTitle, XFont fontSubTitle, XColor darkBlue)
+        private void DrawTitle(XGraphics g, PdfPage p, XFont ft, XFont fs, XColor c)
         {
-            graphics.DrawString("Listado de Semilleros", fontTitle, new XSolidBrush(darkBlue),
-                new XRect(0, 30, page.Width.Point, 40), XStringFormats.TopCenter);
-
-            graphics.DrawString("Sistema de divulgación, gestión de semilleros y proyectos digitales de investigación",
-                fontSubTitle, new XSolidBrush(XColor.FromArgb(169, 169, 169)),
-                new XRect(0, 60, page.Width.Point, 20), XStringFormats.TopCenter);
+            g.DrawString("Listado de Semilleros", ft, new XSolidBrush(c),
+                new XRect(0, 30, p.Width.Point, 40), XStringFormats.TopCenter);
+            g.DrawString("Sistema de divulgación, gestión de semilleros y proyectos digitales de investigación",
+                fs, new XSolidBrush(XColor.FromArgb(169, 169, 169)),
+                new XRect(0, 60, p.Width.Point, 20), XStringFormats.TopCenter);
         }
 
-        // 🔹 SOLO DOCENTES Y COORDINADORES PUEDEN CREAR SEMILLEROS
         [Authorize(Roles = "Docente,Coordinador")]
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create() => View();
 
         [HttpPost]
         [Authorize(Roles = "Docente,Coordinador")]
-        public async Task<IActionResult> Create(Semillero semillero, IFormFile imagen)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Semillero semillero, IFormFile? imagen)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(semillero);
-            }
+            if (!ModelState.IsValid) return View(semillero);
 
-            // Obtener el ID del usuario autenticado
-            semillero.UsuarioId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "0");
-
-            // Guardar la imagen y manejar errores
-            var imagenGuardada = await GuardarImagen(imagen);
-            if (imagenGuardada == "Error")
+            semillero.UsuarioCoordinadorId = ObtenerUsuarioId();
+            var img = await GuardarImagenAsync(imagen);
+            if (img == "Error")
             {
                 TempData["Error"] = "El formato de la imagen no es válido. Usa JPG, PNG o JPEG.";
                 return View(semillero);
             }
-            semillero.Imagen = imagenGuardada;
-
-            // Insertar en la base de datos
-            _context.Semilleros.Add(semillero);
-            await _context.SaveChangesAsync();
-
-            // Redirigir con mensaje de éxito
+            semillero.Imagen = img;
+            await _semilleroRepo.AddAsync(semillero);
             TempData["Success"] = "Semillero creado exitosamente.";
             return RedirectToAction(nameof(Index));
         }
 
-        // 🔹 MÉTODO PRIVADO PARA GUARDAR IMÁGENES
-        private async Task<string> GuardarImagen(IFormFile imagen)
-        {
-            if (imagen == null || imagen.Length == 0)
-            {
-                return string.Empty;
-            }
-
-            string fileExtension = Path.GetExtension(imagen.FileName).ToLower();
-            string[] formatosPermitidos = { ".jpg", ".jpeg", ".png" };
-
-            if (!formatosPermitidos.Contains(fileExtension))
-            {
-                return "Error"; // Retorna error si el formato no es válido
-            }
-
-            string fileName = Path.GetFileName(imagen.FileName);
-            string directoryPath = Path.Combine(_hostingEnvironment.WebRootPath, "images");
-
-            if (!Directory.Exists(directoryPath))
-            {
-                Directory.CreateDirectory(directoryPath);
-            }
-
-            string filePath = Path.Combine(directoryPath, fileName);
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await imagen.CopyToAsync(stream);
-            }
-
-            return fileName;
-        }
-
-
-        // 🔹 SOLO DOCENTES Y COORDINADORES PUEDEN EDITAR SEMILLEROS
         [Authorize(Roles = "Docente,Coordinador")]
-        public IActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
-            var semillero = _context.Semilleros.Find(id);
-            if (semillero == null)
-            {
-                return NotFound();
-            }
+            var semillero = await _semilleroRepo.GetByIdAsync(id);
+            if (semillero == null) return NotFound();
             return View(semillero);
         }
 
         [HttpPost]
         [Authorize(Roles = "Docente,Coordinador")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Semillero semillero, IFormFile? imagen, string ImagenActual)
+        public async Task<IActionResult> Edit(int id, Semillero semillero, IFormFile? imagen, string? ImagenActual)
         {
-            if (id != semillero.Id)
+            if (id != semillero.Id) return NotFound();
+            if (!ModelState.IsValid) return View(semillero);
+
+            if (imagen != null && imagen.Length > 0)
             {
-                return NotFound();
+                var fn = Path.GetFileName(imagen.FileName);
+                var dir = Path.Combine(_env.WebRootPath, "images");
+                if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
+                using var s = new FileStream(Path.Combine(dir, fn), FileMode.Create);
+                await imagen.CopyToAsync(s);
+                semillero.Imagen = fn;
             }
-
-            if (ModelState.IsValid)
+            else
             {
-                try
-                {
-                    // Manejo de imagen
-                    if (imagen != null && imagen.Length > 0)
-                    {
-                        string fileName = Path.GetFileName(imagen.FileName);
-                        string directoryPath = Path.Combine(_hostingEnvironment.WebRootPath, "images");
-
-                        // Crear carpeta si no existe
-                        if (!Directory.Exists(directoryPath))
-                        {
-                            Directory.CreateDirectory(directoryPath);
-                        }
-
-                        string filePath = Path.Combine(directoryPath, fileName);
-
-                        // Guardar nueva imagen
-                        using (var stream = new FileStream(filePath, FileMode.Create))
-                        {
-                            await imagen.CopyToAsync(stream);
-                        }
-
-                        semillero.Imagen = fileName; // Actualizar con nueva imagen
-                    }
-                    else
-                    {
-                        semillero.Imagen = ImagenActual; // Mantener la imagen existente
-                    }
-
-                    // Actualizar Semillero en la base de datos
-                    _context.Semilleros.Update(semillero);
-                    await _context.SaveChangesAsync();
-
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!_context.Semilleros.Any(e => e.Id == semillero.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
+                semillero.Imagen = ImagenActual;
             }
-
-            return View(semillero);
+            await _semilleroRepo.UpdateAsync(semillero);
+            return RedirectToAction(nameof(Index));
         }
 
-        // 🔹 SOLO EL COORDINADOR PUEDE ELIMINAR SEMILLEROS
         [Authorize(Roles = "Coordinador")]
         public async Task<IActionResult> Delete(int id)
         {
-            try
+            var semillero = await _semilleroRepo.GetByIdAsync(id);
+            if (semillero == null) return NotFound();
+
+            if (!string.IsNullOrEmpty(semillero.Imagen))
             {
-                // Buscar el semillero por id
-                var semillero = await _context.Semilleros.FindAsync(id);
-
-                if (semillero == null)
-                {
-                    return NotFound();
-                }
-
-                // Eliminar imagen del servidor si existe
-                if (!string.IsNullOrEmpty(semillero.Imagen))
-                {
-                    var filePath = Path.Combine(_hostingEnvironment.WebRootPath, "images", semillero.Imagen);
-
-                    if (System.IO.File.Exists(filePath))
-                    {
-                        System.IO.File.Delete(filePath); // Eliminar archivo de imagen
-                    }
-                    else
-                    {
-                        Console.WriteLine($"No se pudo encontrar la imagen en la ruta: {filePath}");
-                    }
-                }
-
-                // Eliminar el semillero de la base de datos
-                _context.Semilleros.Remove(semillero);
-                await _context.SaveChangesAsync();
-
-                return RedirectToAction(nameof(Index)); // Redirigir a la vista principal después de la eliminación
+                var fp = Path.Combine(_env.WebRootPath, "images", semillero.Imagen);
+                if (System.IO.File.Exists(fp)) System.IO.File.Delete(fp);
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Error al eliminar el semillero: {ex.Message}");
-            }
+            await _semilleroRepo.DeleteAsync(semillero);
+            return RedirectToAction(nameof(Index));
         }
 
-        // 🔹 SOLO ESTUDIANTES, DOCENTES Y COORDINADORES PUEDEN CONSULTAR SEMILLEROS
         [Authorize(Roles = "Estudiante,Docente,Coordinador")]
-        public IActionResult Consulta(int id)
+        public async Task<IActionResult> Consulta(int id)
         {
-            var semillero = _context.Semilleros
-                .Include(s => s.Proyectos)
-                .FirstOrDefault(s => s.Id == id);
-
-            if (semillero == null)
-            {
-                return NotFound();
-            }
-
-            return View(new List<Semillero> { semillero }); // Devuelve la vista con un solo semillero
+            var semillero = await _semilleroRepo.GetByIdWithProyectosAsync(id);
+            if (semillero == null) return NotFound();
+            return View(new List<Semillero> { semillero });
         }
 
-        // 🔹 REDIRECCIÓN SI NO TIENE PERMISOS
         public IActionResult AccessDenied()
         {
             TempData["ErrorPermiso"] = "No tienes permisos para acceder a esta acción.";
             return RedirectToAction("Index");
         }
 
+        private int ObtenerUsuarioId() =>
+            int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "0");
+
+        private async Task<string> GuardarImagenAsync(IFormFile? imagen)
+        {
+            if (imagen == null || imagen.Length == 0) return string.Empty;
+            var ext = Path.GetExtension(imagen.FileName).ToLower();
+            if (!new[] { ".jpg", ".jpeg", ".png" }.Contains(ext)) return "Error";
+
+            var dir = Path.Combine(_env.WebRootPath, "images");
+            if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
+            var fn = Path.GetFileName(imagen.FileName);
+            using var s = new FileStream(Path.Combine(dir, fn), FileMode.Create);
+            await imagen.CopyToAsync(s);
+            return fn;
+        }
     }
 }
